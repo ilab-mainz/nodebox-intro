@@ -1,4 +1,4 @@
-# Animation
+# Bewegung
 
 *Animationen fürs Web und Animierte Gifs mit Nodebox.live*
 
