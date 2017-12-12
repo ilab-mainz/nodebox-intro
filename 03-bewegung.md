@@ -22,5 +22,5 @@
 
 ## Gotchas
 
-- Für zyklische GIFs muss die Phase muss ein Teiler der Framezahl sein.
+- Für zyklische GIFs muss die Phase ein Teiler der Framezahl sein.
 - bei 100 Frames z.B. 50, 33, 25, 20, 10 oder 5. 
