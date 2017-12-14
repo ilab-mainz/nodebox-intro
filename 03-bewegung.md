@@ -57,9 +57,12 @@ offset | Hier können wir den den Startpunkt verschieben (in diesem Fall nicht n
 ## Gotchas
 
 <<<<<<< HEAD
+<<<<<<< HEAD
 - Für zyklische GIFs muss die Phase muss ein Teiler der Framezahl sein.
 - bei 100 Frames z.B. 50, 33, 25, 20, 10 oder 5.
 =======
+=======
+>>>>>>> c61a03ba9a82f539dc4317f550e9ac9787433dd7
 - Für zyklische GIFs muss die Phase ein Teiler der Framezahl sein.
 - bei 100 Frames z.B. 50, 33, 25, 20, 10 oder 5. 
 >>>>>>> c61a03ba9a82f539dc4317f550e9ac9787433dd7
