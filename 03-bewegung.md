@@ -10,10 +10,6 @@
 
 ## Animations-Knoten
 
-- Frame-basiert vs. Echtzeit
-   - Aktueller Frame: `frame`
-   - Sekunden seit Start:`eleapsedSeconds`
-
 Der `frame` Knoten kann benutzt werden um nahezu alle Parameter in Nodebox zu animieren. Wenn wir auf den `play` Knopf drücken erhalten wir einfach den aktuellen Frame als Zahl:
 
  ![](assets/frame_node.gif)
@@ -24,7 +20,7 @@ Der `frame` Knoten kann benutzt werden um nahezu alle Parameter in Nodebox zu an
 
  Um die Geschwindigkeit und den Verlauf der Animation zu bestimmen, können wir die Zahl aus dem `frame` Knoten mit anderen Funktionen manipulieren. Oft benutzen wir dazu `multiply`, `divide`, `mod`, `convert` und die Wellenfunktionen.
 
- - Wenn wir z.B. die Zahl aus dem `frame` Knoten erst mit dem `divide` Knoten durch drei Teilen ist unsere Animation nur noch ein drittel so schnell wie oben:
+ - Wenn wir z.B. die Zahl aus dem `frame` Knoten erst mit dem `divide` Knoten durch drei Teilen, ist unsere Animation nur noch ein drittel so schnell wie oben:
 
  ![](assets/frame_divide.gif)
 
@@ -35,6 +31,11 @@ Der `frame` Knoten kann benutzt werden um nahezu alle Parameter in Nodebox zu an
 
     >ist mod als Konzept nützlich?
     >oder doch lieber die Sägezahn Funktion benutzen?
+
+  - Frame-basiert vs. Echtzeit
+    - Aktueller Frame: `frame`
+    - Sekunden seit Start:`eleapsedSeconds`
+
 
 #### Wellenfuntionen:
   - Der `sineWave` Knoten erzeugt eine Sinus Welle und ermöglicht uns so wiederholende und "weiche" Animationen. Die Animation fängt langsam an wird schneller und bremst gegen Ende wieder ab. In AfterEffects lässt sich über `Easy-Ease` ein ähnlicher Effekt erreichen.
@@ -56,6 +57,6 @@ offset | Hier können wir den den Startpunkt verschieben (in diesem Fall nicht n
 
 ## Gotchas
 
-
+- Viele Knoten (z.B. `pointOnPath` oder `hslColor`) erwarten als Eingang Zahlen zwischen 0 und 1. Die Werte müssen also  mit den Wellenfunktionen oder `mod` verkleinert werden.
 - Für zyklische GIFs muss die Phase muss ein Teiler der Framezahl sein.
 - bei 100 Frames z.B. 50, 33, 25, 20, 10 oder 5.
