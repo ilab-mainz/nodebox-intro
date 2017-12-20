@@ -4,7 +4,8 @@
 
 *Martin Schneider und Milan Gress, Hochschule Mainz 2017*
 
-1. [Interface](01-interface.md) 
+0. [Grundlagen](00-grundlagen.md) 
+1. [Interface](01-interface.md)
 2. [Grafik](02-grafik.md)
 3. [Bewegung](03-bewegung.md)
 4. [Import & Export](04-import-export.md)
@@ -25,6 +26,5 @@ Alle Beispiele zu dieser Einführung findet ihr auf [https://nodebox.live/exampl
 Die Online-Hilfe von Nodebox.live ist englisch und für Anfänger ein wenig kryptisch.  
 Eine deutsche Übersetzung ist [in Arbeit](https://github.com/bitcraftlab/nodebox-live-localization).
 
-### Lizenz 
+### Lizenz
 Lizensiert unter der MIT-Lizenz.
-
