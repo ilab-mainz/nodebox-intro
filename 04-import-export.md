@@ -15,13 +15,26 @@ Vektor-Grafiken, Fonts und Bitmaps laden und speichern
 
 ## SVGs aus Illustrator
 
-- Export
-	- Screenshot
-	- Schritt-für-Schritt-Anleitung
-	- Nur das Nötigste markieren und exportieren
-	- Export SVG 1.0 ohne Adobe-Krimskrams
-	- Wir gross ist das File? 
-	- ggf. Pfade in Illustrator vereinfachen
+### vor dem Export:
+
+- Um zu vermeiden, dass irgentwelche unerwünschten Pfade im svg landen, starten wir zuerst mit einer neuen Datei. Dabei ist zu achten, dass die Datei in Pixeln und im RGB Modus ist:
+
+	![](assets/import_neue_datei.png)
+
+- Nodebox kann nicht mit außergwählich großen Dateien umgehen. Am einfachsten können wir deswegen unsere Zeichnung mit `Objekt > Pfad > vereinfachen…` reduzieren.
+
+	![](assets/import_vereinfachen.png)
+
+### Export
+
+- `Datei > Speicher unter…` um SVGs zu exportieren
+- Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und __kein__ Haken bei "Zeichenflächen benutzen" setzen
+- Im Nächsten Fenster ist besonder `SVG 1.0` wichtig. Eventuell müssen auch die anderen Einstellungen angepasst werden.
+	![](assets/import_export_einstellungen.png)
+- Wir gross ist das File?
+- ggf. [Pfade in Illustrator vereinfachen](#vor-dem-export)
+
+
 - Gotchas
 	- SVG-Probleme mit Nodebox
 	- Filesize Limit
@@ -41,7 +54,7 @@ Vektor-Grafiken, Fonts und Bitmaps laden und speichern
 - Frames
 - Größe
 - Weiterverarbeiten
-- Verbreiten und teilen 
+- Verbreiten und teilen
 
 ## SVGs exportieren
 
