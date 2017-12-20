@@ -2,6 +2,12 @@
 
 *Animationen fürs Web und Animierte Gifs mit Nodebox.live*
 
+- [Animations Knoten](#animations-knoten)
+- [Wellenfunktionen](#wellenfunktionen)
+- Beispiele:
+  - [Farben Animieren]()
+  - Listen Animieren
+
 ## So geht's
 
 - Screenshot Interface
@@ -37,7 +43,7 @@ Der `frame` Knoten kann benutzt werden um nahezu alle Parameter in Nodebox zu an
     - Sekunden seit Start:`eleapsedSeconds`
 
 
-#### Wellenfuntionen:
+#### Wellenfunktionen:
   - Der `sineWave` Knoten erzeugt eine Sinus Welle und ermöglicht uns so wiederholende und "weiche" Animationen. Die Animation fängt langsam an wird schneller und bremst gegen Ende wieder ab. In AfterEffects lässt sich über `Easy-Ease` ein ähnlicher Effekt erreichen.
 
 Eingänge | Erklärung
@@ -54,6 +60,28 @@ offset | Hier können wir den den Startpunkt verschieben (in diesem Fall nicht n
   - Dreieck
   - Sägezahn
   - Rechteck
+
+## Beispiele
+
+### Farben Animieren
+
+- erstelle einen `rect` Knoten und verbinde den Ausgang mit einem `colorize`Knoten.
+- Unser zentrales Element für die animation der Farbe ist der `rgbColor` Knoten:
+  - dazu Verbinden wir einen `frame`Knoten mit einem `sineWave` Knoten.
+  - Der `sineWave` Knoten muss den `min` Wert von "0" und den `max` Wert von "1" haben. In dem Beispiel ist der `period` Wert auf "60" damit wiederholt sich die Animation nach 60 Frames. Ein wert von 120 würde z.B unsere Animation nur halb so schnell abspielen lassen.
+  - Verbinde nun den `sineWave` Knoten mit dem `green` Eingang des `rgbColor` Knotens.
+- Wenn du nun den `rgbColor` Knoten mit dem `fill` Eingang des `colorize` Knoten verbindes:
+- Yaay unser Rechteck wechselt nun die Farbe 👏
+
+![](assets/frame_farbe_1.gif)
+
+- TODO: link zu beispiel
+
+> Natürlich kann statt dem `rect` Knoten auch alle anderen
+> Formen oder Gruppen von Formen eingefärbt werden.
+
+
+### Listen Animieren
 
 ## Gotchas
 
