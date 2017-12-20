@@ -1,6 +1,6 @@
 # Grundlagen
 
-*Die grundlegen Konzepte hinter Nodebox.live*
+*Die grundlegende Konzepte hinter Nodebox.live*
 
 - Screenshot
 
@@ -17,13 +17,14 @@
 
 ---
 
-- ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` sind sowohl ganzzahlige werte `integer` (zb. 1 / 5 / 72 usw.) als auch Zahlen mit nachkomma stellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
+- ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` sind sowohl ganzzahlige werte `integer` (zb. 1 / 5 / 72 usw.)   
+als auch Zahlen mit nachkomma stellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
 
 	- `float`werden benutzt um um z.B die breite/höhe eine Objekts zu verändern.
 	- `integer` werden benutzt um Mengen anzugeben also z.B. 10 Kopien im `copy` Knoten
 
-- ![#60BD68](https://placehold.it/15/60BD68?text=+) `Points` (Punkte) sind zwei dimensionale Koordinaten die `X`und `Y`koordinaten enthalten.
-	- Sie können benutz werden um ein Ort zu bestimmen z.B die position eines Rechtecks, die Skalierung im `scale` Knoten oder den dreh und Angelpunkt eins `rotate` knoten (also den Punkt um den rotiert werden soll)
+- ![#60BD68](https://placehold.it/15/60BD68?text=+) `Points` (Punkte) sind zwei dimensionale Koordinaten die `X` und `Y` koordinaten enthalten.
+	- Sie können benutzt werden um ein Ort zu bestimmen z.B die position eines Rechtecks, die Skalierung im `scale` Knoten oder den dreh und Angelpunkt eins `rotate` Knoten (also den Punkt um den rotiert werden soll)
 - ![#E8AA00](https://placehold.it/15/E8AA00?text=+) `Shapes` (Formen) enthalten Informationen über kurven, Linien und Punkte.
 - ![#F17CB0](https://placehold.it/15/F17CB0?text=+) `Strings` (Zeichenketten) enthalten reinen Text.
 	- In der Regel der text in dem `textpath` Knoten.
