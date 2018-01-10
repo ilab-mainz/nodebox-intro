@@ -30,6 +30,7 @@ Vektor-Grafiken, Fonts und Bitmaps laden und speichern
 - `Datei > Speicher unter…` um SVGs zu exportieren
 - Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und __kein__ Haken bei "Zeichenflächen benutzen" setzen
 - Im Nächsten Fenster ist besonder `SVG 1.0` wichtig. Eventuell müssen auch die anderen Einstellungen angepasst werden.
+
 	![](assets/import_export_einstellungen.png)
 - Wir gross ist das File?
 - ggf. [Pfade in Illustrator vereinfachen](#vor-dem-export)
