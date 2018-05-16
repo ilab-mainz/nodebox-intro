@@ -2,7 +2,32 @@
 
 *Die grundlegende Konzepte hinter Nodebox.live*
 
-- Screenshot
+
+## Nodebox als Fließband
+
+![](https://media.giphy.com/media/wKfYItv9gsjXG/giphy.gif)
+
+
+Wenn wir Knoten miteinander verbinden entsteht eine art Fließband bei der die informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
+
+Hier ein Beispiel:
+
+1. Erstellen wir einen `rect` Knoten.
+
+![](assets/basics_1.png)
+
+2. Verbinden wir einen `Colorize` Knoten mit dem `rect` Knoten. Er verändert den Output und färbt ihn ein.
+
+![](assets/basics_2.png)
+
+3. Anschließend fügen wir einen `rotate` Knoten hinzu. Er nimmt den output und rotiert ihn.
+
+![](assets/basics_3.png)
+
+Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem doppelklick den render Knoten wechseln:
+
+![](assets/basics_render.gif)
+
 
 ## Ein- und Ausgänge der Knoten
 
