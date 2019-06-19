@@ -12,7 +12,10 @@ Library zum Bearbeiten von Kurven (Pfade und Kontouren)
 1. Drei Kurven erstellen
 2. Kurven mit combinePaths zusammenkleben
 
-### [Workshop Curve](https://nodebox.live/bitcraftlab/workshopCurve) -  Pfade animieren und kombinieren
+
+### [Workshop Curve](https://nodebox.live/bitcraftlab/curvePlay01) -  Pfade animieren und kombinieren
+
+![](assets/libraries_curve_curvePlay01.png)
 
 1. Drei Kurven erstellen
 2. Kurven variieren (in Abhängigkeit vom aktuellen Frame)
@@ -22,7 +25,14 @@ Library zum Bearbeiten von Kurven (Pfade und Kontouren)
 
 ### combinePaths
 
+- Pfade zu einem Pfad kombinieren
+
+### alignPaths
+
 - Pfade an den Enden zusammenkleben
 
+### fitPath
+
+- Pfad so anpassen, dass er zwischen zwei Punkte passt
 
 
