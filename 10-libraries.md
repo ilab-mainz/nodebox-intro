@@ -51,22 +51,19 @@
 - **[Shape Library](10-libraries-05-shape.md)**
 - [Nodebox-Source](https://nodebox.live/bitcraftlab/shape)
 
-### IMAGE - Pixelgrafik bearbeiten
+### IMAGE — Pixelgrafik bearbeiten
 
 - **[Image Library](10-libraries-06-image.md)**
 - [Nodebox-Source](https://nodebox.live/bitcraftlab/image)
 - Beispiele:
 	- [Image Example 1](https://nodebox.live/bitcraftlab/imageExample01)
 	- [Image Example 2](https://nodebox.live/bitcraftlab/imageExample02)
-	
-### net
 
-- Coming soon ...
-- [Nodebox-Source](https://nodebox.live/bitcraftlab/net)
+### GRID — Gitter erstellen
 
-### dom
+- **[Grid Library](10-libraries-07-grid.md)**
+- [Nodebox Source](https://nodebox.live/bitcraftlab/grid)
+- Beispiele:
+	- [Grid Example](https://nodebox.live/bitcraftlab/gridExample01)
 
-- Coming soon ...
-- [Nodebox-Source](https://nodebox.live/bitcraftlab/dom) (TODO)
 
-### ...
