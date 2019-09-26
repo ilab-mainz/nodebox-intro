@@ -2,7 +2,7 @@
 
 ### Kleine Einführung in Nodebox.live
 
-*Martin Schneider und Milan Gress, Hochschule Mainz 2017*
+*Martin Schneider und Milan Gress, Hochschule Mainz 2019*
 
 0. [Grundlagen](00-grundlagen.md) 
 1. [Interface](01-interface.md)
