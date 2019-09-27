@@ -1,6 +1,6 @@
 # Grundlagen
 
-*Die grundlegende Konzepte hinter Nodebox.live*
+*Die grundlegenden Konzepte hinter Nodebox.live*
 
 
 ## Nodebox als Fließband
@@ -9,7 +9,7 @@
 
 ## Knoten
 
-Wenn wir Knoten miteinander verbinden entsteht eine art Fließband bei der die informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
+Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
 
 ### Beispiel:
 
@@ -38,8 +38,8 @@ Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelkli
   ![](assets/grundlagen_input_output.png)
   
 - Alle Eingang-Ports in Nodebox erwarten Input eines bestimmten Typs. Jeder Ausgang-Port erzeugt einen Output eines bestimmten Typs. 
-- Wenn man über einem Eingangs mit der Maus verweilt sieht man welchen Datentypen der Knoten an diesem Port erwartet. 
-- Wenn man über dem Ausgang mit der Maus verweilt sieht man welchen Datentyp der Output des Knotens hat.
+- Wenn man über einem Eingang mit der Maus verweilt, sieht man welchen Datentypen der Knoten an diesem Port erwartet. 
+- Wenn man über dem Ausgang mit der Maus verweilt, sieht man welchen Datentyp der Output des Knotens hat.
 
   ![](assets/grundlagen_input_art.png)
 
@@ -49,16 +49,16 @@ Die Datentypen an den Ports werden in der Regel durch Farben codiert:
 
 ### Zahlen
 
-- ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` sind sowohl ganzzahlige werte `integer` (zb. 1 / 5 / 72 usw.)   
-als auch Zahlen mit nachkomma stellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
+- ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` sind sowohl ganzzahlige Werte `integer` (zb. 1 / 5 / 72 usw.)   
+als auch Zahlen mit Nachkommastellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
 
 	- `float`werden benutzt um um z.B die breite/höhe eine Objekts zu verändern.
 	- `integer` werden benutzt um Mengen anzugeben also z.B. 10 Kopien im `copy` Knoten
 
 ### Points
 
-- ![#60BD68](https://placehold.it/15/60BD68?text=+) `Points` (Punkte) sind zwei dimensionale Koordinaten die `X` und `Y` koordinaten enthalten.
-	- Sie können benutzt werden um ein Ort zu bestimmen z.B die position eines Rechtecks, die Skalierung im `scale` Knoten oder den dreh und Angelpunkt eins `rotate` Knoten (also den Punkt um den rotiert werden soll)
+- ![#60BD68](https://placehold.it/15/60BD68?text=+) `Points` (Punkte) sind zweidimensionale Koordinaten die `X` und `Y` Koordinaten enthalten.
+	- Sie können benutzt werden um ein Ort zu bestimmen z.B die Position eines Rechtecks, die Skalierung im `scale` Knoten oder den Dreh- und Angelpunkt eins `rotate` Knoten (also den Punkt um den rotiert werden soll)
 
 ### Shapes
 
@@ -66,13 +66,13 @@ als auch Zahlen mit nachkomma stellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
 
 ### Strings
 - ![#F17CB0](https://placehold.it/15/F17CB0?text=+) `Strings` (Zeichenketten) enthalten reinen Text.
-	- In der Regel der text in dem `textpath` Knoten.
+	- In der Regel der Text in dem `textpath` Knoten.
 
 ### Listen
 
 - ![#B276B2](https://placehold.it/15/B276B2?text=+) `Listen` sind Sammlungen und können deshalb mehrere `Nummern` `Points`, `Shapes` und `Colors` Enthalten.
-	- Deshalb können sie auch mit Eingängen Verbunden werden die einen anderen Typ erwarten. d.H so lange die Liste aus Zahlen besteht kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` Eingang verbunden werden.
+	- Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.H so lange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` Eingang verbunden werden.
 
 ### Farben
 - ![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten.
-	- Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie
+	- Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
