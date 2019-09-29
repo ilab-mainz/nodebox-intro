@@ -33,7 +33,7 @@ Nodebox.live ist Alpha-Software (experimentell)
 
 - Programm ID
 
-	![](assets/newproject_1.png)
+	
 	
 - Programm Name und Farbe ändern
 - Programm sichern
