@@ -13,9 +13,17 @@ Nodebox.live ist Alpha-Software (experimentell)
 - Scroll vs Pinch 
 	- zum Zoomen der Arbeitsfläch niemals Pinch oder Zoom-Einstellungen des Browsers benutzen.
 	
-	![](assets/zoomen_1.gif width=400 height=250)
+	![](assets/zoomen_1.gif)
+	
+	- 
+	
+	![](assets/zoomen_2.gif)
 	
 	- Auf OSX `CMD + 0` in Windows `CTRL + 0` um die Zoom-Stufe des Browsers auf 100% zu setzen.
+	
+	![](assets/zoomen_3.gif)
+	
+	
 - Immer einloggen!
 	- Sonst geht das Programm verloren
 	- [Login-Seite](https://nodebox.live/login)
