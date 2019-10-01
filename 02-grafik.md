@@ -4,9 +4,20 @@
 
 - Dreieck, Quadrat, Kreis:
 	- Dreieck, oder allgemein Vieleck: `polygon`
+	
+	![](assets/shape_1.gif)
+	
 	- Quadrat, oder allgemein Rechteck: `rect`
+	
+	![](assets/shape_2.gif)
+	
 	- Kreis, oder allgemein Ellipse: `ellipse`
+	
+	![](assets/shape_3.gif)
+	
 	- Stern: `star`
+	
+	![](assets/shape_4.gif)
 
 ## Shapes
 
