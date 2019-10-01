@@ -27,6 +27,8 @@
 	- eine Strichstärke (`strokeWidth`)
 - Diese Eigenschaften kann man mit dem `colorize`-Knoten ändern.
 
+![](assets/shape_5.gif)
+
 ## Pfade
 
 - Eine Shape ohne Füllung (mit transparenter Füllung) ist ein Pfad.
