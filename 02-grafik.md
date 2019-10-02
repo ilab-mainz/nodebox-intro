@@ -9,6 +9,8 @@
 	
 	- Quadrat, oder allgemein Rechteck: `rect`
 	
+	Durch die Einstellung lässt sich aus dem Rechteck auch eine Ellipse oder ein Kreis formen.
+	
 	![](assets/shape_2.gif)
 	
 	- Kreis, oder allgemein Ellipse: `ellipse`
@@ -16,6 +18,8 @@
 	![](assets/shape_3.gif)
 	
 	- Stern: `star`
+	
+	Verändert man die Einstellungen des Knoten so lässte sich auch ein Dreieck formen.
 	
 	![](assets/shape_4.gif)
 
@@ -25,6 +29,8 @@
 	- eine Füllfarbe (`fill`) 
 	- eine Umrißfarbe (`stroke`)
 	- eine Strichstärke (`strokeWidth`)
+	
+	Es lässt sich ebenfalls die Deckkraft des Stiches und/oder Der Füllung einstellen.
 	
 	![](assets/fill.png)
 	
@@ -64,11 +70,21 @@
 	- Einpassen in einen Bereich: `fit`
 	- Einpassen in Objekte: `fitTo`
 	- Ausrichten: `align`
+	
+	![](assets/align.png)
+	
 	- Stapeln: `stack`
+	
+	![](assets/stack.gif)
+	
 - Listen
 	- Liste von Objekten mit `combine` erstellen
+	
+	![](assets/combine.png)
+	
 	- Die Objekte werden in der Reihenfolge gemalt in der sie in der Liste stehen
 	- Neu sortiern mit `shapeSort`
+	
 - Gruppieren:
 	- `group`und `ungroup`
 	- Gruppe filtern: `deletePaths`
