@@ -47,7 +47,8 @@
 	- Beispiel: `textPath`erzeugt eine Shape mit Innen und Außenkonturen. 
 	- Mit `wiggleContour` kann man die Kontouren durcheinanderschütteln
 	
-	![](assets/wiggle-contours.gif)
+	![](assets/contour.gif)
+	
 - Es gibt *Außenkontouren* und *Innen-Kontouren*
   (Beispiel: Buchstabe 'O')
 - Eine Kontour kann offen sein (Pfad mit Anfang und Ende) oder Geschlossen (Outline einer Shape)
