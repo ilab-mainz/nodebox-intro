@@ -25,6 +25,9 @@
 	- eine Füllfarbe (`fill`) 
 	- eine Umrißfarbe (`stroke`)
 	- eine Strichstärke (`strokeWidth`)
+	
+	![](assets/fill.png)
+	
 - Diese Eigenschaften kann man mit dem `colorize`-Knoten ändern.
 
 ![](assets/shape_5.gif)
