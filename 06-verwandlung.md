@@ -30,11 +30,16 @@
 - Grafiken-Transformation durch Punkt-Transformation
 - Flächen → Pfade → Punkte → X und Y →  *Transformation* →  X und Y → Punkte → Pfade → Flächen
 	- Pfade → Punkte: `toPoints` 
+	
+	![](assets/topoints.png)
+	
 	- Punkte → X und Y : `lookup` 
 	- Transformation : Mathematische Funktionen, Javascript etc.
 	- X und Y → Punkte: `makePoint`
 	- Punkte → Pfade: `connectPoints`
 	- Pfade → Fläche: `colorize` 
+	
+	![](assets/colorize.png)
 
 ## 2D-Transformation
 	
