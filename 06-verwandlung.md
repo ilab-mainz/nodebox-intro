@@ -6,10 +6,24 @@
 	
 - _Affine_ Transformationen
 	- verschieben: `translate`
+	
+	![](assets/translate.gif)
+	
 	- drehen: `rotate`
+	
+	![](assets/rotate.gif)
+	
 	- spiegeln: `flip`
+	
+	![](assets/flip.gif)
+	
 	- dehnen: `scale`
+	
+	![](assets/scale.gif)
+	
 	- kippen: `skew`
+	
+	![](assets/skew.gif)
 
 ## Eigene Transformationen
 
