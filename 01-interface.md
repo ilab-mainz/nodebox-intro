@@ -25,7 +25,6 @@ Nodebox.live ist Alpha-Software (experimentell)
 	
 	
 	
-	
 - Immer einloggen!
 	- Sonst geht das Programm verloren
 	- [Login-Seite](https://nodebox.live/login)
