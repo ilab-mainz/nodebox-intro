@@ -23,7 +23,7 @@ Nodebox.live ist Alpha-Software (experimentell)
 	
 	- Auf OSX `CMD + 0` in Windows `CTRL + 0` um die Zoom-Stufe des Browsers auf 100% zu setzen. Ebenfalls kann die Maus genutzt werden um rein oder raus zu zoomen.
 	
-	![](assets/zoomen_3.gif)
+	
 	
 	
 - Immer einloggen!
