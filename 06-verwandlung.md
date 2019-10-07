@@ -11,7 +11,7 @@
 	
 	- drehen: `rotate`
 	
-	
+	![](assets/rotate.gif)
 	
 	- spiegeln: `flip`
 	
