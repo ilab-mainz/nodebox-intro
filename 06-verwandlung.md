@@ -11,7 +11,7 @@
 	
 	- drehen: `rotate`
 	
-	![](assets/rotate.gif)
+	
 	
 	- spiegeln: `flip`
 	
@@ -19,7 +19,7 @@
 	
 	- dehnen: `scale`
 	
-	
+	![](assets/scale.gif)
 	
 	- kippen: `skew`
 	
