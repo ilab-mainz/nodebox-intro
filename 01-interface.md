@@ -10,9 +10,23 @@ Vorsicht:
 Nodebox.live ist Alpha-Software (experimentell)
 
 - Chrome Only!
+
+	![](assets/chrome.png)
+  
 - Scroll vs Pinch 
-	- zum Zoomen der Arbeitsfläch niemals Pinch oder Zoom-Einstellungen des Browsers benutzen.
-	- Auf OSX `CMD + 0` in Windows `CTRL + 0` um die Zoom-Stufe des Browsers auf 100% zu setzen.
+
+	- zum Zoomen der Arbeitsfläch niemals Pinch oder Zoom-Einstellungen des Browsers benutzen. Das heißt, die Tastenkombination `CTRL + +/-` oder `CMD + +/-` können nicht Zoomen verwendet werden.
+	
+	![](assets/zoomen_1.gif)
+	
+	- Auch das Touchpad wird sich als nutzlos erweisen.
+	
+	![](assets/zoomen_2.gif)
+	
+	- Auf OSX `CMD + 0` in Windows `CTRL + 0` um die Zoom-Stufe des Browsers auf 100% zu setzen. Ebenfalls kann die Maus genutzt werden um rein oder raus zu zoomen.
+	
+	![](assets/zoomen_3.gif)
+	
 - Immer einloggen!
 	- Sonst geht das Programm verloren
 	- [Login-Seite](https://nodebox.live/login)
@@ -21,8 +35,18 @@ Nodebox.live ist Alpha-Software (experimentell)
 ## Neues Programm erstellen 
 
 - Programm ID
-- Programm Name und Farbe ändern
-- Programm sichern
+
+	![](assets/newproject_1.png)
+	
+	![](assets/newproject_2.png)
+	
+- Programm Name und Farbe können direkt im Programm selbst beim Einstellungssymbol nach Wünsch verändert werden.
+
+	![](assets/änderung.gif)
+
+- Das Programm sicher von selbst solange man mit dem Internet verbunden ist. Dies lässt sich immer an der Anzeige kontrollieren.
+
+	![](assets/project_saved.png)
 
 ## Programm sichern & wiederherstellen
 

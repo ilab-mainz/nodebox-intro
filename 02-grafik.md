@@ -4,9 +4,24 @@
 
 - Dreieck, Quadrat, Kreis:
 	- Dreieck, oder allgemein Vieleck: `polygon`
+	
+	![](assets/shape_1.gif)
+	
 	- Quadrat, oder allgemein Rechteck: `rect`
+	
+	Durch die Einstellung lässt sich aus dem Rechteck auch eine Ellipse oder ein Kreis formen.
+	
+	![](assets/shape_2.gif)
+	
 	- Kreis, oder allgemein Ellipse: `ellipse`
+	
+	![](assets/shape_3.gif)
+	
 	- Stern: `star`
+	
+	Verändert man die Einstellungen des Knoten so lässte sich auch ein Dreieck formen.
+	
+	![](assets/shape_4.gif)
 
 ## Shapes
 
@@ -14,7 +29,14 @@
 	- eine Füllfarbe (`fill`) 
 	- eine Umrißfarbe (`stroke`)
 	- eine Strichstärke (`strokeWidth`)
+	
+	Es lässt sich ebenfalls die Deckkraft des Stiches und/oder Der Füllung einstellen.
+	
+	![](assets/fill.png)
+	
 - Diese Eigenschaften kann man mit dem `colorize`-Knoten ändern.
+
+![](assets/shape_5.gif)
 
 ## Pfade
 
@@ -31,7 +53,8 @@
 	- Beispiel: `textPath`erzeugt eine Shape mit Innen und Außenkonturen. 
 	- Mit `wiggleContour` kann man die Kontouren durcheinanderschütteln
 	
-	![](assets/wiggle-contours.gif)
+	![](assets/contour.gif)
+	
 - Es gibt *Außenkontouren* und *Innen-Kontouren*
   (Beispiel: Buchstabe 'O')
 - Eine Kontour kann offen sein (Pfad mit Anfang und Ende) oder Geschlossen (Outline einer Shape)
@@ -47,11 +70,21 @@
 	- Einpassen in einen Bereich: `fit`
 	- Einpassen in Objekte: `fitTo`
 	- Ausrichten: `align`
+	
+	![](assets/align.png)
+	
 	- Stapeln: `stack`
+	
+	![](assets/stack.gif)
+	
 - Listen
 	- Liste von Objekten mit `combine` erstellen
+	
+	![](assets/combine.png)
+	
 	- Die Objekte werden in der Reihenfolge gemalt in der sie in der Liste stehen
 	- Neu sortiern mit `shapeSort`
+	
 - Gruppieren:
 	- `group`und `ungroup`
 	- Gruppe filtern: `deletePaths`
