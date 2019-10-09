@@ -12,7 +12,9 @@ Nodebox.live ist Alpha-Software (experimentell)
 - Chrome Only!
 
 	![](assets/chrome.png)
+  
 - Scroll vs Pinch 
+
 	- zum Zoomen der Arbeitsfläch niemals Pinch oder Zoom-Einstellungen des Browsers benutzen. Das heißt, die Tastenkombination `CTRL + +/-` oder `CMD + +/-` können nicht Zoomen verwendet werden.
 	
 	![](assets/zoomen_1.gif)
