@@ -73,10 +73,9 @@
 	
 	![](assets/align.png)
 	
-	- Stapeln: `stack`
+	- Stapeln: `stack` [![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b02stack)
 	
-	![](assets/stack.gif)]  
-	[![](assets/beispiel.gif)](https://nodebox.live/nodebox-intro/b02stack)
+	![](assets/stack.gif)]
 	
 - Listen
 	- Liste von Objekten mit `combine` erstellen
