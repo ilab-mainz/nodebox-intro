@@ -75,7 +75,8 @@
 	
 	- Stapeln: `stack`
 	
-	![](assets/stack.gif)
+	![](assets/stack.gif)]  
+	[![](assets/beispiel.gif)](https://nodebox.live/nodebox-intro/b02stack)
 	
 - Listen
 	- Liste von Objekten mit `combine` erstellen
