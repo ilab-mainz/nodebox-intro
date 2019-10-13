@@ -5,9 +5,11 @@
 ## Network Nodes
 
 - Eignene Nodes
-	- Nodes erstellen
-	- Nodes umbenennen
-	- Nodes löschen
+	- Nodes erstellen und löschen
+	
+	![](assets/networks.gif)
+	
+	- Nodes können nicht umbenannt werden
 
 ## Nodes mit Parametern
 
@@ -17,6 +19,8 @@
 	- Datentypen
 	- Default-Werte
 	- Listen-Verarbeitung
+	
+	![](assets/port.gif)
 
 
 # Javascript Nodes
