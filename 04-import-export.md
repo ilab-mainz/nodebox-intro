@@ -24,6 +24,30 @@ Vektor-Grafiken, Fonts und Bitmaps laden und speichern
 - Nodebox kann nicht mit außergwählich großen Dateien umgehen. Am einfachsten können wir deswegen unsere Zeichnung mit `Objekt > Pfad > vereinfachen…` reduzieren.
 
 	![](assets/import_vereinfachen.png)
+	
+- ...
+
+	![](assets/kurvenzeichner.png)
+	![](assets/kurvenzeichner_1.png)
+	![](assets/kurvenzeichner_2.png)
+	
+- ...
+
+	![](assets/liniensegment_werkezeug_1.png)
+	![](assets/liniensegment_werkezeug_2.png)
+	![](assets/liniensegment_werkezeug_3.png)
+	
+- ...
+
+	![](assets/pinsel_werkezug.png)
+	![](assets/pinsel_werkzeug_2.png)
+	![](assets/pinsel_werkzeug_3.png)
+	
+
+
+
+
+	
 
 ### Export
 
