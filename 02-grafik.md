@@ -88,6 +88,9 @@
 - Gruppieren:
 	- `group`und `ungroup`
 	- Gruppe filtern: `deletePaths`
+	
+	![](assets/deletepaths.gif)
+	
 	- Gruppen werden als ein Objekt behandelt
 	- Beispiel `fit` mit Liste vs Gruppe
 
@@ -99,6 +102,9 @@
 	- Zwei Flächen verschmelzen
 	- Flächen ausschneiden
 	- Mehrere Flächen verschmelzen
+	
+	![](assets/compound.gif)
+	
 - Morphen zwischen Flächen
 
 	
