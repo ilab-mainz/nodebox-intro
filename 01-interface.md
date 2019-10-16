@@ -55,6 +55,8 @@ Nodebox.live ist Alpha-Software (experimentell)
 	- mit dem Browser
 - Quellcode hochladen (alte Version wiederherstellen)
 	- mit dem Brower
+	
+	![](assets/raw.gif)
 
 ## Programme klauen
 
