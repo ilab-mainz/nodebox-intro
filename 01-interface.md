@@ -19,7 +19,7 @@ Nodebox.live ist Alpha-Software (experimentell)
 	
 	![](assets/zoomen_1.gif)
 	
-	- Durch die Sroll-Bewegung kann jedoch mit dem Touchpad rangezoomt werden.
+	- Durch die Sroll-Bewegung kann jedoch mit dem Touchpad ran- und rausgezoomt werden.
 	
 	![](assets/zoomen_2.gif)
 	
