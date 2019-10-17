@@ -28,18 +28,27 @@
 ## Eigene Transformationen
 
 - Grafiken-Transformation durch Punkt-Transformation
-- Flächen → Pfade → Punkte → X und Y →  *Transformation* →  X und Y → Punkte → Pfade → Flächen
+- Flächen → Pfade → Punkte → X und Y →  *Transformation* →  X und Y → Punkte → Pfade → Flächen  
+
+	![](assets/verwandlung.png)  
+
 	- Pfade → Punkte: `toPoints` 
 	
-	![](assets/topoints.png)
+	![](assets/topoints_2.png)
 	
-	- Punkte → X und Y : `lookup` 
+	- Punkte → X und Y : `lookup`
 	- Transformation : Mathematische Funktionen, Javascript etc.
 	- X und Y → Punkte: `makePoint`
+	
+	![](assets/makepoint.png)
+	
 	- Punkte → Pfade: `connectPoints`
+	
+	![](assets/connectpoints.png)
+	
 	- Pfade → Fläche: `colorize` 
 	
-	![](assets/colorize.png)
+	![](assets/colorize_2.png)
 
 ## 2D-Transformation
 	
