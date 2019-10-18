@@ -61,7 +61,7 @@
 
 ## Gruppen
 
-- Mehrere Shapes kann man mit `group` zu einer Gruppe zusammengefassen.
+- Mehrere Shapes kann man mit `group` zu einer Gruppe zusammengefassen. [![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b02group)
 
 
 ## Anordnen
