@@ -25,7 +25,8 @@ Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die 
 
    ![](assets/basics_3.png)
 
-Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelklick den aktiven Knoten (Render-Knoten) wechseln:
+Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelklick den aktiven Knoten (Render-Knoten) wechseln:[![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b00knoten)
+	
 
 ![](assets/basics_render.gif)
 
