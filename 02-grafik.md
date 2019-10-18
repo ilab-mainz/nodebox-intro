@@ -78,7 +78,7 @@
 	![](assets/stack.gif)]
 	
 - Listen
-	- Liste von Objekten mit `combine` erstellen
+	- Liste von Objekten mit `combine` erstellen  [![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b02combine)
 	
 	![](assets/combine.png)
 	
@@ -98,7 +98,7 @@
 
 - Jeder Pfad ist bereits eine Fläche / Flächenumriss
 - Pfade verbinden / einfärben mit `colorize`
-- Boolsche Flächen-Operationen:`compound`
+- Boolsche Flächen-Operationen:`compound` [![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b02compund)
 	- Zwei Flächen verschmelzen
 	- Flächen ausschneiden
 	- Mehrere Flächen verschmelzen
