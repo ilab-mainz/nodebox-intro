@@ -7,7 +7,11 @@
 - Eignene Nodes
 	- Nodes erstellen und löschen
 	
-	![](assets/networks.gif)
+	![](assets/createnetworks.gif)
+	![](assets/deletenetworks.gif)
+	![](assets/disconnectednetworks.gif)
+
+
 	
 	- Nodes können nicht umbenannt werden
 
