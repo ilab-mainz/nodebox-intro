@@ -7,9 +7,9 @@
 - Eignene Nodes
 	- Nodes erstellen und löschen
 	
-	![](assets/createnetworks.gif)
-	![](assets/deletenetworks.gif)
-	![](assets/disconnectednetworks.gif)
+	![](assets/createnetwork.gif)  
+	![](assets/deletenetwork.gif)  
+	![](assets/disconnectednetworks.gif)  
 
 
 	
