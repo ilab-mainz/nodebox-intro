@@ -29,9 +29,14 @@
 	![](assets/port_3.gif)  
 	![](assets/port_4.gif)  
 
-![](assets/nesting.gif)  
+![](assets/nesting_1.gif)   
+![](assets/nesting_2.gif)    
+![](assets/nesting_3.gif)   
 
-![](assets/pinning.gif)  
+
+![](assets/pinning_1.gif)    
+![](assets/pinning_2.gif)    
+
 
 
 # Javascript Nodes
