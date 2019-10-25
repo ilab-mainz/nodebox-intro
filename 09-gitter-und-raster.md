@@ -1,3 +1,3 @@
-# Tipps & Tricks
+# Gitter & Raster
 
 - Wie kann man ...
