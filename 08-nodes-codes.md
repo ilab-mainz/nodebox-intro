@@ -24,8 +24,7 @@
 	- Default-Werte
 	- Listen-Verarbeitung
 	
-	![](assets/port.gif)
-
+	
 
 ![](assets/nesting.gif)  
 
