@@ -22,9 +22,12 @@
 - Ports manuell erstellen
 	- Datentypen
 	- Default-Werte
-	- Listen-Verarbeitung
+	- Listen-Verarbeitung  
 	
-	![](assets/port_1.gif)
+	![](assets/port_1.gif)  
+	![](assets/port_2.gif)  
+	![](assets/port_3.gif)  
+	![](assets/port_4.gif)  
 
 ![](assets/nesting.gif)  
 
