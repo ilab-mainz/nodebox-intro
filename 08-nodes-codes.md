@@ -37,7 +37,7 @@
 	Die Ports, die sich dann ergeben, werden mit den Eingangsports des Shape-Knotens verbunden. Es muss darauf geachtet werden, dass die Eingangsports des Knoten verwendet werden. In diesem Fall die Ports für width and height.  
 	
 	![](assets/port_4.gif)  
-	Nun kann das Unterprogramm, in diesem Fall networka, in das main-Programm als Knoten eingefügt werden und es lassen sich die Werte zur Breite und Höhe verändern. Ebenfalls ist zu sehen, dass der networka-Knoten nun width und height Inputports besitzt.
+	Nun kann das Unterprogramm, in diesem Fall networka, in das main-Programm als Knoten eingefügt werden und es lassen sich die Werte zur Breite und Höhe verändern. Ebenfalls ist zu sehen, dass der networka-Knoten nun width und height Inputports besitzt. Enfernt man jedoch die Paramter im networka-Unterprogramm so verschwinden auch diese Inputports beim networka-Knoten im main-Programm.
 
 ![](assets/nesting_1.gif)  
 Wenn man ein Unterporgramm erstellte, ist man in der Lage dieses als Knoten in das main-Programm reinzuziehen.  
