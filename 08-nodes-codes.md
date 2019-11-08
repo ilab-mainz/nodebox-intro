@@ -31,7 +31,7 @@
 	Durch die Funktion Metadaten können wir Parameter erstellen, die bestimmte Werte rausgeben. In diesem Fall werden die Werte zu width, Breite, und height, Höhe, weitergeleitet.  
 	
 	![](assets/port_2.gif)  
-	Für den value-Wert gibt man 100 ein.  
+	Hier gitb man für den value-Wert 100 ein.  
 	
 	![](assets/port_3.gif)  
 	Die Ports, die sich dann ergeben, werden mit den Eingangsports des Shape-Knotens verbunden. Es muss darauf geachtet werden, dass die Eingangsports des Knoten verwendet werden. In diesem Fall die Ports für width and height.  
