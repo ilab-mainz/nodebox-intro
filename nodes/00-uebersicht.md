@@ -25,415 +25,415 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
 
 ## Farbe / Color
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| colorize | Change the color of a shape. | <link> |
-| grayColor | Create a gray color. | <link> |
-| hexColor | Create a color using a hexadecimal value. | <link> |
-| hslAdjust | Adjust hue, saturation and lightness of a shape. | <link> |
-| hslColor | Create a HSL color. | <link> |
-| invert | Invert a color or the colors of a shape. | <link> |
-| parseColor | Parse a named or hexadecimal color. | <link> |
-| rgbAdjust | Adjust red, green, blue and alpha values of an input object. | <link> |
-| rgbColor | Create a RGB color. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `colorize` | Färbt Formen / Shapes ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/colorize.md) | [Beispiel](https://nodebox.live/reference/colorize) | 
+ | `grayColor` | Mischt ein Grau. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/grayColor.md) | [Beispiel](https://nodebox.live/reference/grayColor) | 
+ | `hexColor` | Erstellt aus einem hexadezimalen Wert (bspw. #9922EE) eine Farbe. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hexColor.md) | [Beispiel](https://nodebox.live/reference/hexColor) | 
+ | `hslAdjust` | Verändert Farbton, Sättigung und Helligkeit der Farbe einer Form / Shapes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hslAdjust.md) | [Beispiel](https://nodebox.live/reference/hslAdjust) | 
+ | `hslColor` | Mischt eine Farbe aus den Werten von Farbton, Sättigung und Helligkeit (HSL-Modus). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hslColor.md) | [Beispiel](https://nodebox.live/reference/hslColor) | 
+ | `invert` | Invertiert eine Farbe. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/invert.md) | [Beispiel](https://nodebox.live/reference/invert) | 
+ | `parseColor` | Wandelt einen Farbnamen oder hexadezimalen Code in eine Farbe um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/parseColor.md) | [Beispiel](https://nodebox.live/reference/parseColor) | 
+ | `rgbAdjust` | Verändert Rot, Grün, Blau und Alpha-Werte der Farbe einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rgbAdjust.md) | [Beispiel](https://nodebox.live/reference/rgbAdjust) | 
+ | `rgbColor` | Mischt eine Farbe aus Rot, Grün und Blau (RGB-Modus). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rgbColor.md) | [Beispiel](https://nodebox.live/reference/rgbColor) | 
 
 ## Daten / Data
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| addColumn | Add or replace column in existing table. | <link> |
-| convert | Convert values from one range to another. | <link> |
-| fetchJSON | Perform a HTTP GET request to an API and return the JSON. | <link> |
-| filterData | Filter the input data by comparing the columns of each row with a value. | <link> |
-| groupBy | Group the data based on key/value. | <link> |
-| import | Import data (CSV, SVG) from a file. | <link> |
-| keys | Get the keys from a table. | <link> |
-| lookup | Look up a value in a table or object. | <link> |
-| zipMap | Combine a list of keys and values together in a map. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `addColumn` | Fügt eine Spalte hinzu oder ersetzt eine Spalte in einer Tabelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/addColumn.md) | [Beispiel](https://nodebox.live/reference/addColumn) | 
+ | `convert` | Konvertiert Werte von einem Werte-Bereich in einen anderen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/convert.md) | [Beispiel](https://nodebox.live/reference/convert) | 
+ | `fetchJSON` | Führt eine HTTP-GET-Anfrage durch und gibt JSON-Daten zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fetchJSON.md) | [Beispiel](https://nodebox.live/reference/fetchJSON) | 
+ | `filterData` | Filtert Daten, indem jeder Eintrag mit einem gegebenen Wert verglichen wird. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/filterData.md) | [Beispiel](https://nodebox.live/reference/filterData) | 
+ | `groupBy` | Gruppiert Daten nach Schlüssel/Wert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/groupBy.md) | [Beispiel](https://nodebox.live/reference/groupBy) | 
+ | `import` | Importieren Daten (CSV, SVG) aus einer Datei. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/import.md) | [Beispiel](https://nodebox.live/reference/import) | 
+ | `keys` | Gibt die Schlüssel einer Tabelle zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/keys.md) | [Beispiel](https://nodebox.live/reference/keys) | 
+ | `lookup` | Ließt einen bestimmten Wert anhand eines Schlüssels aus einer Tabelle oder aus einem Objekt aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/lookup.md) | [Beispiel](https://nodebox.live/reference/lookup) | 
+ | `zipMap` | Kombiniert eine Liste von Schlüsseln mit einer Liste von Werten zu einer Map (Liste von Schlüssel/Wert Paaren). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/zipMap.md) | [Beispiel](https://nodebox.live/reference/zipMap) | 
 
 ## Geräte / Device
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| mousePosition | Get the current mouse position. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `mousePosition` | Gibt die aktuelle Mausposition zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mousePosition.md) | [Beispiel](https://nodebox.live/reference/mousePosition) | 
 
 ## Geografie / Geo
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| geoProject | Project a longitude / latitude to X/Y coordinates. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `geoProject` | Konvertiert ein Länge-/Breitengrad-Paar zu X-/Y-Koordinaten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/geoProject.md) | [Beispiel](https://nodebox.live/reference/geoProject) | 
 
 ## Grafisches / Graphics
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| align | Align a shape in relation to the origin. | <link> |
-| arc | Create an arc, pie or wedge shape. | <link> |
-| bounds | Get the bounds of a shape. | <link> |
-| centerPoint | Calculate the geometric center point of a shape. | <link> |
-| compound | Add, subtract or intersect geometry. | <link> |
-| connectPoints | Connect all points in a path. | <link> |
-| coordinates | Calculate a new point based on the angle and distance from an original point. | <link> |
-| copy | Create multiple copies of a shape. | <link> |
-| curve | Create a quadratic curve with one off-curve point. | <link> |
-| deletePaths | Delete paths based on a bounding path. | <link> |
-| deletePoints | Delete points based on a bounding path. | <link> |
-| desaturate | Desaturate a shape. | <link> |
-| distance | Calculate the distance between two points. | <link> |
-| ellipse | Create an ellipse or circle. | <link> |
-| fit | Fit a shape within bounds. | <link> |
-| fitTo | Fit a shape to another shape. | <link> |
-| flip | Flip a shape or image. | <link> |
-| grid | Create a grid of points. | <link> |
-| group | Combine multiple shapes together. | <link> |
-| line | Create a line between two points. | <link> |
-| lineAngle | Create a line between a point and an angle + distance. | <link> |
-| link | Generate a visual link between two shapes. | <link> |
-| makePoint | Create a point from X/Y coordinates. | <link> |
-| mirror | Mirror the geometry around an invisible axis. | <link> |
-| pathLength | Get the contour length of the path. | <link> |
-| perlinNoise | Compute Perlin noise. | <link> |
-| pointOnPath | Calculate a point along the path. | <link> |
-| polygon | Create a multi-sided polygon. | <link> |
-| quad | Create a four-sided polygon from points. | <link> |
-| rect | Create a rectangle or square. | <link> |
-| resampleByAmount | Distribute points along a shape by amount. | <link> |
-| resampleByLength | Distribute points along a shape by segment length. | <link> |
-| rotate | Rotate the shape according to the given angle. | <link> |
-| roundedSegments | Convert straight segments of a shape into rounded ones. | <link> |
-| scale | Resize the shape by scaling it. | <link> |
-| scatterPoints | Generate random points within the boundaries of a shape. | <link> |
-| shapeSort | Sort points or shapes using different sorting methods. | <link> |
-| skew | Skew the shape. | <link> |
-| snap | Snap geometry to a grid. | <link> |
-| stack | Arrange shapes in a horizontal or vertical layout. | <link> |
-| star | Create a star shape. | <link> |
-| textPath | Create a path out of text. | <link> |
-| toPoints | Convert the shape to points that make up the shape. | <link> |
-| translate | Move the shape, changing its position. | <link> |
-| ungroup | Decompose the input group into a list of paths. | <link> |
-| wiggleContours | Shift elements of a shape by a random amount. | <link> |
-| wigglePaths | Shift paths of a group by a random amount. | <link> |
-| wigglePoints | Shift points of the shape by a random amount. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `align` | Richtet eine Form/Shape an einem Ursprung (X-/Y-Koordinate) aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/align.md) | [Beispiel](https://nodebox.live/reference/align) | 
+ | `arc` | Erstellt einen Bogen, Torte oder eine Keilform. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/arc.md) | [Beispiel](https://nodebox.live/reference/arc) | 
+ | `bounds` | Gibt ein Rechteck (Bounding Box) zurück, das die gegebene Form/Shape umschließt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/bounds.md) | [Beispiel](https://nodebox.live/reference/bounds) | 
+ | `centerPoint` | Berechnet den geometrischen Mittelpunkt einer Form/Shape. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/centerPoint.md) | [Beispiel](https://nodebox.live/reference/centerPoint) | 
+ | `compound` | Addiert, subtrahiert oder schneidet Geometrien. Wie das "Pathfinder"-Werkzeug in Illustrator. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/compound.md) | [Beispiel](https://nodebox.live/reference/compound) | 
+ | `connectPoints` | Verbindet Punkte zu einem Pfad. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/connectPoints.md) | [Beispiel](https://nodebox.live/reference/connectPoints) | 
+ | `coordinates` | Berechnet einen Punkt basierend auf gegebenem Winkel zu und dem Abstand von einem Ursprungspunkt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/coordinates.md) | [Beispiel](https://nodebox.live/reference/coordinates) | 
+ | `copy` | Erstellt mehrere Kopien einer Form. Das Original kann beim Kopieren zusätzlich rotiert, skaliert und verschoben werden. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/copy.md) | [Beispiel](https://nodebox.live/reference/copy) | 
+ | `curve` | Erstellt eine (quadratische) Kurve anhand eines Anfangs-, Kontroll- und Endpunkts. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/curve.md) | [Beispiel](https://nodebox.live/reference/curve) | 
+ | `deletePaths` | Löscht Linien (Pfade) anhand eines Begrenzungspfads. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/deletePaths.md) | [Beispiel](https://nodebox.live/reference/deletePaths) | 
+ | `deletePoints` | Löscht Punkte anhand eines Begrenzungspfads. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/deletePoints.md) | [Beispiel](https://nodebox.live/reference/deletePoints) | 
+ | `desaturate` | Desaturiert die Farbe einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/desaturate.md) | [Beispiel](https://nodebox.live/reference/desaturate) | 
+ | `distance` | Berechnet die Entfernung zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distance.md) | [Beispiel](https://nodebox.live/reference/distance) | 
+ | `ellipse` | Erstellt eine Ellipse oder einen Kreis. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ellipse.md) | [Beispiel](https://nodebox.live/reference/ellipse) | 
+ | `fit` | Passt eine Form/Shape in die gegebene Fläche (Rechteck) ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fit.md) | [Beispiel](https://nodebox.live/reference/fit) | 
+ | `fitTo` | Passt eine Form/Shape in eine zweite Form/Shape ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fitTo.md) | [Beispiel](https://nodebox.live/reference/fitTo) | 
+ | `flip` | Spiegelt eine Form oder ein Bild. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/flip.md) | [Beispiel](https://nodebox.live/reference/flip) | 
+ | `grid` | Erstellt ein Raster von Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/grid.md) | [Beispiel](https://nodebox.live/reference/grid) | 
+ | `group` | Gruppiert mehrere Formen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/group.md) | [Beispiel](https://nodebox.live/reference/group) | 
+ | `line` | Verbindet zwei Punkte zu einer Linie. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/line.md) | [Beispiel](https://nodebox.live/reference/line) | 
+ | `lineAngle` | Erstellt eine Linie von einem Punkt ausgehend anhand des gegebenen Winkels und Abstands. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/lineAngle.md) | [Beispiel](https://nodebox.live/reference/lineAngle) | 
+ | `link` | Generiert eine Verbindung zwischen zwei Formen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/link.md) | [Beispiel](https://nodebox.live/reference/link) | 
+ | `makePoint` | Erstellt einen Punkt anhand der gebenen X- / Y-Koordinaten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/makePoint.md) | [Beispiel](https://nodebox.live/reference/makePoint) | 
+ | `mirror` | Spiegelt eine Form an einer gegebenen Achse. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mirror.md) | [Beispiel](https://nodebox.live/reference/mirror) | 
+ | `pathLength` | Errechnet die Konturlänge des Pfades. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pathLength.md) | [Beispiel](https://nodebox.live/reference/pathLength) | 
+ | `perlinNoise` | Berechnet die Perlin-Noise-Funktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/perlinNoise.md) | [Beispiel](https://nodebox.live/reference/perlinNoise) | 
+ | `pointOnPath` | Berechnet einen Punkt auf einem gegebenen Pfad. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pointOnPath.md) | [Beispiel](https://nodebox.live/reference/pointOnPath) | 
+ | `polygon` | Erstellt ein mehrseitiges Polygon. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/polygon.md) | [Beispiel](https://nodebox.live/reference/polygon) | 
+ | `quad` | Erstellt ein Viereck/Quad anhand der gegebenen Punkte. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/quad.md) | [Beispiel](https://nodebox.live/reference/quad) | 
+ | `rect` | Erstellt ein Rechteck oder Quadrat. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rect.md) | [Beispiel](https://nodebox.live/reference/rect) | 
+ | `resampleByAmount` | Bricht einen Pfad in eine bestimmte Anzahl von Punkten auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/resampleByAmount.md) | [Beispiel](https://nodebox.live/reference/resampleByAmount) | 
+ | `resampleByLength` | Bricht einen Pfad in gleichlange Segmente auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/resampleByLength.md) | [Beispiel](https://nodebox.live/reference/resampleByLength) | 
+ | `rotate` | Rotiert eine Form/Shape um einen gegebenen Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rotate.md) | [Beispiel](https://nodebox.live/reference/rotate) | 
+ | `roundedSegments` | Rundet gerade Segmente einer Form/Shape ab. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/roundedSegments.md) | [Beispiel](https://nodebox.live/reference/roundedSegments) | 
+ | `scale` | Skaliert eine Form/Shape | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/scale.md) | [Beispiel](https://nodebox.live/reference/scale) | 
+ | `scatterPoints` | Generiert zufällige Punkte innerhalb der Grenzen einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/scatterPoints.md) | [Beispiel](https://nodebox.live/reference/scatterPoints) | 
+ | `shapeSort` | Sortiert Punkte oder Formen nach verschiedenen Sortierverfahren. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shapeSort.md) | [Beispiel](https://nodebox.live/reference/shapeSort) | 
+ | `skew` | Verzerrt eine Form/Shape anhand eines gegebenen Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/skew.md) | [Beispiel](https://nodebox.live/reference/skew) | 
+ | `snap` | Richtet die Geometrie (Punkte) einer Form an einem Raster aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/snap.md) | [Beispiel](https://nodebox.live/reference/snap) | 
+ | `stack` | Richtet Formen horizontal oder vertikal zueinander aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stack.md) | [Beispiel](https://nodebox.live/reference/stack) | 
+ | `star` | Erstellt eine Sternform. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/star.md) | [Beispiel](https://nodebox.live/reference/star) | 
+ | `textPath` | Wandelt einen Text in Pfade um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/textPath.md) | [Beispiel](https://nodebox.live/reference/textPath) | 
+ | `toPoints` | Wandelt eine Form (Pfad) in Punkte um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toPoints.md) | [Beispiel](https://nodebox.live/reference/toPoints) | 
+ | `translate` | Verschiebt eine Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/translate.md) | [Beispiel](https://nodebox.live/reference/translate) | 
+ | `ungroup` | Löst eine Gruppierung auf und gibt die enthaltenen Elemente als Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ungroup.md) | [Beispiel](https://nodebox.live/reference/ungroup) | 
+ | `wiggleContours` | Verschiebt die Konturen (Form-Elemente) einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wiggleContours.md) | [Beispiel](https://nodebox.live/reference/wiggleContours) | 
+ | `wigglePaths` | Verschiebt die Pfade einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wigglePaths.md) | [Beispiel](https://nodebox.live/reference/wigglePaths) | 
+ | `wigglePoints` | Verschiebt die Punkte einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wigglePoints.md) | [Beispiel](https://nodebox.live/reference/wigglePoints) | 
 
 ## HTML
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| htmlImport | Import a HTML or SVG file as a set of HTML elements. | <link> |
-| htmlString | Convert a string of HTML to elements on the page. | <link> |
-| htmlWrap | Wrap a list of HTML elements or strings with a tag. | <link> |
-| toSVG | Convert one or more shapes to SVG. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `htmlImport` | Importiert eine HTML- oder SVG-Datei und erstellt daraus DOM-Elemente im Browser. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlImport.md) | [Beispiel](https://nodebox.live/reference/htmlImport) | 
+ | `htmlString` | Interpretiert einen Text als HTML und erstellt daraus DOM-Elemente im Browser. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlString.md) | [Beispiel](https://nodebox.live/reference/htmlString) | 
+ | `htmlWrap` | Fasst DOM-Elemente oder Texte in einem HTML-Tag ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlWrap.md) | [Beispiel](https://nodebox.live/reference/htmlWrap) | 
+ | `toSVG` | Konvertiert eine oder mehrere Formen in das SVG-Format. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toSVG.md) | [Beispiel](https://nodebox.live/reference/toSVG) | 
 
 ## Listen / List
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| combine | Combine multiple lists into one. | <link> |
-| contains | Determine if the list contains a given value. | <link> |
-| count | Count the number of items in the list. | <link> |
-| cull | Keep only items from the list where the corresponding boolean is `true`. | <link> |
-| cycle | Repeat the items in the list until the new list is of a certain length. | <link> |
-| distinct | Remove all duplicate items from a list. | <link> |
-| equals | Determine if two objects are equal. | <link> |
-| first | Take the first item in the list. | <link> |
-| flatten | Recursively flattens an array. | <link> |
-| get | Take an item in the list at a certain index. | <link> |
-| interleave | Mix multiple lists by alternating between them. | <link> |
-| last | Take the last item in the list. | <link> |
-| merge | Combine different shapes into one. | <link> |
-| pick | Take random items from a list. | <link> |
-| repeat | Repeat the items in the list a given number of times. | <link> |
-| rest | Take all but the first item in the list. | <link> |
-| reverse | Reverse the items in the list. The first item becomes the last and vice versa. | <link> |
-| second | Take the second item in the list. | <link> |
-| shift | Move items from the beginning of a list to the end of the list. | <link> |
-| shuffle | Randomise the ordering of items in the list. | <link> |
-| slice | Take a portion of the list. | <link> |
-| sort | Sort the items in the list. | <link> |
-| switch | Select one of multiple inputs based on an index. | <link> |
-| takeEvery | Take every `n`th element of a list. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `combine` | Fügt mehrere Listen zu einer Gesamtliste zusammen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/combine.md) | [Beispiel](https://nodebox.live/reference/combine) | 
+ | `contains` | Ermittelt, ob ein gegebener Wert in einer Liste enthalten ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/contains.md) | [Beispiel](https://nodebox.live/reference/contains) | 
+ | `count` | Gibt die Anzahl der Elemente in einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/count.md) | [Beispiel](https://nodebox.live/reference/count) | 
+ | `cull` | Filtert die Einträge einer Liste anhand einer zweiten Liste von boolschen Werten (ja / nein). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cull.md) | [Beispiel](https://nodebox.live/reference/cull) | 
+ | `cycle` | Kopiert die Elemente einer Liste solange an ihr eigenes Ende, bis eine bestimmte Listen-Länge erreicht ist.  | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cycle.md) | [Beispiel](https://nodebox.live/reference/cycle) | 
+ | `distinct` | Entfernt alle doppelten Einträge aus einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distinct.md) | [Beispiel](https://nodebox.live/reference/distinct) | 
+ | `equals` | Bestimmt, ob zwei Objekte gleich sind. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/equals.md) | [Beispiel](https://nodebox.live/reference/equals) | 
+ | `first` | Gibt den ersten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/first.md) | [Beispiel](https://nodebox.live/reference/first) | 
+ | `flatten` | Löst rekursiv die Tiefe/Verschachtelung einer Liste auf und macht damit ihre Hirarchie flacher. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/flatten.md) | [Beispiel](https://nodebox.live/reference/flatten) | 
+ | `get` | Holt einen Eintrag zu einem bestimmten Index (Adresse) aus einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/get.md) | [Beispiel](https://nodebox.live/reference/get) | 
+ | `interleave` | Mischt zwei Listen, indem alternierend ihre Werte zusammengefügt werden wie bei einem Reissverschluss. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/interleave.md) | [Beispiel](https://nodebox.live/reference/interleave) | 
+ | `last` | Gibt das letzte Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/last.md) | [Beispiel](https://nodebox.live/reference/last) | 
+ | `merge` | Fügt verschiedene Formen zu einer zusammen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/merge.md) | [Beispiel](https://nodebox.live/reference/merge) | 
+ | `pick` | Gibt ein zufälliges Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pick.md) | [Beispiel](https://nodebox.live/reference/pick) | 
+ | `repeat` | Vervielfältigt die Elemente in einer Liste nach gegebener Anzahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/repeat.md) | [Beispiel](https://nodebox.live/reference/repeat) | 
+ | `rest` | Gibt alles außer dem ersten Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rest.md) | [Beispiel](https://nodebox.live/reference/rest) | 
+ | `reverse` | Dreht die Reihenfolge der Elemente in der Liste um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/reverse.md) | [Beispiel](https://nodebox.live/reference/reverse) | 
+ | `second` | Gibt das zweite Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/second.md) | [Beispiel](https://nodebox.live/reference/second) | 
+ | `shift` | Rotiert die Elemente vom Anfang der Liste an deren Ende. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shift.md) | [Beispiel](https://nodebox.live/reference/shift) | 
+ | `shuffle` | Verändert die Reihenfolge der Einträge einer Liste zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shuffle.md) | [Beispiel](https://nodebox.live/reference/shuffle) | 
+ | `slice` | Extrahiert einen Teil einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/slice.md) | [Beispiel](https://nodebox.live/reference/slice) | 
+ | `sort` | Sortiert die Einträge einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sort.md) | [Beispiel](https://nodebox.live/reference/sort) | 
+ | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switch) | 
+ | `takeEvery` | Gibt jeden N-ten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/takeEvery.md) | [Beispiel](https://nodebox.live/reference/takeEvery) | 
 
 ## Mathematik / Math
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| abs | Convert any number to a positive value (the absolute value). | <link> |
-| accumulate | Generate in between totals of a list of numbers. | <link> |
-| add | Add two numbers. | <link> |
-| and | Perform the logical AND operation. | <link> |
-| angle | Calculate the angle between two points. | <link> |
-| average | Calculate the average of a list of numbers. | <link> |
-| boolean | Create a boolean value that can be used as a variable. | <link> |
-| ceil | Round up a number to the nearest bigger integer. | <link> |
-| clamp | Limit a number between a minimum and maximum. | <link> |
-| compare | Return true or false by comparing two values using a comparison operation. | <link> |
-| cos | Calculate the trigonometric cosine of an angle. | <link> |
-| degrees | Convert an angle specified in radians to degrees. | <link> |
-| divide | Divide two numbers. | <link> |
-| e | The value of the mathematical constant e, the base of the natural logarithm. | <link> |
-| even | Determine if a number is even. | <link> |
-| floor | Round down a number to the nearest smaller integer. | <link> |
-| integer | Create an integer value that can be used as a variable. | <link> |
-| log | Calculate the natural logarithm. | <link> |
-| makeNumbers | Transform a string to a list of numbers. | <link> |
-| max | Take the largest value from a list of numbers. | <link> |
-| min | Take the smallest value from a list of numbers. | <link> |
-| mix | Linearly interpolate between two values. | <link> |
-| mixList | Linearly interpolate between the values of a list. | <link> |
-| mod | Calculate the modulo by dividing two numbers and keeping the remainder. | <link> |
-| multiply | Multiply two numbers. | <link> |
-| negate | Switch the sign of the input value.  | <link> |
-| not | Perform the logical NOT operation. | <link> |
-| number | Create a number value. | <link> |
-| odd | Determine if a number is odd. | <link> |
-| or | Perform the logical OR operation. | <link> |
-| pi | The value of the mathematical constant pi. | <link> |
-| pow | Raise a number to the given power. | <link> |
-| radians | Convert an angle specified in degrees to radians. | <link> |
-| randomNumbers | Create a list of random numbers. | <link> |
-| randomSample | Take a random sample from a list. | <link> |
-| range | Generate a list of numbers between a minimum and maximum. | <link> |
-| round | Round off a number to the nearest integer. | <link> |
-| sample | Generate numbers within the given bounds. | <link> |
-| sawtoothWave | Calculate a value based on a sawtooth wave. | <link> |
-| sign | Take the sign of a number. | <link> |
-| sin | Calculate the trigonometric sine of an angle. | <link> |
-| sineWave | Calculate a value based on a sine wave. | <link> |
-| sqrt | Calculate the square root of a number. | <link> |
-| squareWave | Calculate a value based on a square wave. | <link> |
-| subtract | Subtract two numbers. | <link> |
-| tan | Calculate the trigonometric tangens of an angle. | <link> |
-| ticks | Generate tick values for use in axes. | <link> |
-| total | Calculate the sum of a list of numbers. | <link> |
-| triangleWave | Calculate a value based on a triangle wave. | <link> |
-| xor | Perform the logical XOR operation. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `abs` | Gibt den positiven (absoluten) Wert einer Zahl zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/abs.md) | [Beispiel](https://nodebox.live/reference/abs) | 
+ | `accumulate` | Errechnet Zwischensummen zu einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/accumulate.md) | [Beispiel](https://nodebox.live/reference/accumulate) | 
+ | `add` | Addiert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/add.md) | [Beispiel](https://nodebox.live/reference/add) | 
+ | `and` | Führt eine logische UND-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/and.md) | [Beispiel](https://nodebox.live/reference/and) | 
+ | `angle` | Berechnet den Winkel zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/angle.md) | [Beispiel](https://nodebox.live/reference/angle) | 
+ | `average` | Berechnet den Durchschnitt einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/average.md) | [Beispiel](https://nodebox.live/reference/average) | 
+ | `boolean` | Erstellt einen boolschen Wert (true / false). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/boolean.md) | [Beispiel](https://nodebox.live/reference/boolean) | 
+ | `ceil` | Rundet eine Zahl auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ceil.md) | [Beispiel](https://nodebox.live/reference/ceil) | 
+ | `clamp` | Begrenzt eine Zahl auf ein Minimum und ein Maximum. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/clamp.md) | [Beispiel](https://nodebox.live/reference/clamp) | 
+ | `compare` | Gibt einen boolschen Wert für zwei gegebene Zahlen zurück, die anhand einer gegebenen Vergleichsoperation verglichen werden. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/compare.md) | [Beispiel](https://nodebox.live/reference/compare) | 
+ | `cos` | Berechnet den Cosinus für einen Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cos.md) | [Beispiel](https://nodebox.live/reference/cos) | 
+ | `degrees` | Konvertiert Kreiszahlen (Radianten) in (Grad) Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/degrees.md) | [Beispiel](https://nodebox.live/reference/degrees) | 
+ | `divide` | Teilt eine Zahl durch eine andere. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/divide.md) | [Beispiel](https://nodebox.live/reference/divide) | 
+ | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/e) | 
+ | `even` | Bestimmt, ob eine Zahl gerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/even.md) | [Beispiel](https://nodebox.live/reference/even) | 
+ | `floor` | Rundet eine Zahl ab. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/floor.md) | [Beispiel](https://nodebox.live/reference/floor) | 
+ | `integer` | Erstellt eine ganze Zahl (ohne Kommastelle). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/integer.md) | [Beispiel](https://nodebox.live/reference/integer) | 
+ | `log` | Berechnet den natürlichen Logarithmus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/log.md) | [Beispiel](https://nodebox.live/reference/log) | 
+ | `makeNumbers` | Interpretiert einen Text als Zahlen und gibt diese als Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/makeNumbers.md) | [Beispiel](https://nodebox.live/reference/makeNumbers) | 
+ | `max` | Gibt den größten Eintrag (Maximum) aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/max.md) | [Beispiel](https://nodebox.live/reference/max) | 
+ | `min` | Gibt den kleinsten Eintrag (Minimum) aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/min.md) | [Beispiel](https://nodebox.live/reference/min) | 
+ | `mix` | Interpoliert zwischen zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mix.md) | [Beispiel](https://nodebox.live/reference/mix) | 
+ | `mixList` | Interpoliert zwischen der Einträgen einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mixList.md) | [Beispiel](https://nodebox.live/reference/mixList) | 
+ | `mod` | Berechnet den Modulo einer Zahl. Das ist der Rest, der übrig bleibt, wenn man eine gegebene Zahl davon solange abzieht, bis das Ergebnis kleiner als die gegebene Zahl ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mod.md) | [Beispiel](https://nodebox.live/reference/mod) | 
+ | `multiply` | Multipliziert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/multiply.md) | [Beispiel](https://nodebox.live/reference/multiply) | 
+ | `negate` | Dreht das Vorzeichen eines Wertes um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/negate.md) | [Beispiel](https://nodebox.live/reference/negate) | 
+ | `not` | Kehrt einen logischen Wert in sein Gegenteil um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/not.md) | [Beispiel](https://nodebox.live/reference/not) | 
+ | `number` | Erstellt einen Zahlenwert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/number.md) | [Beispiel](https://nodebox.live/reference/number) | 
+ | `odd` | Bestimmt, ob eine Zahl ungerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/odd.md) | [Beispiel](https://nodebox.live/reference/odd) | 
+ | `or` | Führt eine logische ODER-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/or.md) | [Beispiel](https://nodebox.live/reference/or) | 
+ | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/pi) | 
+ | `pow` | Potenziert einen Wert um den gegebenen Exponenten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pow.md) | [Beispiel](https://nodebox.live/reference/pow) | 
+ | `radians` | Konvertiert einen Winkel von Grad in Radianten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/radians.md) | [Beispiel](https://nodebox.live/reference/radians) | 
+ | `randomNumbers` | Erstellt eine Liste von Zufallszahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/randomNumbers.md) | [Beispiel](https://nodebox.live/reference/randomNumbers) | 
+ | `randomSample` | Gibt einen zufälligen Eintrag aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/randomSample.md) | [Beispiel](https://nodebox.live/reference/randomSample) | 
+ | `range` | Erstellt eine Liste von Zahlen zwischen einem Minimum und Maximum. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/range.md) | [Beispiel](https://nodebox.live/reference/range) | 
+ | `round` | Rundet einen Wert auf die nächste ganze Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/round.md) | [Beispiel](https://nodebox.live/reference/round) | 
+ | `sample` | Generiert Zahlen innerhalb der vorgegebenen Grenzen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sample.md) | [Beispiel](https://nodebox.live/reference/sample) | 
+ | `sawtoothWave` | Berechnet Werte einer Sägezahnkurve. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sawtoothWave.md) | [Beispiel](https://nodebox.live/reference/sawtoothWave) | 
+ | `sign` | Nimmt das Vorzeichen einer Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sign.md) | [Beispiel](https://nodebox.live/reference/sign) | 
+ | `sin` | Berechnet den Sinus eines Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sin.md) | [Beispiel](https://nodebox.live/reference/sin) | 
+ | `sineWave` | Berechnet Werte einer Sinuswelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sineWave.md) | [Beispiel](https://nodebox.live/reference/sineWave) | 
+ | `sqrt` | Berechnet die Quadratwurzel einer Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sqrt.md) | [Beispiel](https://nodebox.live/reference/sqrt) | 
+ | `squareWave` | Berechnet Werte einer Rechteckwelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/squareWave.md) | [Beispiel](https://nodebox.live/reference/squareWave) | 
+ | `subtract` | Subtrahiert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/subtract.md) | [Beispiel](https://nodebox.live/reference/subtract) | 
+ | `tan` | Berechnet den Tanges eines Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/tan.md) | [Beispiel](https://nodebox.live/reference/tan) | 
+ | `ticks` | Generieret Tick-Werte für die Verwendung in Achsen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ticks.md) | [Beispiel](https://nodebox.live/reference/ticks) | 
+ | `total` | Berechnt die Summe einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/total.md) | [Beispiel](https://nodebox.live/reference/total) | 
+ | `triangleWave` | Berechnet Werte einer Dreieckswelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/triangleWave.md) | [Beispiel](https://nodebox.live/reference/triangleWave) | 
+ | `xor` | Führt die logische XOR-Operation durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/xor.md) | [Beispiel](https://nodebox.live/reference/xor) | 
 
 ## Zustand / State
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| stateLoad | Load the global state. | <link> |
-| stateSave | Save the input into global state. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `stateLoad` | Lädt den globalen Zustand. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stateLoad.md) | [Beispiel](https://nodebox.live/reference/stateLoad) | 
+ | `stateSave` | Speichert den globalen Zustand. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stateSave.md) | [Beispiel](https://nodebox.live/reference/stateSave) | 
 
 ## Text / String
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| characterAt | Output the character at a given index. | <link> |
-| concatenate | Add strings together. | <link> |
-| endsWith | Check if the string ends with a given string. | <link> |
-| startsWith | Check if the string starts with a given string. | <link> |
-| string | Create a string value that can be used as a variable. | <link> |
-| stringContains | Determine if the string contains a given substring. | <link> |
-| stringEquals | Determine if the string equals a given string. | <link> |
-| stringLength | Count the number of characters in a string. | <link> |
-| stringReplace | Replace part of a string. | <link> |
-| stringSplit | Split a string into a list of strings. | <link> |
-| stringTemplate | Output a string with placeholders replaced by data. | <link> |
-| stringTrim | Remove white space from the start and end of the string. | <link> |
-| substring | Take a portion of a string. | <link> |
-| text | Create a text element. | <link> |
-| toCharacterCodes | Convert a string into a list of character codes. | <link> |
-| toCharacters | Create a list of characters from a string. | <link> |
-| toLowerCase | Convert a string to lower case (small letters). | <link> |
-| toTitleCase | Convert a string to title case. | <link> |
-| toUpperCase | Convert a string to upper case (small letters). | <link> |
-| toWords | Extract a list of words from a string. | <link> |
-| wordCount | Count the number of words in a string. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `characterAt` | Gibt einen Bestimmten Buchstaben/Zeichen aus einem Text zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/characterAt.md) | [Beispiel](https://nodebox.live/reference/characterAt) | 
+ | `concatenate` | Hängt zwei Texte aneinander. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/concatenate.md) | [Beispiel](https://nodebox.live/reference/concatenate) | 
+ | `endsWith` | Prüft, ob ein Text mit einer bestimmten Zeichenfolge endet. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/endsWith.md) | [Beispiel](https://nodebox.live/reference/endsWith) | 
+ | `startsWith` | Prüft, ob ein Text mit einer bestimmten Zeichenfolge beginnt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/startsWith.md) | [Beispiel](https://nodebox.live/reference/startsWith) | 
+ | `string` | Erlaubt es einen Text zu erstellen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/string.md) | [Beispiel](https://nodebox.live/reference/string) | 
+ | `stringContains` | Bestimmt, ob ein Text eine bestimmte Zeichenfolge enthält. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringContains.md) | [Beispiel](https://nodebox.live/reference/stringContains) | 
+ | `stringEquals` | Prüft, ob zwei Texte gleich sind (gleiche Buchstaben/Zeichen haben). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringEquals.md) | [Beispiel](https://nodebox.live/reference/stringEquals) | 
+ | `stringLength` | Zählt die Anzahl der Zeichen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringLength.md) | [Beispiel](https://nodebox.live/reference/stringLength) | 
+ | `stringReplace` | Ersetzt einen Teil eines Textes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringReplace.md) | [Beispiel](https://nodebox.live/reference/stringReplace) | 
+ | `stringSplit` | Bricht einen Text in eine Liste von Teilstücken auf anhand einer Trenner-Zeichenfolge. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringSplit.md) | [Beispiel](https://nodebox.live/reference/stringSplit) | 
+ | `stringTemplate` | Erlaubt es Vorlagen-Texte mit Werten/Daten zu füllen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringTemplate.md) | [Beispiel](https://nodebox.live/reference/stringTemplate) | 
+ | `stringTrim` | Entfernt Weissraum am Anfang und Ende eines Textes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringTrim.md) | [Beispiel](https://nodebox.live/reference/stringTrim) | 
+ | `substring` | Gibt ein Teilstück eines Textes zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/substring.md) | [Beispiel](https://nodebox.live/reference/substring) | 
+ | `text` | Erstellt ein Textelement. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/text.md) | [Beispiel](https://nodebox.live/reference/text) | 
+ | `toCharacterCodes` | Konvertieren einen Text (Zeichenfolge) in eine Liste von Buchstaben-/Zeichen-Codes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toCharacterCodes.md) | [Beispiel](https://nodebox.live/reference/toCharacterCodes) | 
+ | `toCharacters` | Bricht einen Text in in eine Liste von Buchstaben/Zeichen auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toCharacters.md) | [Beispiel](https://nodebox.live/reference/toCharacters) | 
+ | `toLowerCase` | Konvertiert einen Text in Kleinschreibung. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toLowerCase.md) | [Beispiel](https://nodebox.live/reference/toLowerCase) | 
+ | `toTitleCase` | Konvertiert einen Text so, dass alle Wörter mit einem Großbuchstaben beginnen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toTitleCase.md) | [Beispiel](https://nodebox.live/reference/toTitleCase) | 
+ | `toUpperCase` | Konvertiert alle Zeichen in einem Text zu Großbuchstaben. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toUpperCase.md) | [Beispiel](https://nodebox.live/reference/toUpperCase) | 
+ | `toWords` | Bricht einen Text in eine Liste einzelner Wörter auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toWords.md) | [Beispiel](https://nodebox.live/reference/toWords) | 
+ | `wordCount` | Zählt die Anzahl der Wörter in einem Text. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wordCount.md) | [Beispiel](https://nodebox.live/reference/wordCount) | 
 
 ## Zeit / Time
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| easing | Calculate a value based on an easing function. | <link> |
-| elapsedSeconds | Get the number of seconds since the start of the animation. | <link> |
-| frame | Get the current frame number. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `easing` | Berechnet Werte basierend auf einer Beschleunigungsfunktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/easing.md) | [Beispiel](https://nodebox.live/reference/easing) | 
+ | `elapsedSeconds` | Die Anzahl der Sekunden seit dem Start des Projekts (ab dem Drücken des Play-Knopfes). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/elapsedSeconds.md) | [Beispiel](https://nodebox.live/reference/elapsedSeconds) | 
+ | `frame` | Gibt den aktuellen Bildzähler/Frame zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/frame.md) | [Beispiel](https://nodebox.live/reference/frame) | 
 
 ## Sonstiges / Uncategorized
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| looper | ... | <link> |
-| metro | ... | <link> |
-| teasing | teasing function to interpolate between two values over time. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `looper` | ... | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/looper.md) | [Beispiel](https://nodebox.live/reference/looper) | 
+ | `metro` | ... | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/metro.md) | [Beispiel](https://nodebox.live/reference/metro) | 
+ | `teasing` | Interpoliert zwischen zwei Werten über Zeit. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/teasing.md) | [Beispiel](https://nodebox.live/reference/teasing) | 
 
 ## Alle in alphabetischer Reihenfolge
 
-| ------ | ------ | ------ |
-| ------ | ------ | ------ |
-| abs | Convert any number to a positive value (the absolute value). | <link> |
-| accumulate | Generate in between totals of a list of numbers. | <link> |
-| add | Add two numbers. | <link> |
-| addColumn | Add or replace column in existing table. | <link> |
-| align | Align a shape in relation to the origin. | <link> |
-| and | Perform the logical AND operation. | <link> |
-| angle | Calculate the angle between two points. | <link> |
-| arc | Create an arc, pie or wedge shape. | <link> |
-| average | Calculate the average of a list of numbers. | <link> |
-| boolean | Create a boolean value that can be used as a variable. | <link> |
-| bounds | Get the bounds of a shape. | <link> |
-| ceil | Round up a number to the nearest bigger integer. | <link> |
-| centerPoint | Calculate the geometric center point of a shape. | <link> |
-| characterAt | Output the character at a given index. | <link> |
-| clamp | Limit a number between a minimum and maximum. | <link> |
-| colorize | Change the color of a shape. | <link> |
-| combine | Combine multiple lists into one. | <link> |
-| compare | Return true or false by comparing two values using a comparison operation. | <link> |
-| compound | Add, subtract or intersect geometry. | <link> |
-| concatenate | Add strings together. | <link> |
-| connectPoints | Connect all points in a path. | <link> |
-| contains | Determine if the list contains a given value. | <link> |
-| convert | Convert values from one range to another. | <link> |
-| coordinates | Calculate a new point based on the angle and distance from an original point. | <link> |
-| copy | Create multiple copies of a shape. | <link> |
-| cos | Calculate the trigonometric cosine of an angle. | <link> |
-| count | Count the number of items in the list. | <link> |
-| cull | Keep only items from the list where the corresponding boolean is `true`. | <link> |
-| curve | Create a quadratic curve with one off-curve point. | <link> |
-| cycle | Repeat the items in the list until the new list is of a certain length. | <link> |
-| degrees | Convert an angle specified in radians to degrees. | <link> |
-| deletePaths | Delete paths based on a bounding path. | <link> |
-| deletePoints | Delete points based on a bounding path. | <link> |
-| desaturate | Desaturate a shape. | <link> |
-| distance | Calculate the distance between two points. | <link> |
-| distinct | Remove all duplicate items from a list. | <link> |
-| divide | Divide two numbers. | <link> |
-| e | The value of the mathematical constant e, the base of the natural logarithm. | <link> |
-| easing | Calculate a value based on an easing function. | <link> |
-| elapsedSeconds | Get the number of seconds since the start of the animation. | <link> |
-| ellipse | Create an ellipse or circle. | <link> |
-| endsWith | Check if the string ends with a given string. | <link> |
-| equals | Determine if two objects are equal. | <link> |
-| even | Determine if a number is even. | <link> |
-| fetchJSON | Perform a HTTP GET request to an API and return the JSON. | <link> |
-| filterData | Filter the input data by comparing the columns of each row with a value. | <link> |
-| first | Take the first item in the list. | <link> |
-| fit | Fit a shape within bounds. | <link> |
-| fitTo | Fit a shape to another shape. | <link> |
-| flatten | Recursively flattens an array. | <link> |
-| flip | Flip a shape or image. | <link> |
-| floor | Round down a number to the nearest smaller integer. | <link> |
-| frame | Get the current frame number. | <link> |
-| geoProject | Project a longitude / latitude to X/Y coordinates. | <link> |
-| get | Take an item in the list at a certain index. | <link> |
-| grayColor | Create a gray color. | <link> |
-| grid | Create a grid of points. | <link> |
-| group | Combine multiple shapes together. | <link> |
-| groupBy | Group the data based on key/value. | <link> |
-| hexColor | Create a color using a hexadecimal value. | <link> |
-| hslAdjust | Adjust hue, saturation and lightness of a shape. | <link> |
-| hslColor | Create a HSL color. | <link> |
-| htmlImport | Import a HTML or SVG file as a set of HTML elements. | <link> |
-| htmlString | Convert a string of HTML to elements on the page. | <link> |
-| htmlWrap | Wrap a list of HTML elements or strings with a tag. | <link> |
-| import | Import data (CSV, SVG) from a file. | <link> |
-| integer | Create an integer value that can be used as a variable. | <link> |
-| interleave | Mix multiple lists by alternating between them. | <link> |
-| invert | Invert a color or the colors of a shape. | <link> |
-| keys | Get the keys from a table. | <link> |
-| last | Take the last item in the list. | <link> |
-| line | Create a line between two points. | <link> |
-| lineAngle | Create a line between a point and an angle + distance. | <link> |
-| link | Generate a visual link between two shapes. | <link> |
-| log | Calculate the natural logarithm. | <link> |
-| lookup | Look up a value in a table or object. | <link> |
-| looper |  | <link> |
-| makeNumbers | Transform a string to a list of numbers. | <link> |
-| makePoint | Create a point from X/Y coordinates. | <link> |
-| max | Take the largest value from a list of numbers. | <link> |
-| merge | Combine different shapes into one. | <link> |
-| metro |  | <link> |
-| min | Take the smallest value from a list of numbers. | <link> |
-| mirror | Mirror the geometry around an invisible axis. | <link> |
-| mix | Linearly interpolate between two values. | <link> |
-| mixList | Linearly interpolate between the values of a list. | <link> |
-| mod | Calculate the modulo by dividing two numbers and keeping the remainder. | <link> |
-| mousePosition | Get the current mouse position. | <link> |
-| multiply | Multiply two numbers. | <link> |
-| negate | Switch the sign of the input value.  | <link> |
-| not | Perform the logical NOT operation. | <link> |
-| number | Create a number value. | <link> |
-| odd | Determine if a number is odd. | <link> |
-| or | Perform the logical OR operation. | <link> |
-| parseColor | Parse a named or hexadecimal color. | <link> |
-| pathLength | Get the contour length of the path. | <link> |
-| perlinNoise | Compute Perlin noise. | <link> |
-| pi | The value of the mathematical constant pi. | <link> |
-| pick | Take random items from a list. | <link> |
-| pointOnPath | Calculate a point along the path. | <link> |
-| polygon | Create a multi-sided polygon. | <link> |
-| pow | Raise a number to the given power. | <link> |
-| quad | Create a four-sided polygon from points. | <link> |
-| radians | Convert an angle specified in degrees to radians. | <link> |
-| randomNumbers | Create a list of random numbers. | <link> |
-| randomSample | Take a random sample from a list. | <link> |
-| range | Generate a list of numbers between a minimum and maximum. | <link> |
-| rect | Create a rectangle or square. | <link> |
-| repeat | Repeat the items in the list a given number of times. | <link> |
-| resampleByAmount | Distribute points along a shape by amount. | <link> |
-| resampleByLength | Distribute points along a shape by segment length. | <link> |
-| rest | Take all but the first item in the list. | <link> |
-| reverse | Reverse the items in the list. The first item becomes the last and vice versa. | <link> |
-| rgbAdjust | Adjust red, green, blue and alpha values of an input object. | <link> |
-| rgbColor | Create a RGB color. | <link> |
-| rotate | Rotate the shape according to the given angle. | <link> |
-| round | Round off a number to the nearest integer. | <link> |
-| roundedSegments | Convert straight segments of a shape into rounded ones. | <link> |
-| sample | Generate numbers within the given bounds. | <link> |
-| sawtoothWave | Calculate a value based on a sawtooth wave. | <link> |
-| scale | Resize the shape by scaling it. | <link> |
-| scatterPoints | Generate random points within the boundaries of a shape. | <link> |
-| second | Take the second item in the list. | <link> |
-| shapeSort | Sort points or shapes using different sorting methods. | <link> |
-| shift | Move items from the beginning of a list to the end of the list. | <link> |
-| shuffle | Randomise the ordering of items in the list. | <link> |
-| sign | Take the sign of a number. | <link> |
-| sin | Calculate the trigonometric sine of an angle. | <link> |
-| sineWave | Calculate a value based on a sine wave. | <link> |
-| skew | Skew the shape. | <link> |
-| slice | Take a portion of the list. | <link> |
-| snap | Snap geometry to a grid. | <link> |
-| sort | Sort the items in the list. | <link> |
-| sqrt | Calculate the square root of a number. | <link> |
-| squareWave | Calculate a value based on a square wave. | <link> |
-| stack | Arrange shapes in a horizontal or vertical layout. | <link> |
-| star | Create a star shape. | <link> |
-| startsWith | Check if the string starts with a given string. | <link> |
-| stateLoad | Load the global state. | <link> |
-| stateSave | Save the input into global state. | <link> |
-| string | Create a string value that can be used as a variable. | <link> |
-| stringContains | Determine if the string contains a given substring. | <link> |
-| stringEquals | Determine if the string equals a given string. | <link> |
-| stringLength | Count the number of characters in a string. | <link> |
-| stringReplace | Replace part of a string. | <link> |
-| stringSplit | Split a string into a list of strings. | <link> |
-| stringTemplate | Output a string with placeholders replaced by data. | <link> |
-| stringTrim | Remove white space from the start and end of the string. | <link> |
-| substring | Take a portion of a string. | <link> |
-| subtract | Subtract two numbers. | <link> |
-| switch | Select one of multiple inputs based on an index. | <link> |
-| takeEvery | Take every `n`th element of a list. | <link> |
-| tan | Calculate the trigonometric tangens of an angle. | <link> |
-| teasing | teasing function to interpolate between two values over time. | <link> |
-| text | Create a text element. | <link> |
-| textPath | Create a path out of text. | <link> |
-| ticks | Generate tick values for use in axes. | <link> |
-| toCharacterCodes | Convert a string into a list of character codes. | <link> |
-| toCharacters | Create a list of characters from a string. | <link> |
-| toLowerCase | Convert a string to lower case (small letters). | <link> |
-| toPoints | Convert the shape to points that make up the shape. | <link> |
-| toSVG | Convert one or more shapes to SVG. | <link> |
-| toTitleCase | Convert a string to title case. | <link> |
-| toUpperCase | Convert a string to upper case (small letters). | <link> |
-| toWords | Extract a list of words from a string. | <link> |
-| total | Calculate the sum of a list of numbers. | <link> |
-| translate | Move the shape, changing its position. | <link> |
-| triangleWave | Calculate a value based on a triangle wave. | <link> |
-| ungroup | Decompose the input group into a list of paths. | <link> |
-| wiggleContours | Shift elements of a shape by a random amount. | <link> |
-| wigglePaths | Shift paths of a group by a random amount. | <link> |
-| wigglePoints | Shift points of the shape by a random amount. | <link> |
-| wordCount | Count the number of words in a string. | <link> |
-| xor | Perform the logical XOR operation. | <link> |
-| zipMap | Combine a list of keys and values together in a map. | <link> |
+| Name | Beschreibung | Referenz | Beispiel |
+| --- | --- | --- | --- |
+ | `abs` | Gibt den positiven (absoluten) Wert einer Zahl zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/abs.md) | [Beispiel](https://nodebox.live/reference/abs) | 
+ | `accumulate` | Errechnet Zwischensummen zu einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/accumulate.md) | [Beispiel](https://nodebox.live/reference/accumulate) | 
+ | `add` | Addiert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/add.md) | [Beispiel](https://nodebox.live/reference/add) | 
+ | `addColumn` | Fügt eine Spalte hinzu oder ersetzt eine Spalte in einer Tabelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/addColumn.md) | [Beispiel](https://nodebox.live/reference/addColumn) | 
+ | `align` | Richtet eine Form/Shape an einem Ursprung (X-/Y-Koordinate) aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/align.md) | [Beispiel](https://nodebox.live/reference/align) | 
+ | `and` | Führt eine logische UND-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/and.md) | [Beispiel](https://nodebox.live/reference/and) | 
+ | `angle` | Berechnet den Winkel zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/angle.md) | [Beispiel](https://nodebox.live/reference/angle) | 
+ | `arc` | Erstellt einen Bogen, Torte oder eine Keilform. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/arc.md) | [Beispiel](https://nodebox.live/reference/arc) | 
+ | `average` | Berechnet den Durchschnitt einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/average.md) | [Beispiel](https://nodebox.live/reference/average) | 
+ | `boolean` | Erstellt einen boolschen Wert (true / false). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/boolean.md) | [Beispiel](https://nodebox.live/reference/boolean) | 
+ | `bounds` | Gibt ein Rechteck (Bounding Box) zurück, das die gegebene Form/Shape umschließt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/bounds.md) | [Beispiel](https://nodebox.live/reference/bounds) | 
+ | `ceil` | Rundet eine Zahl auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ceil.md) | [Beispiel](https://nodebox.live/reference/ceil) | 
+ | `centerPoint` | Berechnet den geometrischen Mittelpunkt einer Form/Shape. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/centerPoint.md) | [Beispiel](https://nodebox.live/reference/centerPoint) | 
+ | `characterAt` | Gibt einen Bestimmten Buchstaben/Zeichen aus einem Text zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/characterAt.md) | [Beispiel](https://nodebox.live/reference/characterAt) | 
+ | `clamp` | Begrenzt eine Zahl auf ein Minimum und ein Maximum. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/clamp.md) | [Beispiel](https://nodebox.live/reference/clamp) | 
+ | `colorize` | Färbt Formen / Shapes ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/colorize.md) | [Beispiel](https://nodebox.live/reference/colorize) | 
+ | `combine` | Fügt mehrere Listen zu einer Gesamtliste zusammen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/combine.md) | [Beispiel](https://nodebox.live/reference/combine) | 
+ | `compare` | Gibt einen boolschen Wert für zwei gegebene Zahlen zurück, die anhand einer gegebenen Vergleichsoperation verglichen werden. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/compare.md) | [Beispiel](https://nodebox.live/reference/compare) | 
+ | `compound` | Addiert, subtrahiert oder schneidet Geometrien. Wie das "Pathfinder"-Werkzeug in Illustrator. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/compound.md) | [Beispiel](https://nodebox.live/reference/compound) | 
+ | `concatenate` | Hängt zwei Texte aneinander. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/concatenate.md) | [Beispiel](https://nodebox.live/reference/concatenate) | 
+ | `connectPoints` | Verbindet Punkte zu einem Pfad. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/connectPoints.md) | [Beispiel](https://nodebox.live/reference/connectPoints) | 
+ | `contains` | Ermittelt, ob ein gegebener Wert in einer Liste enthalten ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/contains.md) | [Beispiel](https://nodebox.live/reference/contains) | 
+ | `convert` | Konvertiert Werte von einem Werte-Bereich in einen anderen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/convert.md) | [Beispiel](https://nodebox.live/reference/convert) | 
+ | `coordinates` | Berechnet einen Punkt basierend auf gegebenem Winkel zu und dem Abstand von einem Ursprungspunkt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/coordinates.md) | [Beispiel](https://nodebox.live/reference/coordinates) | 
+ | `copy` | Erstellt mehrere Kopien einer Form. Das Original kann beim Kopieren zusätzlich rotiert, skaliert und verschoben werden. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/copy.md) | [Beispiel](https://nodebox.live/reference/copy) | 
+ | `cos` | Berechnet den Cosinus für einen Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cos.md) | [Beispiel](https://nodebox.live/reference/cos) | 
+ | `count` | Gibt die Anzahl der Elemente in einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/count.md) | [Beispiel](https://nodebox.live/reference/count) | 
+ | `cull` | Filtert die Einträge einer Liste anhand einer zweiten Liste von boolschen Werten (ja / nein). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cull.md) | [Beispiel](https://nodebox.live/reference/cull) | 
+ | `curve` | Erstellt eine (quadratische) Kurve anhand eines Anfangs-, Kontroll- und Endpunkts. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/curve.md) | [Beispiel](https://nodebox.live/reference/curve) | 
+ | `cycle` | Kopiert die Elemente einer Liste solange an ihr eigenes Ende, bis eine bestimmte Listen-Länge erreicht ist.  | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cycle.md) | [Beispiel](https://nodebox.live/reference/cycle) | 
+ | `degrees` | Konvertiert Kreiszahlen (Radianten) in (Grad) Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/degrees.md) | [Beispiel](https://nodebox.live/reference/degrees) | 
+ | `deletePaths` | Löscht Linien (Pfade) anhand eines Begrenzungspfads. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/deletePaths.md) | [Beispiel](https://nodebox.live/reference/deletePaths) | 
+ | `deletePoints` | Löscht Punkte anhand eines Begrenzungspfads. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/deletePoints.md) | [Beispiel](https://nodebox.live/reference/deletePoints) | 
+ | `desaturate` | Desaturiert die Farbe einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/desaturate.md) | [Beispiel](https://nodebox.live/reference/desaturate) | 
+ | `distance` | Berechnet die Entfernung zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distance.md) | [Beispiel](https://nodebox.live/reference/distance) | 
+ | `distinct` | Entfernt alle doppelten Einträge aus einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distinct.md) | [Beispiel](https://nodebox.live/reference/distinct) | 
+ | `divide` | Teilt eine Zahl durch eine andere. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/divide.md) | [Beispiel](https://nodebox.live/reference/divide) | 
+ | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/e) | 
+ | `easing` | Berechnet Werte basierend auf einer Beschleunigungsfunktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/easing.md) | [Beispiel](https://nodebox.live/reference/easing) | 
+ | `elapsedSeconds` | Die Anzahl der Sekunden seit dem Start des Projekts (ab dem Drücken des Play-Knopfes). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/elapsedSeconds.md) | [Beispiel](https://nodebox.live/reference/elapsedSeconds) | 
+ | `ellipse` | Erstellt eine Ellipse oder einen Kreis. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ellipse.md) | [Beispiel](https://nodebox.live/reference/ellipse) | 
+ | `endsWith` | Prüft, ob ein Text mit einer bestimmten Zeichenfolge endet. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/endsWith.md) | [Beispiel](https://nodebox.live/reference/endsWith) | 
+ | `equals` | Bestimmt, ob zwei Objekte gleich sind. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/equals.md) | [Beispiel](https://nodebox.live/reference/equals) | 
+ | `even` | Bestimmt, ob eine Zahl gerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/even.md) | [Beispiel](https://nodebox.live/reference/even) | 
+ | `fetchJSON` | Führt eine HTTP-GET-Anfrage durch und gibt JSON-Daten zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fetchJSON.md) | [Beispiel](https://nodebox.live/reference/fetchJSON) | 
+ | `filterData` | Filtert Daten, indem jeder Eintrag mit einem gegebenen Wert verglichen wird. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/filterData.md) | [Beispiel](https://nodebox.live/reference/filterData) | 
+ | `first` | Gibt den ersten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/first.md) | [Beispiel](https://nodebox.live/reference/first) | 
+ | `fit` | Passt eine Form/Shape in die gegebene Fläche (Rechteck) ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fit.md) | [Beispiel](https://nodebox.live/reference/fit) | 
+ | `fitTo` | Passt eine Form/Shape in eine zweite Form/Shape ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fitTo.md) | [Beispiel](https://nodebox.live/reference/fitTo) | 
+ | `flatten` | Löst rekursiv die Tiefe/Verschachtelung einer Liste auf und macht damit ihre Hirarchie flacher. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/flatten.md) | [Beispiel](https://nodebox.live/reference/flatten) | 
+ | `flip` | Spiegelt eine Form oder ein Bild. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/flip.md) | [Beispiel](https://nodebox.live/reference/flip) | 
+ | `floor` | Rundet eine Zahl ab. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/floor.md) | [Beispiel](https://nodebox.live/reference/floor) | 
+ | `frame` | Gibt den aktuellen Bildzähler/Frame zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/frame.md) | [Beispiel](https://nodebox.live/reference/frame) | 
+ | `geoProject` | Konvertiert ein Länge-/Breitengrad-Paar zu X-/Y-Koordinaten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/geoProject.md) | [Beispiel](https://nodebox.live/reference/geoProject) | 
+ | `get` | Holt einen Eintrag zu einem bestimmten Index (Adresse) aus einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/get.md) | [Beispiel](https://nodebox.live/reference/get) | 
+ | `grayColor` | Mischt ein Grau. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/grayColor.md) | [Beispiel](https://nodebox.live/reference/grayColor) | 
+ | `grid` | Erstellt ein Raster von Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/grid.md) | [Beispiel](https://nodebox.live/reference/grid) | 
+ | `group` | Gruppiert mehrere Formen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/group.md) | [Beispiel](https://nodebox.live/reference/group) | 
+ | `groupBy` | Gruppiert Daten nach Schlüssel/Wert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/groupBy.md) | [Beispiel](https://nodebox.live/reference/groupBy) | 
+ | `hexColor` | Erstellt aus einem hexadezimalen Wert (bspw. #9922EE) eine Farbe. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hexColor.md) | [Beispiel](https://nodebox.live/reference/hexColor) | 
+ | `hslAdjust` | Verändert Farbton, Sättigung und Helligkeit der Farbe einer Form / Shapes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hslAdjust.md) | [Beispiel](https://nodebox.live/reference/hslAdjust) | 
+ | `hslColor` | Mischt eine Farbe aus den Werten von Farbton, Sättigung und Helligkeit (HSL-Modus). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/hslColor.md) | [Beispiel](https://nodebox.live/reference/hslColor) | 
+ | `htmlImport` | Importiert eine HTML- oder SVG-Datei und erstellt daraus DOM-Elemente im Browser. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlImport.md) | [Beispiel](https://nodebox.live/reference/htmlImport) | 
+ | `htmlString` | Interpretiert einen Text als HTML und erstellt daraus DOM-Elemente im Browser. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlString.md) | [Beispiel](https://nodebox.live/reference/htmlString) | 
+ | `htmlWrap` | Fasst DOM-Elemente oder Texte in einem HTML-Tag ein. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/htmlWrap.md) | [Beispiel](https://nodebox.live/reference/htmlWrap) | 
+ | `import` | Importieren Daten (CSV, SVG) aus einer Datei. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/import.md) | [Beispiel](https://nodebox.live/reference/import) | 
+ | `integer` | Erstellt eine ganze Zahl (ohne Kommastelle). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/integer.md) | [Beispiel](https://nodebox.live/reference/integer) | 
+ | `interleave` | Mischt zwei Listen, indem alternierend ihre Werte zusammengefügt werden wie bei einem Reissverschluss. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/interleave.md) | [Beispiel](https://nodebox.live/reference/interleave) | 
+ | `invert` | Invertiert eine Farbe. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/invert.md) | [Beispiel](https://nodebox.live/reference/invert) | 
+ | `keys` | Gibt die Schlüssel einer Tabelle zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/keys.md) | [Beispiel](https://nodebox.live/reference/keys) | 
+ | `last` | Gibt das letzte Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/last.md) | [Beispiel](https://nodebox.live/reference/last) | 
+ | `line` | Verbindet zwei Punkte zu einer Linie. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/line.md) | [Beispiel](https://nodebox.live/reference/line) | 
+ | `lineAngle` | Erstellt eine Linie von einem Punkt ausgehend anhand des gegebenen Winkels und Abstands. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/lineAngle.md) | [Beispiel](https://nodebox.live/reference/lineAngle) | 
+ | `link` | Generiert eine Verbindung zwischen zwei Formen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/link.md) | [Beispiel](https://nodebox.live/reference/link) | 
+ | `log` | Berechnet den natürlichen Logarithmus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/log.md) | [Beispiel](https://nodebox.live/reference/log) | 
+ | `lookup` | Ließt einen bestimmten Wert anhand eines Schlüssels aus einer Tabelle oder aus einem Objekt aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/lookup.md) | [Beispiel](https://nodebox.live/reference/lookup) | 
+ | `looper` | ... | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/looper.md) | [Beispiel](https://nodebox.live/reference/looper) | 
+ | `makeNumbers` | Interpretiert einen Text als Zahlen und gibt diese als Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/makeNumbers.md) | [Beispiel](https://nodebox.live/reference/makeNumbers) | 
+ | `makePoint` | Erstellt einen Punkt anhand der gebenen X- / Y-Koordinaten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/makePoint.md) | [Beispiel](https://nodebox.live/reference/makePoint) | 
+ | `max` | Gibt den größten Eintrag (Maximum) aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/max.md) | [Beispiel](https://nodebox.live/reference/max) | 
+ | `merge` | Fügt verschiedene Formen zu einer zusammen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/merge.md) | [Beispiel](https://nodebox.live/reference/merge) | 
+ | `metro` | ... | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/metro.md) | [Beispiel](https://nodebox.live/reference/metro) | 
+ | `min` | Gibt den kleinsten Eintrag (Minimum) aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/min.md) | [Beispiel](https://nodebox.live/reference/min) | 
+ | `mirror` | Spiegelt eine Form an einer gegebenen Achse. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mirror.md) | [Beispiel](https://nodebox.live/reference/mirror) | 
+ | `mix` | Interpoliert zwischen zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mix.md) | [Beispiel](https://nodebox.live/reference/mix) | 
+ | `mixList` | Interpoliert zwischen der Einträgen einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mixList.md) | [Beispiel](https://nodebox.live/reference/mixList) | 
+ | `mod` | Berechnet den Modulo einer Zahl. Das ist der Rest, der übrig bleibt, wenn man eine gegebene Zahl davon solange abzieht, bis das Ergebnis kleiner als die gegebene Zahl ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mod.md) | [Beispiel](https://nodebox.live/reference/mod) | 
+ | `mousePosition` | Gibt die aktuelle Mausposition zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/mousePosition.md) | [Beispiel](https://nodebox.live/reference/mousePosition) | 
+ | `multiply` | Multipliziert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/multiply.md) | [Beispiel](https://nodebox.live/reference/multiply) | 
+ | `negate` | Dreht das Vorzeichen eines Wertes um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/negate.md) | [Beispiel](https://nodebox.live/reference/negate) | 
+ | `not` | Kehrt einen logischen Wert in sein Gegenteil um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/not.md) | [Beispiel](https://nodebox.live/reference/not) | 
+ | `number` | Erstellt einen Zahlenwert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/number.md) | [Beispiel](https://nodebox.live/reference/number) | 
+ | `odd` | Bestimmt, ob eine Zahl ungerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/odd.md) | [Beispiel](https://nodebox.live/reference/odd) | 
+ | `or` | Führt eine logische ODER-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/or.md) | [Beispiel](https://nodebox.live/reference/or) | 
+ | `parseColor` | Wandelt einen Farbnamen oder hexadezimalen Code in eine Farbe um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/parseColor.md) | [Beispiel](https://nodebox.live/reference/parseColor) | 
+ | `pathLength` | Errechnet die Konturlänge des Pfades. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pathLength.md) | [Beispiel](https://nodebox.live/reference/pathLength) | 
+ | `perlinNoise` | Berechnet die Perlin-Noise-Funktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/perlinNoise.md) | [Beispiel](https://nodebox.live/reference/perlinNoise) | 
+ | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/pi) | 
+ | `pick` | Gibt ein zufälliges Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pick.md) | [Beispiel](https://nodebox.live/reference/pick) | 
+ | `pointOnPath` | Berechnet einen Punkt auf einem gegebenen Pfad. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pointOnPath.md) | [Beispiel](https://nodebox.live/reference/pointOnPath) | 
+ | `polygon` | Erstellt ein mehrseitiges Polygon. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/polygon.md) | [Beispiel](https://nodebox.live/reference/polygon) | 
+ | `pow` | Potenziert einen Wert um den gegebenen Exponenten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pow.md) | [Beispiel](https://nodebox.live/reference/pow) | 
+ | `quad` | Erstellt ein Viereck/Quad anhand der gegebenen Punkte. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/quad.md) | [Beispiel](https://nodebox.live/reference/quad) | 
+ | `radians` | Konvertiert einen Winkel von Grad in Radianten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/radians.md) | [Beispiel](https://nodebox.live/reference/radians) | 
+ | `randomNumbers` | Erstellt eine Liste von Zufallszahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/randomNumbers.md) | [Beispiel](https://nodebox.live/reference/randomNumbers) | 
+ | `randomSample` | Gibt einen zufälligen Eintrag aus einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/randomSample.md) | [Beispiel](https://nodebox.live/reference/randomSample) | 
+ | `range` | Erstellt eine Liste von Zahlen zwischen einem Minimum und Maximum. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/range.md) | [Beispiel](https://nodebox.live/reference/range) | 
+ | `rect` | Erstellt ein Rechteck oder Quadrat. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rect.md) | [Beispiel](https://nodebox.live/reference/rect) | 
+ | `repeat` | Vervielfältigt die Elemente in einer Liste nach gegebener Anzahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/repeat.md) | [Beispiel](https://nodebox.live/reference/repeat) | 
+ | `resampleByAmount` | Bricht einen Pfad in eine bestimmte Anzahl von Punkten auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/resampleByAmount.md) | [Beispiel](https://nodebox.live/reference/resampleByAmount) | 
+ | `resampleByLength` | Bricht einen Pfad in gleichlange Segmente auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/resampleByLength.md) | [Beispiel](https://nodebox.live/reference/resampleByLength) | 
+ | `rest` | Gibt alles außer dem ersten Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rest.md) | [Beispiel](https://nodebox.live/reference/rest) | 
+ | `reverse` | Dreht die Reihenfolge der Elemente in der Liste um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/reverse.md) | [Beispiel](https://nodebox.live/reference/reverse) | 
+ | `rgbAdjust` | Verändert Rot, Grün, Blau und Alpha-Werte der Farbe einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rgbAdjust.md) | [Beispiel](https://nodebox.live/reference/rgbAdjust) | 
+ | `rgbColor` | Mischt eine Farbe aus Rot, Grün und Blau (RGB-Modus). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rgbColor.md) | [Beispiel](https://nodebox.live/reference/rgbColor) | 
+ | `rotate` | Rotiert eine Form/Shape um einen gegebenen Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/rotate.md) | [Beispiel](https://nodebox.live/reference/rotate) | 
+ | `round` | Rundet einen Wert auf die nächste ganze Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/round.md) | [Beispiel](https://nodebox.live/reference/round) | 
+ | `roundedSegments` | Rundet gerade Segmente einer Form/Shape ab. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/roundedSegments.md) | [Beispiel](https://nodebox.live/reference/roundedSegments) | 
+ | `sample` | Generiert Zahlen innerhalb der vorgegebenen Grenzen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sample.md) | [Beispiel](https://nodebox.live/reference/sample) | 
+ | `sawtoothWave` | Berechnet Werte einer Sägezahnkurve. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sawtoothWave.md) | [Beispiel](https://nodebox.live/reference/sawtoothWave) | 
+ | `scale` | Skaliert eine Form/Shape | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/scale.md) | [Beispiel](https://nodebox.live/reference/scale) | 
+ | `scatterPoints` | Generiert zufällige Punkte innerhalb der Grenzen einer Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/scatterPoints.md) | [Beispiel](https://nodebox.live/reference/scatterPoints) | 
+ | `second` | Gibt das zweite Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/second.md) | [Beispiel](https://nodebox.live/reference/second) | 
+ | `shapeSort` | Sortiert Punkte oder Formen nach verschiedenen Sortierverfahren. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shapeSort.md) | [Beispiel](https://nodebox.live/reference/shapeSort) | 
+ | `shift` | Rotiert die Elemente vom Anfang der Liste an deren Ende. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shift.md) | [Beispiel](https://nodebox.live/reference/shift) | 
+ | `shuffle` | Verändert die Reihenfolge der Einträge einer Liste zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shuffle.md) | [Beispiel](https://nodebox.live/reference/shuffle) | 
+ | `sign` | Nimmt das Vorzeichen einer Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sign.md) | [Beispiel](https://nodebox.live/reference/sign) | 
+ | `sin` | Berechnet den Sinus eines Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sin.md) | [Beispiel](https://nodebox.live/reference/sin) | 
+ | `sineWave` | Berechnet Werte einer Sinuswelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sineWave.md) | [Beispiel](https://nodebox.live/reference/sineWave) | 
+ | `skew` | Verzerrt eine Form/Shape anhand eines gegebenen Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/skew.md) | [Beispiel](https://nodebox.live/reference/skew) | 
+ | `slice` | Extrahiert einen Teil einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/slice.md) | [Beispiel](https://nodebox.live/reference/slice) | 
+ | `snap` | Richtet die Geometrie (Punkte) einer Form an einem Raster aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/snap.md) | [Beispiel](https://nodebox.live/reference/snap) | 
+ | `sort` | Sortiert die Einträge einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sort.md) | [Beispiel](https://nodebox.live/reference/sort) | 
+ | `sqrt` | Berechnet die Quadratwurzel einer Zahl. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sqrt.md) | [Beispiel](https://nodebox.live/reference/sqrt) | 
+ | `squareWave` | Berechnet Werte einer Rechteckwelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/squareWave.md) | [Beispiel](https://nodebox.live/reference/squareWave) | 
+ | `stack` | Richtet Formen horizontal oder vertikal zueinander aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stack.md) | [Beispiel](https://nodebox.live/reference/stack) | 
+ | `star` | Erstellt eine Sternform. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/star.md) | [Beispiel](https://nodebox.live/reference/star) | 
+ | `startsWith` | Prüft, ob ein Text mit einer bestimmten Zeichenfolge beginnt. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/startsWith.md) | [Beispiel](https://nodebox.live/reference/startsWith) | 
+ | `stateLoad` | Lädt den globalen Zustand. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stateLoad.md) | [Beispiel](https://nodebox.live/reference/stateLoad) | 
+ | `stateSave` | Speichert den globalen Zustand. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stateSave.md) | [Beispiel](https://nodebox.live/reference/stateSave) | 
+ | `string` | Erlaubt es einen Text zu erstellen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/string.md) | [Beispiel](https://nodebox.live/reference/string) | 
+ | `stringContains` | Bestimmt, ob ein Text eine bestimmte Zeichenfolge enthält. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringContains.md) | [Beispiel](https://nodebox.live/reference/stringContains) | 
+ | `stringEquals` | Prüft, ob zwei Texte gleich sind (gleiche Buchstaben/Zeichen haben). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringEquals.md) | [Beispiel](https://nodebox.live/reference/stringEquals) | 
+ | `stringLength` | Zählt die Anzahl der Zeichen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringLength.md) | [Beispiel](https://nodebox.live/reference/stringLength) | 
+ | `stringReplace` | Ersetzt einen Teil eines Textes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringReplace.md) | [Beispiel](https://nodebox.live/reference/stringReplace) | 
+ | `stringSplit` | Bricht einen Text in eine Liste von Teilstücken auf anhand einer Trenner-Zeichenfolge. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringSplit.md) | [Beispiel](https://nodebox.live/reference/stringSplit) | 
+ | `stringTemplate` | Erlaubt es Vorlagen-Texte mit Werten/Daten zu füllen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringTemplate.md) | [Beispiel](https://nodebox.live/reference/stringTemplate) | 
+ | `stringTrim` | Entfernt Weissraum am Anfang und Ende eines Textes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringTrim.md) | [Beispiel](https://nodebox.live/reference/stringTrim) | 
+ | `substring` | Gibt ein Teilstück eines Textes zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/substring.md) | [Beispiel](https://nodebox.live/reference/substring) | 
+ | `subtract` | Subtrahiert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/subtract.md) | [Beispiel](https://nodebox.live/reference/subtract) | 
+ | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switch) | 
+ | `takeEvery` | Gibt jeden N-ten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/takeEvery.md) | [Beispiel](https://nodebox.live/reference/takeEvery) | 
+ | `tan` | Berechnet den Tanges eines Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/tan.md) | [Beispiel](https://nodebox.live/reference/tan) | 
+ | `teasing` | Interpoliert zwischen zwei Werten über Zeit. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/teasing.md) | [Beispiel](https://nodebox.live/reference/teasing) | 
+ | `text` | Erstellt ein Textelement. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/text.md) | [Beispiel](https://nodebox.live/reference/text) | 
+ | `textPath` | Wandelt einen Text in Pfade um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/textPath.md) | [Beispiel](https://nodebox.live/reference/textPath) | 
+ | `ticks` | Generieret Tick-Werte für die Verwendung in Achsen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ticks.md) | [Beispiel](https://nodebox.live/reference/ticks) | 
+ | `toCharacterCodes` | Konvertieren einen Text (Zeichenfolge) in eine Liste von Buchstaben-/Zeichen-Codes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toCharacterCodes.md) | [Beispiel](https://nodebox.live/reference/toCharacterCodes) | 
+ | `toCharacters` | Bricht einen Text in in eine Liste von Buchstaben/Zeichen auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toCharacters.md) | [Beispiel](https://nodebox.live/reference/toCharacters) | 
+ | `toLowerCase` | Konvertiert einen Text in Kleinschreibung. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toLowerCase.md) | [Beispiel](https://nodebox.live/reference/toLowerCase) | 
+ | `toPoints` | Wandelt eine Form (Pfad) in Punkte um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toPoints.md) | [Beispiel](https://nodebox.live/reference/toPoints) | 
+ | `toSVG` | Konvertiert eine oder mehrere Formen in das SVG-Format. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toSVG.md) | [Beispiel](https://nodebox.live/reference/toSVG) | 
+ | `toTitleCase` | Konvertiert einen Text so, dass alle Wörter mit einem Großbuchstaben beginnen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toTitleCase.md) | [Beispiel](https://nodebox.live/reference/toTitleCase) | 
+ | `toUpperCase` | Konvertiert alle Zeichen in einem Text zu Großbuchstaben. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toUpperCase.md) | [Beispiel](https://nodebox.live/reference/toUpperCase) | 
+ | `toWords` | Bricht einen Text in eine Liste einzelner Wörter auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/toWords.md) | [Beispiel](https://nodebox.live/reference/toWords) | 
+ | `total` | Berechnt die Summe einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/total.md) | [Beispiel](https://nodebox.live/reference/total) | 
+ | `translate` | Verschiebt eine Form. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/translate.md) | [Beispiel](https://nodebox.live/reference/translate) | 
+ | `triangleWave` | Berechnet Werte einer Dreieckswelle. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/triangleWave.md) | [Beispiel](https://nodebox.live/reference/triangleWave) | 
+ | `ungroup` | Löst eine Gruppierung auf und gibt die enthaltenen Elemente als Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ungroup.md) | [Beispiel](https://nodebox.live/reference/ungroup) | 
+ | `wiggleContours` | Verschiebt die Konturen (Form-Elemente) einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wiggleContours.md) | [Beispiel](https://nodebox.live/reference/wiggleContours) | 
+ | `wigglePaths` | Verschiebt die Pfade einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wigglePaths.md) | [Beispiel](https://nodebox.live/reference/wigglePaths) | 
+ | `wigglePoints` | Verschiebt die Punkte einer Form zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wigglePoints.md) | [Beispiel](https://nodebox.live/reference/wigglePoints) | 
+ | `wordCount` | Zählt die Anzahl der Wörter in einem Text. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wordCount.md) | [Beispiel](https://nodebox.live/reference/wordCount) | 
+ | `xor` | Führt die logische XOR-Operation durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/xor.md) | [Beispiel](https://nodebox.live/reference/xor) | 
+ | `zipMap` | Kombiniert eine Liste von Schlüsseln mit einer Liste von Werten zu einer Map (Liste von Schlüssel/Wert Paaren). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/zipMap.md) | [Beispiel](https://nodebox.live/reference/zipMap) | 
