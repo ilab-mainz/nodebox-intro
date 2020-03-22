@@ -88,3 +88,7 @@ offset | Hier können wir den den Startpunkt verschieben (in diesem Fall nicht n
 - Viele Knoten (z.B. `pointOnPath` oder `hslColor`) erwarten als Eingang Zahlen zwischen 0 und 1. Die Werte müssen also  mit den Wellenfunktionen oder `mod` verkleinert werden.
 - Für zyklische GIFs muss die Phase muss ein Teiler der Framezahl sein.
 - bei 100 Frames z.B. 50, 33, 25, 20, 10 oder 5.
+
+---
+
+Weiter zur [04 - Import / Export](04-import-export.md) oder zur [Übersicht](readme.md)

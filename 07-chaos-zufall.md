@@ -21,3 +21,8 @@ _Wie man wichtige Design-Entscheidungen dem Zufall überlässt._
 	- `wigglePoints`: Punkte eines Pfades auflockern
 	- `wiggleContours`: Konturen einer Fläche bewegen
 	- `wigglePaths`: Elemente einer Gruppe durchschütteln
+	
+
+---
+
+Weiter zur [08 – Nodes vs. Codes](08-nodes-codes.md) oder zur [Übersicht](readme.md)

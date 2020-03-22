@@ -95,4 +95,4 @@ als auch Zahlen mit Nachkommastellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
 
 ---
 
-Weiter zu [Interface](01-interface.md)
+Weiter zu [01 – Interface](01-interface.md) oder zur [Übersicht](readme.md)

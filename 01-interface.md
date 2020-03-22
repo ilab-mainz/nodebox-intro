@@ -127,4 +127,4 @@ In Schritten:
 
 ---
 
-Weiter zu [Grafik](02-grafik.md)
+Weiter zu [02 - Grafik](02-grafik.md) oder zur [Übersicht](readme.md)

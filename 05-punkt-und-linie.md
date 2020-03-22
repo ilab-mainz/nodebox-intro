@@ -34,3 +34,7 @@
 	- zwischen mehreren Pfaden morphen: Beispiel
 
 
+
+---
+
+Weiter zur [06 – Verwandlung](06-verwandlung.md) oder zur [Übersicht](readme.md)

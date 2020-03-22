@@ -116,3 +116,7 @@ Vektor-Grafiken, Fonts und Bitmaps laden und speichern
 
 -  Theoretisch möglich dank opentype.js
 -  Coming soon ...
+
+---
+
+Weiter zur [05 - Punkt und Linie](05-punkt-und-linie.md) oder zur [Übersicht](readme.md)

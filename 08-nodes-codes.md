@@ -64,3 +64,7 @@ Durch das Pinnen, also die Verwendung der Nadel-Funktion, ist man in der Lage di
 	- Javascript Intro
 	- [g.js](http://gjs.org/) API
 	- g.js source code (github)
+
+---
+
+Weiter zur [09 – Gitter und Raster](09-gitter-und-raster.md) oder zur [Übersicht](readme.md)
