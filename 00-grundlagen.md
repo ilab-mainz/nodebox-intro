@@ -1,7 +1,18 @@
 # Grundlagen
 
-*Die grundlegenden Konzepte hinter Nodebox.live*
+*Die grundlegenden Konzepte hinter [nodebox.live](http://nodebox.live)*
 
+## Visuelle Programmierung
+
+NodeBox ist ein Programm oder auch System zur visuellen Programmierung. D.h. Programme, also Abläufe, werden anhand visueller Elemente erstellt. Dies steht im Gegensatz zu text-basierter Programmierung, bei der Code, also Programmier-Text verfasst wird.
+
+![Vergleich visuelle und code-basierte Programmierung](assets/compare.png)
+
+Im Beispiel oben sind die zwei Rechtecke in der Mitte einmal mittels visueller Programmierung (links zu sehen) und einmal mittels code-basierter Programmierung erstellt (rechts zu lesen).
+
+Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann. Allerdings sind diese Werte nicht auf den ersten Blick sichtbar. Will man einen bestimmten Knoten oder darin eingestellten Wert finden, so muss man sich erst orientieren und evtl. viele Knoten anklicken.
+
+Bei der code-basierten Programmierung / Text-Programmierung sind hingegen alle Werte auf den ersten Blick ersichtlich. Dieser Vorteil ist zugrleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
 
 ## Nodebox als Fließband
 
@@ -10,6 +21,8 @@
 ## Knoten
 
 Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
+
+In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen die Daten also von einem „Knoten“ zum nächsten. Jeder Knoten verrichtet eine bestimmte Aufgabe (Knoten sind Funktionen) und gibt sein Ergebnis an den nächsten weiter.
 
 ### Beispiel:
 
@@ -25,10 +38,12 @@ Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die 
 
    ![](assets/basics_3.png)
 
-Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelklick den aktiven Knoten (Render-Knoten) wechseln:[![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b00knoten)
+Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelklick den aktiven Knoten (Render-Knoten) wechseln: 
 	
 
-![](assets/basics_render.gif)
+   ![](assets/basics_render.gif)
+   
+   [Beispiel](https://nodebox.live/nodebox-intro/b00knoten)
 
 
 ## Ein- und Ausgänge
@@ -38,8 +53,8 @@ Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelkli
 
   ![](assets/grundlagen_input_output.png)
   
-- Alle Eingang-Ports in Nodebox erwarten Input eines bestimmten Typs. Jeder Ausgang-Port erzeugt einen Output eines bestimmten Typs. 
-- Wenn man über einem Eingang mit der Maus verweilt, sieht man welchen Datentypen der Knoten an diesem Port erwartet. 
+- Alle Eingang-Ports in Nodebox erwarten Input eines bestimmten Typs. Jeder Ausgang-Port erzeugt einen Output eines bestimmten Typs.
+- Wenn man über einem Eingang mit der Maus verweilt, sieht man welchen Datentypen der Knoten an diesem Port erwartet.
 - Wenn man über dem Ausgang mit der Maus verweilt, sieht man welchen Datentyp der Output des Knotens hat.
 
   ![](assets/grundlagen_input_art.png)
@@ -77,3 +92,7 @@ als auch Zahlen mit Nachkommastellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
 ### Farben
 - ![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten.
 	- Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
+
+---
+
+Weiter zu [Interface](01-interface.md)
