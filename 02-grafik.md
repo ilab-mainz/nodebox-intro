@@ -63,7 +63,7 @@ Ein Pfad kann aus einer oder mehreren Konturen bestehen.
 Beispiel: `textPath`erzeugt eine Shape mit Innen- und Außenkonturen. Mit `wiggleContour` kann man die Kontouren durcheinander würfeln.
 
 ![](assets/contour.gif)
-	
+
 - Es gibt *Außenkontouren* und *Innen-Kontouren*
   (Beispiel: Buchstabe 'O')
 - Eine Kontour kann offen sein (Pfad mit Anfang und Ende) oder geschlossen so dass die letzte Strecke am Ende wieder mit dem ersten Punkt des Pfads verbunden ist.
@@ -72,36 +72,35 @@ Beispiel: `textPath`erzeugt eine Shape mit Innen- und Außenkonturen. Mit `wiggl
 
 Mehrere Shapes kann man mit `group` zu einer Gruppe zusammen fassen. [Beispiel](https://nodebox.live/nodebox-intro/b02group)
 
-
 ## Anordnen
 
-- Layout
-	- Einpassen in einen Bereich: `fit`
-	- Einpassen in Objekte: `fitTo`
-	- Ausrichten: `align`
+### Layout
+- Einpassen in einen Bereich: `fit`
+- Einpassen in Objekte: `fitTo`
+- Ausrichten: `align`
+
+![](assets/align.png)
+
+- Stapeln: `stack` [Beispiel](https://nodebox.live/nodebox-intro/b02stack)
+
+![](assets/stack.gif)]
 	
-	![](assets/align.png)
+### Listen
+- Liste von Objekten mit `combine` erstellen  [Beispiel](https://nodebox.live/nodebox-intro/b02combine)
+
+![](assets/combine.png)
+
+- Die Objekte werden in der Reihenfolge gemalt in der sie in der Liste stehen
+- Neu sortiern mit `shapeSort`
 	
-	- Stapeln: `stack` [Beispiel](https://nodebox.live/nodebox-intro/b02stack)
-	
-	![](assets/stack.gif)]
-	
-- Listen
-	- Liste von Objekten mit `combine` erstellen  [Beispiel](https://nodebox.live/nodebox-intro/b02combine)
-	
-	![](assets/combine.png)
-	
-	- Die Objekte werden in der Reihenfolge gemalt in der sie in der Liste stehen
-	- Neu sortiern mit `shapeSort`
-	
-- Gruppieren:
-	- `group`und `ungroup`
-	- Gruppe filtern: `deletePaths`
-	
-	![](assets/deletepaths.gif)
-	
-	- Gruppen werden als ein Objekt behandelt
-	- Beispiel `fit` mit Liste vs Gruppe
+### Gruppieren:
+- `group`und `ungroup`
+- Gruppe filtern: `deletePaths`
+
+![](assets/deletepaths.gif)
+
+- Gruppen werden als ein Objekt behandelt
+- Beispiel `fit` mit Liste vs Gruppe
 
 ## Flächen verschmelzen
 
