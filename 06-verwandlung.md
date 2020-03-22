@@ -28,7 +28,7 @@
 ## Eigene Transformationen
 
 - Grafiken-Transformation durch Punkt-Transformation
-- Flächen → Pfade → Punkte → X und Y →  *Transformation* →  X und Y → Punkte → Pfade → Flächen [![](assets/beispiel.png)](https://nodebox.live/nodebox-intro/b06eigene)
+- Flächen → Pfade → Punkte → X und Y →  *Transformation* →  X und Y → Punkte → Pfade → Flächen [Beispiel](https://nodebox.live/nodebox-intro/b06eigene)
 
 	![](assets/verwandlung.png)  
 
