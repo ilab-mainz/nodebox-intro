@@ -55,11 +55,9 @@ Zum Zoomen der Arbeitsfläche oder Ausgabe sollte man nicht die Möglichkeiten d
 	
 ![](assets/zoomen_1.gif)
 	
-Durch die Scroll-Bewegung kann mit dem Touchpad (MacBook, etc.) heran und heraus gezoomt werden.
-	
 ![](assets/zoomen_2.gif)
 	
-Mit dem Scrollrad der Maus kann man rein oder raus zu zoomen.
+Durch die Scroll-Bewegung kann mit dem Touchpad (MacBook, etc.) heran und heraus gezoomt werden. Genauso mit dem Scroll-Rad der Maus.
 	
 ![](assets/zoomen_3.gif)
 	
@@ -83,27 +81,49 @@ Da Programme in NodeBox selbst als Funktionen eingesetzt werden, muss ihre ID be
 	
 ![](assets/newproject_2.png)
 
-Oft verwendet man den sog. „Camel-Case“ (Kamelschreibweise) um Wörte im Namen zu trennen: derSchnelleVogel.
+Oft verwendet man den sog. „Camel-Case“ (Kamelschreibweise) um Wörter im Namen zu trennen: derSchnelleVogel.
 	
-- Programm Name und Farbe können direkt im Programm selbst beim Einstellungssymbol nach Wünsch verändert werden.
+Den Programm-Namen und die Farbe (für die Liste und die Titelzeile im Programm-Bereich) kann man im Programm-Bereich durch Klick auf den Titel oder das Einstellungs-Symbol (Zahnrad) rechts ändern.
 
 ![](assets/änderung.gif)
 
-## Programm sichern & wiederherstellen
+## Programm als Text sichern & wiederherstellen
 
-- JSON-Quellcode
-- Quellcode runterladen (aktuelle Version sichern)
-	- mit dem Browser
-- Quellcode hochladen (alte Version wiederherstellen)
-	- mit dem Brower
-	
-	![](assets/raw.gif)
+Man kann Programme als JSON-Texte speichern und diese später auch wieder laden. Dies ist eher ein Hack, als eine wirkliches Feature von NodeBox.live. Es wurde auf unseren Wunsch geöffnet, damit wir unsere Projekte noch mal lokal sichern und vor allem untereinander austauschen können.
 
-## Programme klauen
+Das Vorgehen ist wie folgt:
 
-- Nur für Fortgeschrittene ;-)
-	- Quellcode kopieren
-	- Suchen + Ersetzen des Programm-Namens
+- Öffnet den Programm-Bereich eines Projekts
+- An die URL (Internetadresse) des Programms hängt ihr `?raw` dran, bspw:
+```
+https://nodebox.live/nodebox-intro/a02compound
+wird zu
+https://nodebox.live/nodebox-intro/a02compound?raw
+```
+- Öffnet diese Adresse (drückt Enter)
+- Auf der nun sichtbaren Seite gibt es ein Textfeld, in dem der JSON-Code eures Programms enthalten ist
+
+![](assets/raw.gif)
+
+- Diesen Code kann man per Copy-Paste in eine `.json` Datei speichern und später aus dieser wieder in das Textfeld kopieren
+- Habt ihr eine Veränderung am Code vorgenommen, so könnt ihr diese durch drücken des Knopfes darunter speichern. Natürlich nur bei euren eigenen Projekten
+
+## Programme übernehmen
+
+Dies geht im Grunde wie oben beschrieben, nur daß man den JSON-Code eines fremden Projekts kopiert und in ein eigenes Projekt einfügt. Zu beachten ist dabei nur, dass man die ID des fremden Projekts durch die des eigenen ersetzt. Das kann man gut mit einem Editor wie bspw. [„Atom“](https://atom.io/) machen. Die IDs findet man in der URL / Adresse, oder im JSON-Code:
+
+```
+"id": "a02compound"
+```
+
+
+In Schritten:
+- Raw-Seite des fremden Projekts öffnen (siehe oben)
+- JSON-Code kopieren
+- in einem Text-Editor per Suchen-Finden die ID des fremden Projekts durch die des eigenen ersetzen
+- Raw-Seite des eigenen Projekts öffnen
+- JSON-Code einfügen
+- speichern und dann die Projekt-Seite öffnen (`?raw` aus der URL entfernen)
 
 ---
 
