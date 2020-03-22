@@ -164,7 +164,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `and` | Führt eine logische UND-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/and.md) | [Beispiel](https://nodebox.live/reference/and) | 
  | `angle` | Berechnet den Winkel zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/angle.md) | [Beispiel](https://nodebox.live/reference/angle) | 
  | `average` | Berechnet den Durchschnitt einer Liste von Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/average.md) | [Beispiel](https://nodebox.live/reference/average) | 
- | `boolean` | Erstellt einen boolschen Wert (true / false). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/boolean.md) | [Beispiel](https://nodebox.live/reference/boolean) | 
+ | `boolean` | Erstellt einen boolschen Wert (true / false). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/boolean.md) | [Beispiel](https://nodebox.live/reference/booleanRef) | 
  | `ceil` | Rundet eine Zahl auf. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ceil.md) | [Beispiel](https://nodebox.live/reference/ceil) | 
  | `clamp` | Begrenzt eine Zahl auf ein Minimum und ein Maximum. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/clamp.md) | [Beispiel](https://nodebox.live/reference/clamp) | 
  | `compare` | Gibt einen boolschen Wert für zwei gegebene Zahlen zurück, die anhand einer gegebenen Vergleichsoperation verglichen werden. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/compare.md) | [Beispiel](https://nodebox.live/reference/compare) | 
@@ -299,7 +299,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `distance` | Berechnet die Entfernung zwischen zwei Punkten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distance.md) | [Beispiel](https://nodebox.live/reference/distance) | 
  | `distinct` | Entfernt alle doppelten Einträge aus einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/distinct.md) | [Beispiel](https://nodebox.live/reference/distinct) | 
  | `divide` | Teilt eine Zahl durch eine andere. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/divide.md) | [Beispiel](https://nodebox.live/reference/divide) | 
- | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/e) | 
+ | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/eConstant) | 
  | `easing` | Berechnet Werte basierend auf einer Beschleunigungsfunktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/easing.md) | [Beispiel](https://nodebox.live/reference/easing) | 
  | `elapsedSeconds` | Die Anzahl der Sekunden seit dem Start des Projekts (ab dem Drücken des Play-Knopfes). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/elapsedSeconds.md) | [Beispiel](https://nodebox.live/reference/elapsedSeconds) | 
  | `ellipse` | Erstellt eine Ellipse oder einen Kreis. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/ellipse.md) | [Beispiel](https://nodebox.live/reference/ellipse) | 
@@ -359,7 +359,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `parseColor` | Wandelt einen Farbnamen oder hexadezimalen Code in eine Farbe um. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/parseColor.md) | [Beispiel](https://nodebox.live/reference/parseColor) | 
  | `pathLength` | Errechnet die Konturlänge des Pfades. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pathLength.md) | [Beispiel](https://nodebox.live/reference/pathLength) | 
  | `perlinNoise` | Berechnet die Perlin-Noise-Funktion. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/perlinNoise.md) | [Beispiel](https://nodebox.live/reference/perlinNoise) | 
- | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/pi) | 
+ | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/piConstant) | 
  | `pick` | Gibt ein zufälliges Element einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pick.md) | [Beispiel](https://nodebox.live/reference/pick) | 
  | `pointOnPath` | Berechnet einen Punkt auf einem gegebenen Pfad. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pointOnPath.md) | [Beispiel](https://nodebox.live/reference/pointOnPath) | 
  | `polygon` | Erstellt ein mehrseitiges Polygon. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/polygon.md) | [Beispiel](https://nodebox.live/reference/polygon) | 
@@ -412,7 +412,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `stringTrim` | Entfernt Weissraum am Anfang und Ende eines Textes. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/stringTrim.md) | [Beispiel](https://nodebox.live/reference/stringTrim) | 
  | `substring` | Gibt ein Teilstück eines Textes zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/substring.md) | [Beispiel](https://nodebox.live/reference/substring) | 
  | `subtract` | Subtrahiert zwei Zahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/subtract.md) | [Beispiel](https://nodebox.live/reference/subtract) | 
- | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switch) | 
+ | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switchRef) | 
  | `takeEvery` | Gibt jeden N-ten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/takeEvery.md) | [Beispiel](https://nodebox.live/reference/takeEvery) | 
  | `tan` | Berechnet den Tanges eines Winkels. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/tan.md) | [Beispiel](https://nodebox.live/reference/tan) | 
  | `teasing` | Interpoliert zwischen zwei Werten über Zeit. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/teasing.md) | [Beispiel](https://nodebox.live/reference/teasing) | 
