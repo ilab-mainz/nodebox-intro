@@ -2,7 +2,7 @@
 
 ### Kleine Einführung in Nodebox.live
 
-*Martin Schneider und Milan Gress und Hadil Mani, Hochschule Mainz 2019*
+*Martin Schneider, Milan Gress, Hadil Mani, Prof. Florian Jenett, Hochschule Mainz 2019*
 
 0. [Grundlagen](00-grundlagen.md) 
 1. [Interface](01-interface.md)
@@ -19,7 +19,7 @@
 
 ### Beispiele
 
-Alle Beispiele zu dieser Einführung findet ihr auf [https://nodebox.live/examples](https://nodebox.live/examples)
+Alle Beispiele zu dieser Einführung findet ihr auf [https://nodebox.live/nodebox-intro](https://nodebox.live/nodebox-intro)
 
 ### Hilfe
 
