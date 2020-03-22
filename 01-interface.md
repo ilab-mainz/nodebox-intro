@@ -14,7 +14,7 @@
  
  4) Neben dem Programm-Ablauf sieht man das Ausgabe-Fenster (`Viewer`). Hier wird das Ergebnis eures Programmes „gerendert“, d.h. in das Fenster gemalt, oder hier ausgegeben (falls es Text o.Ä. ist).
  
- 5) Ganz rechts ist die Hilfe (`Help`) zu sehen. Diese lässt sich wie eine kleine Webseite navigieren. Zudem kann man die Hilfe aus den Knoten heraus mit der entsprechenden Hilfeseite zum Knoten öffnen lassen. Die Hilfe ist allerdings nicht immer hilfreich … da sie momentan noch die code-basierte Bibliothek namens [g.js](http://g.js.org/), die hinter NodeBox steht, behandelt.
+ 5) Ganz rechts ist die Hilfe (`Guide`) zu sehen. Diese lässt sich wie eine kleine Webseite navigieren. Zudem kann man die Hilfe aus den Knoten heraus mit der entsprechenden Hilfeseite zum Knoten öffnen lassen. Die Hilfe ist allerdings nicht immer hilfreich … da sie momentan noch die code-basierte Bibliothek namens [g.js](http://g.js.org/), die hinter NodeBox steht, behandelt.
 
 ## Gotchas
 
