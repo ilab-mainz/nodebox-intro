@@ -12,7 +12,15 @@ Im Beispiel oben sind die zwei Rechtecke in der Mitte einmal mittels visueller P
 
 Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann. Allerdings sind diese Werte nicht auf den ersten Blick sichtbar. Will man einen bestimmten Knoten oder darin eingestellten Wert finden, so muss man sich erst orientieren und evtl. viele Knoten anklicken.
 
-Bei der code-basierten Programmierung / Text-Programmierung sind hingegen alle Werte auf den ersten Blick ersichtlich. Dieser Vorteil ist zugrleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
+![Zuviele Knoten bedeutet oft Unübersichtlichkeit](assets/noodle-salat.png)
+
+Bei der code-basierten Programmierung / Text-Programmierung sind hingegen alle Werte auf den ersten Blick ersichtlich, da sie ausgeschrieben werden müssen.
+
+```javascript
+let myLineWeight = 22.32 
+```
+
+Dieser Vorteil ist zugleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
 
 ## Nodebox als Fließband
 
