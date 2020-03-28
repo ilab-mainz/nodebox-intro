@@ -62,40 +62,45 @@ Jeder Knoten verarbeitet ein oder mehrere Eingaben (Inputs) um eine Ausgabe (Out
 Alle Eingangs-Ports erwarten Daten eines bestimmten Typus. Jeder Ausgangs-Port gibt ein Ergebnis eines bestimmten Typus zurück. Wenn man über einem Eingang mit der Maus verweilt, wird angezeigt welchen Datentypus der Knoten an diesem Port erwartet. Wenn man über dem Ausgang mit der Maus verweilt, erscheint der Datentypus des Ergebnisses des Knotens.
 
   ![](assets/grundlagen_input_art.png)
+  
+Da Knoten im Grunde Funktionen sind, kann man die Pins/Ports auch als Parameter der Funktion verstehen. Der `rect` Knoten von oben würde dann so aussehen:
+
+```javascript
+let rectShape = g.rect( aPoint, widthVal, heightVal, roundnessVal )
+```
 
 ## Datentypen
 
-Die Datentypen an den Ports werden in der Regel durch Farben codiert:
+Die Datentypen, also die unterschiedlichen Arten von Daten, erweitern die bereits in [JavaScript verfügbaren Datentypen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).
+
+Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl die Farbe der Ports als auch der „Kabel“ (Verbindungen zw. zwei Nodes) bestimmt.
 
 ### Zahlen
 
-- ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` sind sowohl ganzzahlige Werte `integer` (zb. 1 / 5 / 72 usw.)   
-als auch Zahlen mit Nachkommastellen `float` (z.B 0.25 / 1.678 / 3.333 usw.)
+![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) Nummern sind sowohl ganzzahlige Werte, genannt `integer` (z.B.: `1`, `5`, `72`, usw.), als auch Zahlen mit Nachkommastellen, genannt `float` (von „Fließkommazahlen; z.B.: `0.25`, `1.678`, `3.333`, usw.).
 
-	- `float`werden benutzt um um z.B die breite/höhe eine Objekts zu verändern.
+	- `float` werden benutzt um um z.B. die Breite / Höhe eine Objekts zu verändern.
 	- `integer` werden benutzt um Mengen anzugeben also z.B. 10 Kopien im `copy` Knoten
 
 ### Points
 
-- ![#60BD68](https://placehold.it/15/60BD68?text=+) `Points` (Punkte) sind zweidimensionale Koordinaten die `X` und `Y` Koordinaten enthalten.
-	- Sie können benutzt werden um ein Ort zu bestimmen z.B die Position eines Rechtecks, die Skalierung im `scale` Knoten oder den Dreh- und Angelpunkt eins `rotate` Knoten (also den Punkt um den rotiert werden soll)
+![#60BD68](https://placehold.it/15/60BD68?text=+) `point`s sind zweidimensionale Punkte, die `x` und `y` Koordinaten enthalten (`y` wird nach oben positiv, `x` nach rechts). Sie können benutzt werden um ein Ort festzulegen z.B. die Position eines Rechtecks, den Ursprung einer Skalierung im `scale` Knoten oder den Dreh- und Angelpunkt eines `rotate` Knoten (also den Punkt um den rotiert werden soll).
 
 ### Shapes
 
-- ![#E8AA00](https://placehold.it/15/E8AA00?text=+) `Shapes` (Formen) enthalten Informationen über Kurven, Linien und Punkte.
+![#E8AA00](https://placehold.it/15/E8AA00?text=+) `shape`s (Formen) enthalten Informationen über Kurven, Linien und Punkte.
 
 ### Strings
-- ![#F17CB0](https://placehold.it/15/F17CB0?text=+) `Strings` (Zeichenketten) enthalten reinen Text.
-	- In der Regel der Text in dem `textpath` Knoten.
+
+![#F17CB0](https://placehold.it/15/F17CB0?text=+) `string`s (Zeichenketten) enthalten reinen Text.
+
+### Farben
+
+![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten. Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
 
 ### Listen
 
-- ![#B276B2](https://placehold.it/15/B276B2?text=+) `Listen` sind Sammlungen und können deshalb mehrere `Nummern` `Points`, `Shapes` und `Colors` Enthalten.
-	- Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.H so lange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `Nummern` Eingang verbunden werden.
-
-### Farben
-- ![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten.
-	- Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
+![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten und können deshalb unterschiedliche Datentypen wie `number` `point`, `shape` und `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
 
 ---
 
