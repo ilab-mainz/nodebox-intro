@@ -34,32 +34,32 @@ In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen
 
 	![](assets/basics_1.png)
 
-2. Verbinden wir einen `Colorize` Knoten mit dem `rect` Knoten. Er verändert den Output und färbt ihn ein.
+2. Verbinden wir einen `colorize` Knoten mit dem `rect` Knoten. Dies verändert das Resultat, es ist nun eingefärbt.
 
   ![](assets/basics_2.png)
 
-3. Anschließend fügen wir einen `rotate` Knoten hinzu. Er nimmt den output und rotiert ihn.
+3. Anschließend fügen wir einen `rotate` Knoten hinzu, dieser dreht die Form um einen Punkt ihn.
 
    ![](assets/basics_3.png)
 
-Wir Können jeden einezelnen Schritt nachvolziehen indem wir mit einem Doppelklick den aktiven Knoten (Render-Knoten) wechseln: 
+Wir Können jeden einezelnen Schritt nachvollziehen, indem wir mit einem Doppelklick den aktiven Knoten (der sog. „Render-Knoten“) wechseln:
 	
 
    ![](assets/basics_render.gif)
    
    [Beispiel](https://nodebox.live/nodebox-intro/b00knoten)
 
+### Render-Node (aktiver Knoten) und Debugging (Fehlersuche)
 
-## Ein- und Ausgänge
+Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. D.h. man kann durch das setzten Aktivieren einzelner Knoten in der Kette / im Netzwerk einzelne Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relative schnell finden.
 
+## Pins, die Ein- und Ausgänge
 
-- Jeder Knoten verarbeitet ein oder mehrere Eingaben (Inputs) um eine Ausgabe (Output) zu erzeugen.
+Jeder Knoten verarbeitet ein oder mehrere Eingaben (Inputs) um eine Ausgabe (Output) zu erzeugen. Diese Ein- und Ausgänge werden `pins` oder auch `ports` genannt.
 
   ![](assets/grundlagen_input_output.png)
   
-- Alle Eingang-Ports in Nodebox erwarten Input eines bestimmten Typs. Jeder Ausgang-Port erzeugt einen Output eines bestimmten Typs.
-- Wenn man über einem Eingang mit der Maus verweilt, sieht man welchen Datentypen der Knoten an diesem Port erwartet.
-- Wenn man über dem Ausgang mit der Maus verweilt, sieht man welchen Datentyp der Output des Knotens hat.
+Alle Eingangs-Ports erwarten Daten eines bestimmten Typus. Jeder Ausgangs-Port gibt ein Ergebnis eines bestimmten Typus zurück. Wenn man über einem Eingang mit der Maus verweilt, wird angezeigt welchen Datentypus der Knoten an diesem Port erwartet. Wenn man über dem Ausgang mit der Maus verweilt, erscheint der Datentypus des Ergebnisses des Knotens.
 
   ![](assets/grundlagen_input_art.png)
 
