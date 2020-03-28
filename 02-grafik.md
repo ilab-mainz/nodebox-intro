@@ -68,9 +68,6 @@ Beispiel: `textPath`erzeugt eine Shape mit Innen- und Außenkonturen. Mit `wiggl
   (Beispiel: Buchstabe 'O')
 - Eine Kontour kann offen sein (Pfad mit Anfang und Ende) oder geschlossen so dass die letzte Strecke am Ende wieder mit dem ersten Punkt des Pfads verbunden ist.
 
-## Gruppen
-
-Mehrere Shapes kann man mit `group` zu einer Gruppe zusammen fassen. [Beispiel](https://nodebox.live/nodebox-intro/b02group)
 
 ## Anordnen
 
@@ -94,6 +91,9 @@ Mehrere Shapes kann man mit `group` zu einer Gruppe zusammen fassen. [Beispiel](
 - Neu sortiern mit `shapeSort`
 	
 ### Gruppieren:
+
+Mehrere Shapes kann man mit `group` zu einer Gruppe zusammen fassen. [Beispiel](https://nodebox.live/nodebox-intro/b02group)
+
 - `group`und `ungroup`
 - Gruppe filtern: `deletePaths`
 
