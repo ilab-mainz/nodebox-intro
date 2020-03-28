@@ -20,11 +20,9 @@ let myLineWeight = 22.32
 
 Dieser Vorteil ist zugleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
 
-## Nodebox als Fließband
+## Nodebox als Fließband – Knoten
 
 ![](https://media.giphy.com/media/wKfYItv9gsjXG/giphy.gif)
-
-## Knoten
 
 Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
 
