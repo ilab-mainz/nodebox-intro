@@ -92,13 +92,13 @@ Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl
 
 ### Strings
 
-![#F17CB0](https://placehold.it/15/F17CB0?text=+) `string`s (Zeichenketten) enthalten reinen Text.
+![#F17CB0](https://placehold.it/15/F17CB0?text=+) `string`s (Zeichenketten) enthalten unformattierten Text.
 
 ### Farben
 
 ![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten. Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
 
-### Listen
+### Listen / Arrays
 
 ![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten und können deshalb unterschiedliche Datentypen wie `number` `point`, `shape` und `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
 
