@@ -14,7 +14,7 @@ Häufig werden diese Werte verwendet um Formen zu transformieren, also zu versch
 
 [Beispiel `randomNumbers`](https://nodebox.live/reference/randomNumbers)
 
-Ursprünglich in den 1980ern von Ken Perlin entwickelt um realistischere Texturen für 3D Anwendungen zu generieren, ist [„Perlin Noise“](https://de.wikipedia.org/wiki/Perlin-Noise) heute eine Standart-Funktion um 2D und 3D Zufallsflächen und -Volumen zu erzeugen. Dies lässt sich wunderbar für das Generieren von Hügellandschaften und allen möglichen anderen Strukturen nutzen.s
+Ursprünglich in den 1980ern von Ken Perlin entwickelt um realistischere Texturen für 3D Anwendungen zu generieren, ist [„Perlin Noise“](https://de.wikipedia.org/wiki/Perlin-Noise) heute eine Standart-Funktion um 2D und 3D Zufallsflächen und -Volumen zu erzeugen. Dies lässt sich wunderbar für das Generieren von Hügellandschaften und allen möglichen anderen Strukturen nutzen.
 
 [Beispiel `perlinNoise`](https://nodebox.live/reference/perlinNoise)
 
