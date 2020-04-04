@@ -2,7 +2,7 @@
 
 In NodeBox gibt es verschiedene Wege Ordnung zu schaffen. Prominentester Knoten ist dabei der `grid` Knoten. Aber auch mittels `stack` und anderer Knoten können interessante Layouts erzeugt werden.
 
-Da viele der Knoten mit Listen von Elementen arbeiten, oder Listen generieren, ist es wichtig sich zuvor nochmals die [Dokumentation zu diesen](00-grundlagen.md) `XXX -- bessere Doku??? -- XXX` durch zu lesen.
+Da viele der Knoten mit Listen von Elementen arbeiten, oder Listen generieren, ist es wichtig sich zuvor nochmals die [Dokumentation zu Listen](00-grundlagen.md) durch zu lesen.
 
 ## In Reih' und Glied
 
