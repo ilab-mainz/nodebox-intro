@@ -14,18 +14,26 @@ Der Unterschied zwischen den beiden ist, dass bei `range` die Abstände zwischen
 
 Mit dem [`grid` Knoten](https://nodebox.live/reference/grid) lassen sich rechtwinklige Raster erzeugen. Die Raster entstehen, indem der Knoten eine Liste von 2D Koordinaten (Punkten) erzeugt, die dann als Ursprung für andere Formen eingesetzt werden können: [Beispiel](https://nodebox.live/reference/grid).
 
-- grid
-
 Ebenfalls auf dem Konzept eines recheckigen Rasters aufbauend, erlaubt es der [`snap` Knoten](https://nodebox.live/reference/snap) gegebene Formen od. Punkte mehr oder weniger in ein Raster zu zwängen: [Beispiel](https://nodebox.live/reference/snap).
 
 Das besondere hierbei ist, dass die Formen von ihrer aktuellen Position aus zur nächstgelegenen Rasterpunkt transformiert werden. Leider sind die Standart-Werte des Knotes nicht gut gewählt. Der Pin `strength` erwartet Werte zwischen `0` (keine Anziehung / Effekt) und `1` (volle Anziehung). Dazwischen interpoliert er zwischen der aktuellen Position der Form und dem nächstgelegenen Rasterpunkt. `0.5` wäre also die halbe Strecke dazwischen.
 
 ## Wohlgeordnet am Fließband oder im Stapel
 
-- stack
-- shapeSort
+Mit dem [`stack` Knoten](https://nodebox.live/reference/stack) lassen sich die Formen in einer Liste in die vier Himmelsrichtungen „aufeinander stapeln“, dabei werden sie nebeneinander ausgerichtet. Über den Pin `margin` kann man dabei die Abstände zwischen den Elementen bestimmen. Zu beachten ist, dass die Elemente dabei an ihrer Mittelachse ausgerichtet werden.
+
+Der [`shapeSort` Knoten](https://nodebox.live/reference/shapeSort) erlaubt es die Elemente einer Liste nach bestimmten geometrischen Bezügen zu einem Ursprung oder zueinander zu sortieren. Verändert wird dabei nur die Reihenfolge der Formen in der gegebenen Liste. Der Pin `orderBy` nimmt vier verschiedene Arten der Sortierung an: `No Change`, `X`, `Y`, `Angle`, `Distance`. Dabei sortieren die Einstellungen X/Y jeweils nach horizontaler oder vertikaler Position (X == Nord-Westen nach Süd-Osten, Y == West-Norden nach Ost-Westen). `Angle` sortiert nach dem Winkel zu dem an Pin `point` gegebenen Punkt und `Distance` nach Abstand zu diesem Punkt. 
 
 ## Ausblick: bricks, packing, etc.
+
+- Nicht-rechteckige Raster: https://nodebox.live/bitcraftlab/gridExample01
+
+- Layout Mechanismen
+
+- Packing Probleme
+    - Circle packing: https://snorpey.github.io/circlepacker/continuous.html
+    - Rectangle (Bin) Packing: http://incise.org/2d-bin-packing-with-javascript-and-canvas.html
+    - Same-same https://codeincomplete.com/articles/bin-packing/
 
 ---
 
