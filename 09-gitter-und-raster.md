@@ -10,7 +10,7 @@ Viele Raster lassen sich als verschachtelte Sequenzen verstehen. Ein Objekt wird
 
 Der Unterschied zwischen den beiden ist, dass bei `range` die Abstände zwischen den zu erzeugenden Werten angegeben werden und bei `sample` die Anzahl der Werte.
 
-## Der Raster Knoten a.k.a. `grid`
+## Der Raster Knoten
 
 Mit dem [`grid` Knoten](https://nodebox.live/reference/grid) lassen sich rechtwinklige Raster erzeugen. Die Raster entstehen, indem der Knoten eine Liste von 2D Koordinaten (Punkten) erzeugt, die dann als Ursprung für andere Formen eingesetzt werden können: [Beispiel](https://nodebox.live/reference/grid).
 
@@ -18,11 +18,15 @@ Ebenfalls auf dem Konzept eines recheckigen Rasters aufbauend, erlaubt es der [`
 
 Das besondere hierbei ist, dass die Formen von ihrer aktuellen Position aus zur nächstgelegenen Rasterpunkt transformiert werden. Leider sind die Standart-Werte des Knotes nicht gut gewählt. Der Pin `strength` erwartet Werte zwischen `0` (keine Anziehung / Effekt) und `1` (volle Anziehung). Dazwischen interpoliert er zwischen der aktuellen Position der Form und dem nächstgelegenen Rasterpunkt. `0.5` wäre also die halbe Strecke dazwischen.
 
-## Wohlgeordnet am Fließband oder im Stapel
+## Wohlgeordnet nebeneinander
 
 Mit dem [`stack` Knoten](https://nodebox.live/reference/stack) lassen sich die Formen in einer Liste in die vier Himmelsrichtungen „aufeinander stapeln“, dabei werden sie nebeneinander ausgerichtet. Über den Pin `margin` kann man dabei die Abstände zwischen den Elementen bestimmen. Zu beachten ist, dass die Elemente dabei an ihrer Mittelachse ausgerichtet werden.
 
-Der [`shapeSort` Knoten](https://nodebox.live/reference/shapeSort) erlaubt es die Elemente einer Liste nach bestimmten geometrischen Bezügen zu einem Ursprung oder zueinander zu sortieren. Verändert wird dabei nur die Reihenfolge der Formen in der gegebenen Liste. Der Pin `orderBy` nimmt vier verschiedene Arten der Sortierung an: `No Change`, `X`, `Y`, `Angle`, `Distance`. Dabei sortieren die Einstellungen X/Y jeweils nach horizontaler oder vertikaler Position (X == Nord-Westen nach Süd-Osten, Y == West-Norden nach Ost-Westen). `Angle` sortiert nach dem Winkel zu dem an Pin `point` gegebenen Punkt und `Distance` nach Abstand zu diesem Punkt. 
+Der [`shapeSort` Knoten](https://nodebox.live/reference/shapeSort) erlaubt es die Elemente einer Liste nach bestimmten geometrischen Bezügen zu einem Ursprung oder zueinander zu sortieren. Verändert wird dabei nur die Reihenfolge der Formen in der gegebenen Liste. Der Pin `orderBy` nimmt vier verschiedene Arten der Sortierung an: `No Change`, `X`, `Y`, `Angle`, `Distance`. Dabei sortieren die Einstellungen X/Y jeweils nach horizontaler oder vertikaler Position (X == Nord-Westen nach Süd-Osten, Y == West-Norden nach Ost-Westen). `Angle` sortiert nach dem Winkel zu dem an Pin `point` gegebenen Punkt und `Distance` nach Abstand zu diesem Punkt.
+
+Ebenfalls in die Gruppe der Ordentlichen gehört der [`align` Knoten](https://nodebox.live/reference/align). Er erlaubt es, wie es der Name schon verrät, Formen an einer oder mehreren Achsen auszurichten.
+
+Als letztes sei in dieser Gruppe noch der [`copy` Knoten](https://nodebox.live/reference/copy) erwähnt, er vervielfältigt gegebene Elemente mit zusätzlicher Transformation (Verschiebung, Rotation, Skalierung). Man kann diesen Knoten gut verwenden, um die zuvor erzeugten Reihen aus `stack` oder `align` zu einem Raster zu vervielfältigen.
 
 ## Ausblick: bricks, packing, etc.
 
