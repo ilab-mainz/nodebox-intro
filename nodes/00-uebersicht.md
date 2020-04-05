@@ -46,7 +46,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `fetchJSON` | Führt eine HTTP-GET-Anfrage durch und gibt JSON-Daten zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/fetchJSON.md) | [Beispiel](https://nodebox.live/reference/fetchJSON) | 
  | `filterData` | Filtert Daten, indem jeder Eintrag mit einem gegebenen Wert verglichen wird. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/filterData.md) | [Beispiel](https://nodebox.live/reference/filterData) | 
  | `groupBy` | Gruppiert Daten nach Schlüssel/Wert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/groupBy.md) | [Beispiel](https://nodebox.live/reference/groupBy) | 
- | `import` | Importieren Daten (CSV, SVG) aus einer Datei. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/import.md) | [Beispiel](https://nodebox.live/reference/import) | 
+ | `import` | Importieren Daten (CSV, SVG) aus einer Datei. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/import.md) | [Beispiel](https://nodebox.live/reference/importRef) | 
  | `keys` | Gibt die Schlüssel einer Tabelle zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/keys.md) | [Beispiel](https://nodebox.live/reference/keys) | 
  | `lookup` | Ließt einen bestimmten Wert anhand eines Schlüssels aus einer Tabelle oder aus einem Objekt aus. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/lookup.md) | [Beispiel](https://nodebox.live/reference/lookup) | 
  | `zipMap` | Kombiniert eine Liste von Schlüsseln mit einer Liste von Werten zu einer Map (Liste von Schlüssel/Wert Paaren). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/zipMap.md) | [Beispiel](https://nodebox.live/reference/zipMap) | 
