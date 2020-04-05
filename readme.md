@@ -1,4 +1,6 @@
-# Nodebox.live Intro
+# NodeBox.live Intro
+
+Seit 2017 verwendet die [Fachrichtung Kommunikationsdesign](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-kommunikationsdesign/uebersicht/) des Fachbereichs Gestlatung an der Hochschule Mainz [NodeBox.live](https://nodebox.live) im Grundstudium zur Einführung in die digitale Gestaltung.
 
 ### Kleine Einführung in Nodebox.live
 
@@ -28,7 +30,11 @@ Eine deutsche Übersetzung ist [angedacht](https://github.com/bitcraftlab/nodebo
 
 ### Autoren*innen
 
-*Martin Schneider, Milan Gress, Hadil Mani, Prof. Florian Jenett, Hochschule Mainz seit 2019*
+Dieses Dokument wurde und wird von verschiedenen Mitarbeitern und Studierenden der Hochschule Mainz seit 2019 erstellt und fortgeschrieben. Unter anderem: *Martin Schneider, Milan Gress, Hadil Mani, [Prof. Florian Jenett](https://www.hs-mainz.de/personenverzeichnis/person/florian-jenett/)*
+
+### NodeBox 1,2,3,Live?
+
+NodeBox wird seit 2004 an der [St. Lucas University College of Art and Design](https://www.sintlucasantwerpen.be/) (Belgien) von der [Experimental Media Research Group (EMRG)](https://www.emrg.be/) entwickelt. Entstanden sind mehrere Versionen, von denen [NodeBox.live](https://nodebox.live) die jüngste ist. Mit ihr fand ein Umstieg von Desktop auf Web und von Java/Python auf JavaScript statt. Weitere Informationen finden Sie auf den Seiten von [NodeBox](https://www.nodebox.net/) selbst.
 
 ### Lizenz
 Lizensiert unter der MIT-Lizenz.
