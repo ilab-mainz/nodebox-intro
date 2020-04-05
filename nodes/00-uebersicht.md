@@ -437,3 +437,6 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `wordCount` | Zählt die Anzahl der Wörter in einem Text. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/wordCount.md) | [Beispiel](https://nodebox.live/reference/wordCount) | 
  | `xor` | Führt die logische XOR-Operation durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/xor.md) | [Beispiel](https://nodebox.live/reference/xor) | 
  | `zipMap` | Kombiniert eine Liste von Schlüsseln mit einer Liste von Werten zu einer Map (Liste von Schlüssel/Wert Paaren). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/zipMap.md) | [Beispiel](https://nodebox.live/reference/zipMap) | 
+
+---
+Zur [Übersicht](../readme.md)
