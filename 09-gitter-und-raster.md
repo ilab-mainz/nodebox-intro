@@ -1,4 +1,4 @@
-# Gitter & Raster
+# Gitter, Raster, Ordnung
 
 In NodeBox gibt es verschiedene Wege Ordnung zu schaffen. Prominentester Knoten ist dabei der `grid` Knoten. Aber auch mittels `stack` und anderer Knoten können interessante Layouts erzeugt werden.
 
@@ -28,16 +28,22 @@ Ebenfalls in die Gruppe der Ordentlichen gehört der [`align` Knoten](https://no
 
 Als letztes sei in dieser Gruppe noch der [`copy` Knoten](https://nodebox.live/reference/copy) erwähnt, er vervielfältigt gegebene Elemente mit zusätzlicher Transformation (Verschiebung, Rotation, Skalierung). Man kann diesen Knoten gut verwenden, um die zuvor erzeugten Reihen aus `stack` oder `align` zu einem Raster zu vervielfältigen.
 
+## Aus nah und fern
+
+Betrachtet man die Bildpunkte eines Bildschirms aus der Nähe, so erkennt man, dass diese aus einzelnen Farbflecken bestehen, den Pixeln (kurz für „picture element“). Mit dem [`import` Knoten](https://nodebox.live/reference/importRef) ist es möglich Pixel-Bilder in NodeBox zu importieren und dort mit einem kleinen Code als Farben auszulesen: siehe [Beispiel `pixelGrid`](https://nodebox.live/reference/importRef).
+
 ## Ausblick: bricks, packing, etc.
 
-- Nicht-rechteckige Raster: https://nodebox.live/bitcraftlab/gridExample01
+- Nicht-rechteckige Raster (dreieckig, hexagonal, ...)
+    - [NodeBox Bibliothek / Library von Martin Schneider](https://nodebox.live/bitcraftlab/gridExample01)
 
 - Layout Mechanismen
+    - [Masonry](https://masonry.desandro.com/), [Muuri](https://haltu.github.io/muuri/), [Gridstack](https://gridstackjs.com/), [Gridifier](http://gridifier.io/), [Minigrid](https://minigrid.js.org/), [Isotype](https://isotope.metafizzy.co/), [Packery](https://packery.metafizzy.co/), ...
 
 - Packing Probleme
-    - Circle packing: https://snorpey.github.io/circlepacker/continuous.html
-    - Rectangle (Bin) Packing: http://incise.org/2d-bin-packing-with-javascript-and-canvas.html
-    - Same-same https://codeincomplete.com/articles/bin-packing/
+    - [Circle Packing](https://snorpey.github.io/circlepacker/continuous.html)
+    - [Rectangle (Bin) Packing](http://incise.org/2d-bin-packing-with-javascript-and-canvas.html)
+    - [Rectangle (Bin) Packing 2](https://codeincomplete.com/articles/bin-packing/)
 
 ---
 
