@@ -21,12 +21,11 @@ Seit 2017 verwendet die [Fachrichtung Kommunikationsdesign](https://www.hs-mainz
 Alle Beispiele zu dieser Einführung findet ihr unter:
 [https://nodebox.live/nodebox-intro](https://nodebox.live/nodebox-intro)
 
-Zudem haben wir eine [Referenz](nodes/00-uebersicht.md) aller Knoten zusammen gestellt.
+### Hilfe / Referenz / Knoten-Übersicht
 
-### Hilfe
+Wir haben hier eine [Referenz](nodes/00-uebersicht.md) aller Knoten zusammen gestellt.
 
-Die Online-Hilfe von Nodebox.live ist englisch und für Anfänger ein wenig kryptisch.
-Eine deutsche Übersetzung ist [angedacht](https://github.com/bitcraftlab/nodebox-live-localization).
+Die Online-Hilfe von Nodebox.live ist englisch und für Anfänger ein wenig kryptisch, da sie sich hauptsächlich auf die zugrunde liegende [g.js Library](https://g.js.org/) bezieht. Eine deutsche Übersetzung ist [angedacht](https://github.com/bitcraftlab/nodebox-live-localization).
 
 ### Autoren*innen
 
