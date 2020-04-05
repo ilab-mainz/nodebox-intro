@@ -34,16 +34,13 @@ Betrachtet man die Bildpunkte eines Bildschirms aus der Nähe, so erkennt man, d
 
 ## Ausblick: bricks, packing, etc.
 
-- Nicht-rechteckige Raster (dreieckig, hexagonal, ...)
-    - [NodeBox Bibliothek / Library von Martin Schneider](https://nodebox.live/bitcraftlab/gridExample01)
+Das Thema Gitter, Raster, Ordnung ist natürlich endlos, da wir Menschen so einen starken Drang verspüren uns die Welt dadurch etwas klarer zu gestalten.
 
-- Layout Mechanismen
-    - [Masonry](https://masonry.desandro.com/), [Muuri](https://haltu.github.io/muuri/), [Gridstack](https://gridstackjs.com/), [Gridifier](http://gridifier.io/), [Minigrid](https://minigrid.js.org/), [Isotype](https://isotope.metafizzy.co/), [Packery](https://packery.metafizzy.co/), ...
+Mit dieser [NodeBox Library (meint Bibliothek/Erweiterung) von Martin Schneider](https://nodebox.live/bitcraftlab/gridExample01) ist es möglich nicht-rechteckige, also beispielsweise hexagonale oder auf gleichseitigen Dreiecken aufbauende Raster zu erzeugen.
 
-- Packing Probleme
-    - [Circle Packing](https://snorpey.github.io/circlepacker/continuous.html)
-    - [Rectangle (Bin) Packing](http://incise.org/2d-bin-packing-with-javascript-and-canvas.html)
-    - [Rectangle (Bin) Packing 2](https://codeincomplete.com/articles/bin-packing/)
+Im Internet findet man zahlreiche JavaScripte, mit denen es einfach möglich wird viele Elemente auf einer Webseite in unterschiedlicher Weise anzuordnen. Diese sind entstanden, da der Layout-Mechanismus des Browsers lange Zeit nur ein einfaches Ausrichten in Zeilen unterstützt hat. Will man unterschiedlich große Elemente nebeneinander zeigen, so ergaben sich dabei oft unvorteilhafte Weissräume. Inzwischen ist allerdings mit den CSS-Layout-Mechanismen [Flexbox](https://css-tricks.com/snippets/css/a-guide-to-flexbox/) und [Grid](https://css-tricks.com/snippets/css/complete-guide-grid/) hier Abhilfe geschaffen. Nichts desto trotz macht es Spass und ist inspirierend, sich die folgenden Lösungen mal anzuschauen: [Masonry](https://masonry.desandro.com/), [Muuri](https://haltu.github.io/muuri/), [Gridstack](https://gridstackjs.com/), [Gridifier](http://gridifier.io/), [Minigrid](https://minigrid.js.org/), [Isotype](https://isotope.metafizzy.co/), [Packery](https://packery.metafizzy.co/), ...
+
+In der Mathematik und Informatik gibt es eine Reihe von Fragestellungen und Lösungen, die sich mit den sog. Packing Problemen beschäftigen. Hierbei geht es bspw. um die Frage der optimalen Anordnung von Elementen in einer gegebenen Fläche. Dies kann bspw. Anwendung im Transport (was passt in den Laster?) oder der Herstellung (wieviele T-Shirts aus meinem Stoff?) von Waren finden. Bekannteste Formen beschäftigen sich mit dem Platzieren von Rechtecken (Bin Packing [1](http://incise.org/2d-bin-packing-with-javascript-and-canvas.html), [2](https://codeincomplete.com/articles/bin-packing/)) und Kreisen ([Circle Packing](https://snorpey.github.io/circlepacker/continuous.html)).
 
 ---
 
