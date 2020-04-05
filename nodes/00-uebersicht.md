@@ -8,18 +8,18 @@ Die Kategorien sind:
 
 | *Inhalt* | *Name* | *Beschreibung* |
 | ------ | ------ | ------ |
-| Farbe | Color | Herstellen, Verändern, Anwenden von Farbe auf Shapes (Formen) |
-| Daten | Data | Laden, Aufarbeiten, Konvertieren, Filtern von Daten |
-| Geräte | Device | Die Mouse auslesen |
-| Geografie | Geo | Verarbeitung von geografischen Daten |
-| Grafisches | Graphics | Herstellen, Verändern, Ausrichten von Formen (Shapes) |
-| HTML | Html | Schnittstelle zu HTML und dem DOM des Browsers |
-| Listen | List | Arbeit mit Listen (Arrays) von Werten |
-| Mathematik | Math | Mathematische Methoden und Generatoren von Werten |
-| Zustand | State | Speichern und Laden von Zuständen |
-| Text | String | Erstellen, Veränderung von Texten |
-| Zeit | Time | Auslesen von Zeit und zeitliche Funktionen (Easings) |
-| Sonstiges | Uncategorized | ... |
+| [Farbe](#farbe--color) | Color | Herstellen, Verändern, Anwenden von Farbe auf Shapes (Formen) |
+| [Daten](#daten--data) | Data | Laden, Aufarbeiten, Konvertieren, Filtern von Daten |
+| [Geräte](#geräte--device) | Device | Die Mouse auslesen |
+| [Geografie](#geografie--geo) | Geo | Verarbeitung von geografischen Daten |
+| [Grafisches](#grafisches--graphics) | Graphics | Herstellen, Verändern, Ausrichten von Formen (Shapes) |
+| [HTML](#html) | Html | Schnittstelle zu HTML und dem DOM des Browsers |
+| [Listen](#listen--list) | List | Arbeit mit Listen (Arrays) von Werten |
+| [Mathematik](#mathematik--math) | Math | Mathematische Methoden und Generatoren von Werten |
+| [Zustand](#zustand--state) | State | Speichern und Laden von Zuständen |
+| [Text](#text--string) | String | Erstellen, Veränderung von Texten |
+| [Zeit](#zeit--time) | Time | Auslesen von Zeit und zeitliche Funktionen (Easings) |
+| [Sonstiges](#sonstiges--uncategorized) | Uncategorized | ... |
 
 Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
 
@@ -151,7 +151,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `shuffle` | Verändert die Reihenfolge der Einträge einer Liste zufällig. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/shuffle.md) | [Beispiel](https://nodebox.live/reference/shuffle) | 
  | `slice` | Extrahiert einen Teil einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/slice.md) | [Beispiel](https://nodebox.live/reference/slice) | 
  | `sort` | Sortiert die Einträge einer Liste. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/sort.md) | [Beispiel](https://nodebox.live/reference/sort) | 
- | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switch) | 
+ | `switch` | Erlaubt es zwischen verschiedenen Eingängen zu schalten, wie eine Weiche. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/switch.md) | [Beispiel](https://nodebox.live/reference/switchRef) | 
  | `takeEvery` | Gibt jeden N-ten Eintrag einer Liste zurück. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/takeEvery.md) | [Beispiel](https://nodebox.live/reference/takeEvery) | 
 
 ## Mathematik / Math
@@ -171,7 +171,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `cos` | Berechnet den Cosinus für einen Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/cos.md) | [Beispiel](https://nodebox.live/reference/cos) | 
  | `degrees` | Konvertiert Kreiszahlen (Radianten) in (Grad) Winkel. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/degrees.md) | [Beispiel](https://nodebox.live/reference/degrees) | 
  | `divide` | Teilt eine Zahl durch eine andere. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/divide.md) | [Beispiel](https://nodebox.live/reference/divide) | 
- | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/e) | 
+ | `e` | Die Konstante E. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/e.md) | [Beispiel](https://nodebox.live/reference/eConstant) | 
  | `even` | Bestimmt, ob eine Zahl gerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/even.md) | [Beispiel](https://nodebox.live/reference/even) | 
  | `floor` | Rundet eine Zahl ab. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/floor.md) | [Beispiel](https://nodebox.live/reference/floor) | 
  | `integer` | Erstellt eine ganze Zahl (ohne Kommastelle). | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/integer.md) | [Beispiel](https://nodebox.live/reference/integer) | 
@@ -188,7 +188,7 @@ Nachfolgend sind die Knoten der Kategorien aufgelistet und kurz beschrieben.
  | `number` | Erstellt einen Zahlenwert. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/number.md) | [Beispiel](https://nodebox.live/reference/number) | 
  | `odd` | Bestimmt, ob eine Zahl ungerade ist. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/odd.md) | [Beispiel](https://nodebox.live/reference/odd) | 
  | `or` | Führt eine logische ODER-Verknüpfung durch. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/or.md) | [Beispiel](https://nodebox.live/reference/or) | 
- | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/pi) | 
+ | `pi` | Die Konstante PI. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pi.md) | [Beispiel](https://nodebox.live/reference/piConstant) | 
  | `pow` | Potenziert einen Wert um den gegebenen Exponenten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/pow.md) | [Beispiel](https://nodebox.live/reference/pow) | 
  | `radians` | Konvertiert einen Winkel von Grad in Radianten. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/radians.md) | [Beispiel](https://nodebox.live/reference/radians) | 
  | `randomNumbers` | Erstellt eine Liste von Zufallszahlen. | [Referenz](https://github.com/nodebox/g.js/blob/gh-pages/ref/randomNumbers.md) | [Beispiel](https://nodebox.live/reference/randomNumbers) | 
