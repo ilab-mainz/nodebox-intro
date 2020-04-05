@@ -1,5 +1,7 @@
 # Chaos und Zufall
 
+[![Chaos und Ordnung](assets/scatterPoints-chaosAndOrder.png)](https://nodebox.live/reference/scatterPoints)
+
 ## Kontrollierter Zufall mit Random Seeds
 
 Fast alle Knoten, die mit Zufall zu tun haben, bieten einen Port (Parameter) namens `seed` an (siehe den [Wikipedia Eintrag](https://de.wikipedia.org/wiki/Seed_key) dazu). Diese Zahl bildet die Basis, auf der der Computer seine pseudo-zufälligen Werte erzeugt. Verändert man diese Basis, entstehen völlig neue Zufallszahlen. `seed` erlaubt es einem also schnell durch viele Varianten hindurch zu „schrubben“: [Beispiel `randomNumbers`](https://nodebox.live/reference/randomNumbers).
