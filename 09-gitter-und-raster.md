@@ -34,7 +34,7 @@ Betrachtet man die Bildpunkte eines Bildschirms aus der Nähe, so erkennt man, d
 
 ## Ausblick: bricks, packing, etc.
 
-Das Thema Gitter, Raster, Ordnung ist natürlich endlos, da wir Menschen so einen starken Drang verspüren uns die Welt dadurch etwas klarer zu gestalten.
+Das Thema Gitter, Raster, Ordnung ist natürlich endlos, da wir Menschen so einen starken Drang verspüren uns die Welt dadurch etwas klarer zu gestalten. Daher nachfolgend noch ein paar Links in andere Felder, in denen man weitere Themen und Anregungen entdecken kann.
 
 Mit dieser [NodeBox Library (meint Bibliothek/Erweiterung) von Martin Schneider](https://nodebox.live/bitcraftlab/gridExample01) ist es möglich nicht-rechteckige, also beispielsweise hexagonale oder auf gleichseitigen Dreiecken aufbauende Raster zu erzeugen.
 
