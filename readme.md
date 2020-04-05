@@ -1,6 +1,6 @@
 # NodeBox.live Intro
 
-Seit 2017 verwendet die [Fachrichtung Kommunikationsdesign](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-kommunikationsdesign/uebersicht/) des Fachbereichs Gestlatung an der Hochschule Mainz [NodeBox.live](https://nodebox.live) im Grundstudium zur Einführung in die digitale Gestaltung.
+Seit 2017 verwendet die [Fachrichtung Kommunikationsdesign](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-kommunikationsdesign/uebersicht/) des Fachbereichs Gestaltung an der Hochschule Mainz [NodeBox.live](https://nodebox.live) im Grundstudium (BA) zur Einführung in die digitale Gestaltung.
 
 ### Kleine Einführung in Nodebox.live
 
@@ -26,6 +26,8 @@ Alle Beispiele zu dieser Einführung findet ihr unter:
 Wir haben hier eine [Referenz](nodes/00-uebersicht.md) aller Knoten zusammen gestellt.
 
 Die Online-Hilfe von Nodebox.live ist englisch und für Anfänger ein wenig kryptisch, da sie sich hauptsächlich auf die zugrunde liegende [g.js Library](https://g.js.org/) bezieht. Eine deutsche Übersetzung ist [angedacht](https://github.com/bitcraftlab/nodebox-live-localization).
+
+Studierende der Hochschule Mainz können sich bei NodeBox Fragen an das Team des [iLabs](https://www.hs-mainz.de/studium/services/gestaltung/werkstaetten-kommunikationsdesign/ilab/) wenden.
 
 ### Autoren*innen
 
