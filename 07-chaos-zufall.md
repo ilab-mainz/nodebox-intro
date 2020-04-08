@@ -8,6 +8,8 @@ Fast alle Knoten, die mit Zufall zu tun haben, bieten einen Port (Parameter) nam
 
 Stellt man `seed` auf den gleichen Wert wie zu einem früheren Zeitpunkt, so reproduziert er _genau die gleichen Zufallszahlen_ wie zuvor. Diesen Effekt kann man nutzen um sich „gute Zufallsergebnisse“ zu merken, indem man sich den `seed` dazu notiert.
 
+**`/!\`** Manchmal scheint der `seed`-Pin auf ganze Zahlen (`integer`) zu bestehen. Hier kann man den angeschlossenen `float`-Wert zurvor einfach runden, bspw. mit [`floor`](https://nodebox.live/reference/floor), [`round`](https://nodebox.live/reference/round) und [`ceil`](https://nodebox.live/reference/ceil).
+
 ## Zufalls-Zahlen
 
 Die häufigste Anwendung von Zufall ist in Form von Zufallszahlen, die man mittels `randomNumbers` erzeugen kann.

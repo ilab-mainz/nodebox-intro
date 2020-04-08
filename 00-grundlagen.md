@@ -100,7 +100,11 @@ Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl
 
 ### Listen / Arrays
 
-![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten und können deshalb unterschiedliche Datentypen wie `number` `point`, `shape` und `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
+![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten und können deshalb unterschiedliche Datentypen wie `number` `point`, `shape` und `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar, dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
+
+## Listenverarbeitung
+
+**`/!\`** TODO!
 
 ---
 
