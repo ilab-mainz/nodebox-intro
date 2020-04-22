@@ -43,66 +43,73 @@ Der wichtigste Knoten für den Import von Materialien nach NodeBox ist `import` 
 
 
 
-## SVGs aus Illustrator
+### SVGs aus Illustrator
 
-### vor dem Export:
+**Vor dem Export**
 
-- Um zu vermeiden, dass irgentwelche unerwünschten Pfade im svg landen, starten wir zuerst mit einer neuen Datei. Dabei ist zu achten, dass die Datei in Pixeln und im RGB Modus ist:
-  
-    ![](assets/import_neue_datei.png)
+Um zu vermeiden, dass irgentwelche unerwünschten Pfade im SVG landen, starten wir zuerst mit einer neuen Datei. Dabei ist zu achten, dass die Datei in Pixeln und im RGB Modus ist:
 
-- Nodebox kann nicht mit außergwählich großen Dateien umgehen. Am einfachsten können wir deswegen unsere Zeichnung mit `Objekt > Pfad > vereinfachen…` reduzieren.
-  
-    ![](assets/import_vereinfachen.png)
 
-- ...
-  
-    ![](assets/kurvenzeichner.png)
-    ![](assets/kurvenzeichner_1.png)
-    ![](assets/kurvenzeichner_2.png)  
 
-- ...
-  
-    ![](assets/liniensegment_werkzeug_1.png) 
-    ![](assets/liniensegment_werkzeug_2.png)  
-    ![](assets/liniensegment_werkzeug_3.png)  
+  ![](assets/import_neue_datei.png)
 
-- ...
-  
-    ![](assets/pinsel_werkzeug.png)
-    ![](assets/pinsel_werkzeug_1.png)
-    ![](assets/pinsel_werkzeug_2.png)  
 
-- ...
-  
-    ![](assets/rechteck_werkzeug_1.png)
-    ![](assets/rechteck_werkzeug_2.png)
-    ![](assets/rechteck_werkzeug_3.png)  
 
-- ...
-  
-    ![](assets/polygon.png)
-    ![](assets/polygon_1.png)
-    ![](assets/polygon_2.png) 
+Nodebox kann nicht gut mit großen Dateien umgehen. Am einfachsten können wir deswegen unsere Zeichnung mit `Objekt > Pfad > vereinfachen…` optimieren, indem wir Pfadpunkte reduzieren.
 
-- ...
-  
-    ![](assets/breitenwerkzeug.png)
-    ![](assets/breitenwerkzeug_2.png)  
+  ![](assets/import_vereinfachen.png)
 
-- ...
-  
-    ![](assets/zeichenstift_werkzeug.png)
-    ![](assets/zeichenstift_werkzeug_2.png)
-    ![](assets/export_1.png)
-    ![](assets/export_2.png)
-    ![](assets/export_3.gif)
+NodeBox übernimmt nicht die Stil-Einstellungen (Farben, Linien-Stärken, etc.) der importierten SVG-Zeichnungen. Die Idee ist dass man vor allem „Formen“ importiert, weniger ausgearbeitete „Illustrationen“.
 
-### Import
 
-- ...
-  
-    ![](assets/import_node.gif)
+Um unerwünschte Nebeneffekte zu vermeiden, kann man Linien in der Zeichnung vor dem Export in Flächen umwandeln. So bleibt die Linienstärke erhalten.
+
+![](assets/pinsel_werkzeug_1.png)  
+
+
+
+Schrift sollte man ebenfalls in Pfade umwandeln.
+
+
+
+Die Färbung von Formen geht beim Import verloren, wie im folgenden Beispiel ersichtlich.
+
+![](assets/rechteck_werkzeug_2.png)
+![](assets/rechteck_werkzeug_3.png)
+
+
+
+Hat man die Zeichnung für den Export aus der Zeichen-Software optimiert, so kann man diese in eine Datei speichern. In Illustrator kann man dazu über den Weg „Exportieren“ oder „Als Kopie speichern“ gehen. In beiden Fällen wählt man SVG als Datentyp (nicht SVGz) und stellt in den Einstellungen SVG-1.0 ohne die zusätzlichen Illustrator-Erweiterungen zu späteren Weiterbearbeitung ein.
+
+
+
+Beim Dateinamen sollte man darauf achten, dass er eine Art Versionierung enthällt, da NodeBox Dateien beim Hochladen nur ersetzt, wenn diese einen neuen Namen haben (sonst bekommt man trotz löschen und „überschreiben“ die alte Zeichnung). (→ Bug oder Feature?)
+
+
+
+Ist die Datei erstellt, so kann man mit dem `import` Knoten die Datei in NodeBox laden:
+
+- `import` Knoten anlegen
+
+- Die Einstellungen für den Knoten öffnen und am Pin `file` rechts auf `Select file` klicken
+
+- Im sich öffnenden Dialog auf `Upload` klicken ... die Datei lädt hoch
+
+- Die hochgeladene Datei in der Liste anklicken, um sie in den `file`-Pin aufzunehmen 
+
+![](assets/import_node.gif)
+
+
+
+Lädt man eine CSV oder Text-Datei hoch, so kann man am zweiten Pin einstellen, ob die evtl. enthaltenen Daten mit einem Komma oder einem anderen Zeichen getrennt sind. Ein Beispiel für CSV-Daten (Komma-separierte Werte) könnte so aussehen:
+
+```
+Name,Passwort,Alter,Email
+Florian,admin123,99,florian@motionbank.org
+Petra,xxpetra,22,petra@yourhoster.tdl
+```
+
+
 
 ### Export
 
