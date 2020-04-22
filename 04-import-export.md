@@ -1,6 +1,6 @@
 # Import-Export, Sharing
 
-Ein Werkzeug für die Gestaltung ist natürlich nur so gut, wie es sich in Gestaltungsprozesse integrieren lässt. NodeBox.live ist zwar eine „Web-Anwendung“, läuft also als Webseite im Internet, kann aber dennoch Dateien laden und speichern. Genauer gesagt importieren und exportieren.
+Ein Werkzeug für die Gestaltung ist natürlich nur so gut, wie es sich in Arbeitsprozesse der Gestaltung integrieren lässt. NodeBox.live ist zwar eine „Web-Anwendung“, läuft also als Webseite im Internet, kann aber dennoch Dateien laden und speichern. Genauer gesagt: importieren und exportieren.
 
 Ein weiterer Bereich ist das „Sharing“, also die Möglichkeit NodeBox Projekte mit anderen zu teilen. Dies ist ein Feature, das sich primär in online Tools findet und auch NB bietet dies an.
 
@@ -123,29 +123,34 @@ Florian,admin123,99,florian@motionbank.org
 Petra,xxpetra,22,petra@yourhoster.tdl
 ```
 
+### Import von CSV Daten
 
+### Import von Bild-Daten
 
-# Assets aus dem Netz laden
+### Daten und Assets aus dem Netz laden
 
 - Etwa für Live-Datenvisualisierung
 - Mit Javascript möglich
 - Siehe auch `net` library
 
-## Animierte Gifs exportieren
+### Exportieren von SVGs
+
+### Exportieren von GIFs / Animationen
 
 - Frames
 - Größe
-- Weiterverarbeiten
-- Verbreiten und teilen
 
-## SVGs exportieren
+### Fonts generieren
 
-- Screenshot
+??
 
-## Fonts exportieren
+## Sharing
 
-- Theoretisch möglich dank opentype.js
-- Coming soon ...
+### Embedding / <iframe>
+
+### Mittels JavaScript
+
+
 
 ---
 
