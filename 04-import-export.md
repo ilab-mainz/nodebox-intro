@@ -79,7 +79,19 @@ Die Färbung von Formen geht beim Import verloren, wie im folgenden Beispiel ers
 
 
 
-Hat man die Zeichnung für den Export aus der Zeichen-Software optimiert, so kann man diese in eine Datei speichern. In Illustrator kann man dazu über den Weg „Exportieren“ oder „Als Kopie speichern“ gehen. In beiden Fällen wählt man SVG als Datentyp (nicht SVGz) und stellt in den Einstellungen SVG-1.0 ohne die zusätzlichen Illustrator-Erweiterungen zu späteren Weiterbearbeitung ein.
+Hat man die Zeichnung für den Export aus der Zeichen-Software optimiert, so kann man diese in eine Datei speichern. In Illustrator kann man dazu über den Weg „Exportieren“ oder „Als Kopie speichern“ gehen. In beiden Fällen wählt man SVG als Datentyp (nicht SVGz) und stellt in den Einstellungen SVG-1.0 ohne die zusätzlichen „Illustrator-Bearbeitungsfunktionen beibehalten“ ein.
+
+
+
+- `Datei > Speicher unter …` 
+
+- Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und **kein** Haken bei „Zeichenflächen benutzen“ setzen
+
+- Im Nächsten Fenster ist besonders `SVG 1.0` wichtig. Eventuell müssen auch die anderen Einstellungen angepasst werden.
+  
+  
+
+![](assets/import_export_einstellungen.png)
 
 
 
@@ -96,6 +108,8 @@ Ist die Datei erstellt, so kann man mit dem `import` Knoten die Datei in NodeBox
 - Im sich öffnenden Dialog auf `Upload` klicken ... die Datei lädt hoch
 
 - Die hochgeladene Datei in der Liste anklicken, um sie in den `file`-Pin aufzunehmen 
+  
+  
 
 ![](assets/import_node.gif)
 
@@ -110,27 +124,6 @@ Petra,xxpetra,22,petra@yourhoster.tdl
 ```
 
 
-
-### Export
-
-- `Datei > Speicher unter…` um SVGs zu exportieren
-
-- Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und __kein__ Haken bei "Zeichenflächen benutzen" setzen
-
-- Im Nächsten Fenster ist besonder `SVG 1.0` wichtig. Eventuell müssen auch die anderen Einstellungen angepasst werden.
-  
-    ![](assets/import_export_einstellungen.png)
-
-- Wir gross ist das File?
-
-- ggf. [Pfade in Illustrator vereinfachen](#vor-dem-export)
-
-- Gotchas
-  - SVG-Probleme mit Nodebox
-  - Filesize Limit
-  - Lösungs-Ansätze
-    - SVG-Cleaner Software?
-    - Shapes etwas drehen
 
 # Assets aus dem Netz laden
 
