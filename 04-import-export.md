@@ -162,9 +162,7 @@ Sind die Bilder erst mal geladen, so kann man diese (fast) wie normale Formen/Sh
 
 ### Daten und Assets aus dem Netz laden
 
-- Etwa für Live-Datenvisualisierung
-- Mit Javascript möglich
-- Siehe auch `net` library
+In manchen Fällen lassen sich Daten auch direkt aus dem Netz laden. Kommen die Daten bspw. aus einer Schnittstelle (API), so kann man diese direkt über eine HTTP-GET Anfrage mit dem `fetchJSON` Knoten ([Beispiel](https://nodebox.live/reference/fetchJSON)) laden.
 
 ### Exportieren von SVGs
 
