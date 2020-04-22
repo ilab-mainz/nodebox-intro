@@ -32,7 +32,7 @@ Die wichtigsten **Eingangs-Formate** für NodeBox sind:
 
 ### SVGs, Fonts und Grafiken importieren
 
-Der wichtigste Knoten für den Import von Materialien nach NodeBox ist `import` ([Beispiel]([NodeBox Live](https://nodebox.live/reference/importRef))). Beim Import sind allerdings einige Aspekte zu beachten.
+Der wichtigste Knoten für den Import von Materialien nach NodeBox ist `import` ([Beispiel](https://nodebox.live/reference/importRef)). Beim Import sind allerdings einige Aspekte zu beachten.
 
 1) Importierte Dateien liegen bei NodeBox auf einem öffentlich zugänglichen Server, sie sind also von jedermann aufrufbar und können auch herunter geladen werden. Private Dateien und sensible Daten sollte man so also nicht einsetzen.
 
