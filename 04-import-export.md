@@ -10,11 +10,13 @@ Die wichtigsten **Eingangs-Formate** für NodeBox sind:
 
 - SVG, „scaleable vector graphics“, das sind Dateien, die Pfadinformationen enthalten und für den Austausch mit Verktor-Software wie Illustrator oder InkScape geeignet sind.
 
-- CSV
+- CSV-Daten (Komma-separierte Werte), bspw. aus Excel
 
 - Bilder im JPG und PNG Format
 
-- Fonts (??)
+- Purer Text im TXT Format
+
+- JSON Daten
 
 
 
@@ -87,7 +89,7 @@ Hat man die Zeichnung für den Export aus der Zeichen-Software optimiert, so kan
 
 - Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und **kein** Haken bei „Zeichenflächen benutzen“ setzen
 
-- Im Nächsten Fenster ist besonders `SVG 1.0` wichtig. Eventuell müssen auch die anderen Einstellungen angepasst werden.
+- Im Nächsten Fenster ist besonders die Einstellung `SVG 1.0` wichtig.
   
   
 
@@ -115,17 +117,48 @@ Ist die Datei erstellt, so kann man mit dem `import` Knoten die Datei in NodeBox
 
 
 
-Lädt man eine CSV oder Text-Datei hoch, so kann man am zweiten Pin einstellen, ob die evtl. enthaltenen Daten mit einem Komma oder einem anderen Zeichen getrennt sind. Ein Beispiel für CSV-Daten (Komma-separierte Werte) könnte so aussehen:
+### Import von CSV Daten
+
+Lädt man eine CSV oder Text-Datei hoch, so kann man am zweiten Pin von `import` einstellen, ob die evtl. enthaltenen Daten mit einem Komma oder einem anderen Zeichen (bspw. Semicolon od. Tabs) getrennt sind. Ein Beispiel für CSV-Daten (Komma-separierte Werte) könnte so aussehen:
 
 ```
 Name,Passwort,Alter,Email
-Florian,admin123,99,florian@motionbank.org
-Petra,xxpetra,22,petra@yourhoster.tdl
+Florian,admin123,99,florian@firehosting.orgx
+Petra,nnpetra,22,petra@yourhoster.tdl
+...
 ```
 
-### Import von CSV Daten
+Eine CSV-Datei mit diesen Daten würde folgende Daten-Struktur nach dem Laden in NodeBox liefern:
+
+```
+[
+    {
+        "Name": "Florian",
+        "Passwort": "admin123",
+        "Alter": "99",
+        "Email": "florian@firehosting.orgx"
+    },
+    {
+        "Name": "Petra",
+        "Passwort": "nnpetra",
+        "Alter": "22",
+        "Email": "petra@yourhoster.tdl"
+    },
+    ...
+]
+```
+
+Diese Art von Daten (gen. Objekte) kann man mit dem `lookup` Knoten wieder entwirren. Dieser erlaubt es mit dem Schlüssel ( `{"Schlüssel" : "Wert"}` ) die Werte aus der Struktur zu extrahieren.
+
+Wichtig ist hier auch noch zu beachten, dass die erste Zeile in einem CSV die Namen für die Schlüssel liefert. Diese sollten also aussagekräftig sein.
 
 ### Import von Bild-Daten
+
+Über den `import` Knoten lassen sich auch Bilder im Format JPG (JPEG) oder PNG importieren. Hierbei ist zu beachten, dass diese vorher für die Darstellung und Verwendung im Netz optimiert werden sollten. Sie sollten also keine alzu große Datengröße haben und schon im RGB Modus bei 72 DPI angelegt sein.
+
+Sind die Bilder erst mal geladen, so kann man diese (fast) wie normale Formen/Shapes (bspw. `rect` …) einsetzen.
+
+(→ Hier noch erklären, wie man an die Pixel ran kommt)
 
 ### Daten und Assets aus dem Netz laden
 
