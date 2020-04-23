@@ -164,22 +164,29 @@ Sind die Bilder erst mal geladen, so kann man diese (fast) wie normale Formen/Sh
 
 In manchen Fällen lassen sich Daten auch direkt aus dem Netz laden. Kommen die Daten bspw. aus einer Schnittstelle (API), so kann man diese direkt über eine HTTP-GET Anfrage mit dem `fetchJSON` Knoten ([Beispiel](https://nodebox.live/reference/fetchJSON)) laden.
 
+### Vor dem Export
+
+Für den Export und das Sharing von NodeBox Projekten ist die Einstellung der **„Bühnengröße“**, also der Arbeitsfläche wichtig. Diese entscheidet darüber, wie groß bspw. ein SVG beim Export wird. Man kann sich die Arbeitsfläche anzeigen lassen, indem man rechts in der Ansicht oben bei `Bounds` ein Häckchen setzt. Ist dieses aktiviert, wird in der Ansicht die Arbeitsfläche als Rechteck hinter das Projekt gemalt.
+
 ### Exportieren von SVGs
+
+SVG-Dateien, bspw. zur Weiterverarbeitung in Grafik-Programmen, können in NodeBox aus der Projektseite heraus exportiert werden. Dazu klickt man oben rechts auf das Sharing-Icon (ein gebogener Pfeil). In dem sich öffnenden Modal (= modalen Dialog) kann man den Button „Export to SVG“ klicken und startet damit einen Download des aktuellen Projekts im SVG-Format.
 
 ### Exportieren von GIFs / Animationen
 
-- Frames
-- Größe
+Das Exportieren von animierten GIFs funktioniert wie bei den SVGs über das „Sharing-Icon“ oben rechts in der Seite des jeweiligen NodeBox-Projekts. In dem sich öffnenden Dialog kann man die Anzahl der Bilder (`frames`) und die Größe des GIFs in Pixeln angeben. Für die Größe wird die **Größe der Arbeitsfläche** (siehe [oben](#vor-dem-export)) automatisch eingetragen. Den Export startet man, indem man auf „Export to GIF“ klickt.
 
-### Fonts generieren
-
-??
+Die Animation der GIFs entsteht, indem NodeBox einen Abspielvorgang, gleich als würde man den `Play`-Button klicken, simuliert. D.h. man kann die Animation planen und gestalten, indem man bspw. mittels des `frame` Knoten ([Beispiel](https://nodebox.live/reference/frame)) Elemente des Projekts in Bewegung versetzt.
 
 ## Sharing
 
 ### Embedding / <iframe>
 
-### Mittels JavaScript
+Über das „Sharing“-Icon oben rechts in den Projekt-Seiten von NodeBox kann man einen sog. „Embed-Code“ erzeugen lassen. Dieser ermöglicht es einem das Projekt in eine andere HTML-Seite einzubetten.
+
+### Mittels JavaScript API
+
+NodeBox.live ermöglicht es die einzelnen Projekte über eine API in anderen Webseiten einzubetten und dann auch kontrollieren zu lassen. Im Hilfe-Bereich der NodeBox Seite findet sich dazu eine [detailierte Erklärung](https://nodebox.live/help/embedding).
 
 
 
