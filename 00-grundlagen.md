@@ -1,6 +1,6 @@
 # Grundlagen
 
-*Die grundlegenden Konzepte hinter [nodebox.live](http://nodebox.live)*
+*Die grundlegenden Konzepte hinter [NodeBox.live](http://nodebox.live)*
 
 ## Visuelle Programmierung
 
@@ -20,11 +20,11 @@ let myLineWeight = 22.32
 
 Dieser Vorteil ist zugleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
 
-## Nodebox als Fließband – Knoten
+## Knoten: NodeBox als Fließband
 
 ![](https://media.giphy.com/media/wKfYItv9gsjXG/giphy.gif)
 
-Wenn wir Knoten miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
+Wenn wir Knoten („node“ bedeutet im Engl. „Knoten“) miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
 
 In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen die Daten also von einem „Knoten“ zum nächsten. Jeder Knoten verrichtet eine bestimmte Aufgabe (Knoten sind Funktionen) und gibt sein Ergebnis an den nächsten weiter.
 
@@ -51,7 +51,7 @@ Wir Können jeden einezelnen Schritt nachvollziehen, indem wir mit einem Doppelk
 
 ### Render-Node (aktiver Knoten) und Debugging (Fehlersuche)
 
-Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. D.h. man kann durch das setzten Aktivieren einzelner Knoten in der Kette / im Netzwerk einzelne Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relative schnell finden.
+Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. D.h. man kann durch das aktivieren einzelner Knoten in der Knoten-Baum (im Netzwerk) einzelne Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relativ schnell finden.
 
 ## Pins, die Ein- und Ausgänge
 
@@ -71,9 +71,11 @@ let rectShape = g.rect( aPoint, widthVal, heightVal, roundnessVal )
 
 ## Datentypen
 
+Werte, die in NodeBox (oder anderen Umgebungen) verarbeitet und erzeugt werden, haben einen bestimmten Typus, den sog. Datentyp. Eine Zahl könnte bspw. eine `integer` oder `float` sein, ein Text wäre ein `string`, eine Form bspw. ein `shape`.
+
 Die Datentypen, also die unterschiedlichen Arten von Daten, erweitern die bereits in [JavaScript verfügbaren Datentypen](https://developer.mozilla.org/en-US/docs/Web/JavaScript/Data_structures).
 
-Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl die Farbe der Ports als auch der „Kabel“ (Verbindungen zw. zwei Nodes) bestimmt.
+Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl die Farbe der Ports als auch der „Kabel“ (Verbindungen zw. zwei Knoten) bestimmt.
 
 ### Zahlen
 
@@ -88,7 +90,7 @@ Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl
 
 ### Shapes
 
-![#E8AA00](https://placehold.it/15/E8AA00?text=+) `shape`s (Formen) enthalten Informationen über Kurven, Linien und Punkte.
+![#E8AA00](https://placehold.it/15/E8AA00?text=+) `shape`s (Formen) enthalten Informationen über Kurven, Linien und Punkte. Alle visuellen Elemente od. Formen sind Shapes, also jedes Rechteck, jeder Kreis, jede Linie, …, Buchstaben, Polygone, etc.
 
 ### Strings
 
@@ -96,15 +98,15 @@ Die Datentypen an den Ports werden in der Regel durch Farben codiert, die sowohl
 
 ### Farben
 
-![#DECF3F](https://placehold.it/15/DECF3F?text=+) `Colors` enthalten Farbwerte in der Form von red/green/blue/alpha (`rgbColor`) oder hue/saturation/brightness/alpha (`hsbColor`) werten. Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder die Kontur einer Linie.
+![#DECF3F](https://placehold.it/15/DECF3F?text=+) `color`s enthalten Farbwerte in der Form von \[Rot / Grün / Blau / Alpha\] (`rgbColor`) oder \[Farbton / Sättigung / Helligkeit / Alpha\] (`hsbColor`) Werten. Sie werden benutzt um Farbwerte zu definieren: z.B die Füllfarbe eines Objekts oder auch deren Kontur (Outline).
 
 ### Listen / Arrays
 
-![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten und können deshalb unterschiedliche Datentypen wie `number` `point`, `shape` und `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar, dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
+![#B276B2](https://placehold.it/15/B276B2?text=+) `array`s sind Sammlungen von Daten (Listen) und können deshalb unterschiedliche Datentypen wie bspw. `number` `point`, `shape` oder `color` enthalten. Deshalb können sie auch mit Eingängen verbunden werden, die einen anderen Typ erwarten. d.h. solange die Liste aus Zahlen besteht, kann sie auch mit dem ![#5DA5DA](https://placehold.it/15/5DA5DA?text=+) `number`-Eingang verbunden werden. Manche Ports erwarten sogar, dass die Werte als Liste eingehen oder liefern Listen als Ausgabewert.
 
 ## Listenverarbeitung
 
-**`/!\`** TODO!
+> **`/!\`** TODO! Sollte auf eine eigene Seite …
 
 ---
 
