@@ -10,15 +10,7 @@ NodeBox ist ein Programm oder auch System zur visuellen Programmierung. D.h. Pro
 
 Im Beispiel oben sind die zwei Rechtecke in der Mitte einmal mittels visueller Programmierung (links zu sehen) und einmal mittels code-basierter Programmierung erstellt (rechts zu lesen).
 
-Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann. Diese Werte sind allerdings innerhalb der Knoten abgelegt und nicht auf den ersten Blick sichtbar.
-
-Bei der code-basierten Programmierung / Text-Programmierung sind hingegen alle Werte auf den ersten Blick ersichtlich, da sie ausgeschrieben werden müssen.
-
-```javascript
-let myLineWeight = 22.32
-```
-
-Dieser Vorteil ist zugleich Nachteil, da gerade für Anfänger der viele strukturierte Text auf den ersten Blick undurchdringlich wirkt. Die Programmierung mittels Code erlaubt es allerdings viel komplexere Vorgänge sehr kompakt auszudrücken. Ähnlich der mathematischen Schreibweise ist auch die Syntax von modernen Programmiersprachen dafür ausgelegt abstrakte Vorgänge damit beschreiben zu können.
+Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann.
 
 ## Knoten: NodeBox als Fließband
 
