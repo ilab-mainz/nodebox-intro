@@ -42,7 +42,7 @@ Wir Können jeden einzelnen Schritt nachvollziehen, indem wir mit einem Doppelkl
 
 ### Render-Node (aktiver Knoten) und Debugging (Fehlersuche)
 
-Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. Im Beispiel oben ist das das Rechteck auf der rechten Seite. Man kann durch das aktivieren der einzelnen Knoten im Knoten-Baum (Netzwerk) Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relativ schnell finden.
+Der aktive Render-Knoten (Ausgabe-Knoten) bestimmt was in der Ansicht angezeigt wird. Im Beispiel oben ist das das Rechteck auf der rechten Seite. Man kann durch das aktivieren anderer Knoten im Knoten-Baum (Netzwerk) auch deren Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relativ schnell finden, indem man Knoten für Knoten aktiviert.
 
 ## Pins, die Ein- und Ausgänge
 

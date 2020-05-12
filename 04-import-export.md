@@ -27,7 +27,7 @@ Die wichtigsten **Eingangs-Formate** für NodeBox sind:
 - GIF
 
 - Bilder und Videos ... dazu kann man einfach einen Screenshot / -Recording machen 😉
-  
+
   - Auf dem Mac geht das sehr einfach mit QuickTime, auf dem PC kann man leicht eine Software dafür finden, bspw. Camtasia, etc.
 
 
@@ -85,13 +85,13 @@ Hat man die Zeichnung für den Export aus der Zeichen-Software optimiert, so kan
 
 
 
-- `Datei > Speicher unter …` 
+- `Datei > Speicher unter …`
 
 - Im nächsten Fenster bei Format `SVG (svg)` auswählen. Und **kein** Haken bei „Zeichenflächen benutzen“ setzen
 
 - Im Nächsten Fenster ist besonders die Einstellung `SVG 1.0` wichtig.
-  
-  
+
+
 
 ![](assets/import_export_einstellungen.png)
 
@@ -109,9 +109,9 @@ Ist die Datei erstellt, so kann man mit dem `import` Knoten die Datei in NodeBox
 
 - Im sich öffnenden Dialog auf `Upload` klicken ... die Datei lädt hoch
 
-- Die hochgeladene Datei in der Liste anklicken, um sie in den `file`-Pin aufzunehmen 
-  
-  
+- Die hochgeladene Datei in der Liste anklicken, um sie in den `file`-Pin aufzunehmen
+
+
 
 ![](assets/import_node.gif)
 
@@ -180,7 +180,7 @@ Die Animation der GIFs entsteht, indem NodeBox einen Abspielvorgang, gleich als 
 
 ## Sharing
 
-### Embedding / <iframe>
+### Embedding / iframe
 
 Über das „Sharing“-Icon oben rechts in den Projekt-Seiten von NodeBox kann man einen sog. „Embed-Code“ erzeugen lassen. Dieser ermöglicht es einem das Projekt in eine andere HTML-Seite einzubetten.
 
