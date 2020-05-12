@@ -2,7 +2,9 @@
 
 Seit 2017 verwendet die [Fachrichtung Kommunikationsdesign](https://www.hs-mainz.de/studium/studiengaenge/gestaltung/bachelor-kommunikationsdesign/uebersicht/) des Fachbereichs Gestaltung an der Hochschule Mainz [NodeBox.live](https://nodebox.live) im Grundstudium (BA) zur Einführung in die digitale Gestaltung.
 
-### Kleine Einführung in NodeBox.live
+> `Beispiel hier`
+
+### Einführung in NodeBox.live
 
 Die folgenden Seiten sind als Tutorial gedacht und sollten in dieser Reihenfolge gelesen werden:
 
@@ -21,11 +23,15 @@ Die folgenden Seiten sind als Tutorial gedacht und sollten in dieser Reihenfolge
 ### Beispiele und Referenz
 
 Alle Beispiele zu dieser Einführung sind hier aufrufbar:
-[https://nodebox.live/nodebox-intro](https://nodebox.live/nodebox-intro)
+[https://nodebox.live/nodebox-intro](https://nodebox.live/nodebox-intro).
 
-Eine thematisch und alphabetisch geordnete Übersicht aller Knoten kann man in der [Referenz](nodes/00-uebersicht.md) finden. Dort lässt sich jeder Knoten suchen, ist kurz erklärt und mit Links zu einem Beispiel versehen.
+Eine thematisch und alphabetisch geordnete Übersicht aller Knoten, das sind die Programmbausteine (von `node` im Engl.), könnt ihr in der [Referenz](nodes/00-uebersicht.md) finden. Dort lässt sich jeder Knoten per Namen suchen, ist kurz erklärt und mit Links zu einem Beispiel versehen.
 
-Studierende der Hochschule Mainz können sich bei NodeBox Fragen an das Team des [iLabs](https://www.hs-mainz.de/studium/services/gestaltung/werkstaetten-kommunikationsdesign/ilab/) wenden.
+Studierende der Hochschule Mainz können sich zudem mit NodeBox-Fragen an das Team des [iLabs](https://www.hs-mainz.de/studium/services/gestaltung/werkstaetten-kommunikationsdesign/ilab/) wenden.
+
+[Los geht's  »–» »–»](00-grundlagen.md)
+
+---
 
 ### Autoren*innen
 

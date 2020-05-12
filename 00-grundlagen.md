@@ -1,6 +1,6 @@
 # Grundlagen
 
-*Die grundlegenden Konzepte hinter [NodeBox.live](http://nodebox.live)*
+Auf diese Seite findet ihr die grundlegenden Konzepte hinter [NodeBox.live](http://nodebox.live) erklärt.
 
 ## Visuelle Programmierung
 
@@ -10,7 +10,7 @@ NodeBox ist ein Programm oder auch System zur visuellen Programmierung. D.h. Pro
 
 Im Beispiel oben sind die zwei Rechtecke in der Mitte einmal mittels visueller Programmierung (links zu sehen) und einmal mittels code-basierter Programmierung erstellt (rechts zu lesen).
 
-Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann. Allerdings sind diese Werte nicht auf den ersten Blick sichtbar. 
+Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im ersten Knoten (`rect`) oben wird die Form erzeugt und dann zum Einfärben an den zweiten Knoten (`colorize`) unten weiter gegeben. Das Programm ist zugleich Bedienoberfläche (Interface), da man hier die Werte, bspw. Größe od. Farbe, direkt ändern kann. Diese Werte sind allerdings innerhalb der Knoten abgelegt und nicht auf den ersten Blick sichtbar.
 
 Bei der code-basierten Programmierung / Text-Programmierung sind hingegen alle Werte auf den ersten Blick ersichtlich, da sie ausgeschrieben werden müssen.
 
@@ -43,10 +43,10 @@ In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen
    ![](assets/basics_3.png)
 
 Wir Können jeden einezelnen Schritt nachvollziehen, indem wir mit einem Doppelklick den aktiven Knoten (der sog. „Render-Knoten“) wechseln:
-	
+
 
    ![](assets/basics_render.gif)
-   
+
    [Beispiel](https://nodebox.live/nodebox-intro/b00knoten)
 
 ### Render-Node (aktiver Knoten) und Debugging (Fehlersuche)
@@ -58,11 +58,11 @@ Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. D.h. man k
 Jeder Knoten verarbeitet ein oder mehrere Eingaben (Inputs) um eine Ausgabe (Output) zu erzeugen. Diese Ein- und Ausgänge werden `pins` oder auch `ports` genannt.
 
   ![](assets/grundlagen_input_output.png)
-  
+
 Alle Eingangs-Ports erwarten Daten eines bestimmten Typus. Jeder Ausgangs-Port gibt ein Ergebnis eines bestimmten Typus zurück. Wenn man über einem Eingang mit der Maus verweilt, wird angezeigt welchen Datentypus der Knoten an diesem Port erwartet. Wenn man über dem Ausgang mit der Maus verweilt, erscheint der Datentypus des Ergebnisses des Knotens.
 
   ![](assets/grundlagen_input_art.png)
-  
+
 Da Knoten im Grunde Funktionen sind, kann man die Pins/Ports auch als Parameter der Funktion verstehen. Der `rect` Knoten von oben würde dann so aussehen:
 
 ```javascript
