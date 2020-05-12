@@ -18,32 +18,31 @@ Bei der visuellen Programmierung hat man eine gute Übersicht des Ablaufs: im er
 
 Wenn wir Knoten („node“ bedeutet im Engl. „Knoten“) miteinander verbinden, entsteht eine Art Fließband bei der die Informationen an jeden einzenen Arbeiter (also Knoten) weitergeben werden um Formen zu erzeugen und zu verändern.
 
-In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen die Daten also von einem „Knoten“ zum nächsten. Jeder Knoten verrichtet eine bestimmte Aufgabe (Knoten sind Funktionen) und gibt sein Ergebnis an den nächsten weiter.
+In NodeBox, wie in vielen anderen visuellen Programmierumgebungen auch, fließen die Daten von einem „Knoten“ zum nächsten. Jeder Knoten verrichtet eine bestimmte Aufgabe (Knoten sind Funktionen) und gibt sein Ergebnis an den nächsten weiter.
 
 ### Beispiel:
 
 1. Erstellen wir einen `rect` Knoten.
 
-	![](assets/basics_1.png)
+![](assets/basics_1.png)
 
 2. Verbinden wir einen `colorize` Knoten mit dem `rect` Knoten. Dies verändert das Resultat, es ist nun eingefärbt.
 
-  ![](assets/basics_2.png)
+![](assets/basics_2.png)
 
-3. Anschließend fügen wir einen `rotate` Knoten hinzu, dieser dreht die Form um einen Punkt ihn.
+3. Anschließend fügen wir einen `rotate` Knoten hinzu, dieser dreht die Form um einen Punkt.
 
-   ![](assets/basics_3.png)
+![](assets/basics_3.png)
 
-Wir Können jeden einezelnen Schritt nachvollziehen, indem wir mit einem Doppelklick den aktiven Knoten (der sog. „Render-Knoten“) wechseln:
+Wir Können jeden einzelnen Schritt nachvollziehen, indem wir mit einem Doppelklick den aktiven Knoten (der sog. „Render-Knoten“) wechseln:
 
+![](assets/basics_render.gif)
 
-   ![](assets/basics_render.gif)
-
-   [Beispiel](https://nodebox.live/nodebox-intro/b00knoten)
+[Live Beispiel ansehen](https://nodebox.live/nodebox-intro/b00knoten)
 
 ### Render-Node (aktiver Knoten) und Debugging (Fehlersuche)
 
-Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. D.h. man kann durch das aktivieren einzelner Knoten in der Knoten-Baum (im Netzwerk) einzelne Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relativ schnell finden.
+Der aktive Render-Knoten bestimmt was in der Ansicht ausgegeben wird. Im Beispiel oben ist das das Rechteck auf der rechten Seite. Man kann durch das aktivieren der einzelnen Knoten im Knoten-Baum (Netzwerk) Unterergebnisse direkt anschauen. So lassen sich häufig Fehler relativ schnell finden.
 
 ## Pins, die Ein- und Ausgänge
 
